@@ -1,0 +1,31 @@
+{
+  "manifest": "/root/workspace/10-research/project-code/DPU/ANNS/artifacts/sift1m-c4096-v1/manifest.json",
+  "output": "/root/workspace/10-research/project-code/DPU/ANNS/results/final-baseline",
+  "query_limit": 100,
+  "warmup": 2,
+  "compare": 0,
+  "search": {
+    "ef": 64,
+    "topk": 10,
+    "w": 0.75,
+    "x": 0.25,
+    "max_expansions": 10000,
+    "prediction": 1
+  },
+  "runtime": {
+    "prefetch_capacity": 67108864,
+    "state_capacity": 8388608,
+    "max_message": 4096,
+    "chunk_bytes": 65536,
+    "in_flight": 8,
+    "delay_ticks": 2,
+    "reverse_completion": 1,
+    "metrics": "basic",
+    "trace_limit": 10000,
+    "routes": {
+      "handoff_prefetch": "simulated",
+      "graph_miss": "simulated",
+      "rerank_vectors": "simulated"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "arch": "x86_64",
+    "package": "doca-samples",
+    "version": "2.9.4005-1",
+    "sha256": "46c86112d427e449efdb8fb8d5c26968d0db02f6be55a8c04602dee58cfbdcdd",
+    "url": "https://linux.mellanox.com/public/repo/doca/2.9.4/ubuntu24.04/x86_64/doca-samples_2.9.4005-1_amd64.deb"
+  },
+  {
+    "arch": "x86_64",
+    "package": "doca-sdk-comch",
+    "version": "2.9.4005-1",
+    "sha256": "04f25262818c23129e792b4386abf3a1d9b8e8cc0cde68cebb7831265b9e20ca",
+    "url": "https://linux.mellanox.com/public/repo/doca/2.9.4/ubuntu24.04/x86_64/doca-sdk-comch_2.9.4005-1_amd64.deb"
+  },
+  {
+    "arch": "x86_64",
+    "package": "doca-sdk-common",
+    "version": "2.9.4005-1",
+    "sha256": "8d18e81b729b1d962ebefea50c0cdbf747077647e3ddf36e119991e15c45784a",
+    "url": "https://linux.mellanox.com/public/repo/doca/2.9.4/ubuntu24.04/x86_64/doca-sdk-common_2.9.4005-1_amd64.deb"
+  },
+  {
+    "arch": "x86_64",
+    "package": "doca-sdk-dma",
+    "version": "2.9.4005-1",
+    "sha256": "7baa288c6bf32f07453c50861a155de3d4c46c746f07519568b6fe0abfaf6721",
+    "url": "https://linux.mellanox.com/public/repo/doca/2.9.4/ubuntu24.04/x86_64/doca-sdk-dma_2.9.4005-1_amd64.deb"
+  },
+  {
+    "arch": "x86_64",
+    "package": "libdoca-sdk-comch-dev",
+    "version": "2.9.4005-1",
+    "sha256": "2400ece62494ae36c0f4f3f4bedfabdcbddcce0c67fffda7cdcf28f14838be02",
+    "url": "https://linux.mellanox.com/public/repo/doca/2.9.4/ubuntu24.04/x86_64/libdoca-sdk-comch-dev_2.9.4005-1_amd64.deb"
+  },
+  {
+    "arch": "x86_64",
+    "package": "libdoca-sdk-common-dev",
+    "version": "2.9.4005-1",
+    "sha256": "f7bb2bc21266863f70855a9c840e4517680291a35ed613ecd1b39c70df0af551",
+    "url": "https://linux.mellanox.com/public/repo/doca/2.9.4/ubuntu24.04/x86_64/libdoca-sdk-common-dev_2.9.4005-1_amd64.deb"
+  },
+  {
+    "arch": "x86_64",
+    "package": "libdoca-sdk-dma-dev",
+    "version": "2.9.4005-1",
+    "sha256": "a408068a2d7b9a3bc0da16e580f323d5a1812befaf21331d2767eece9b1c73fd",
+    "url": "https://linux.mellanox.com/public/repo/doca/2.9.4/ubuntu24.04/x86_64/libdoca-sdk-dma-dev_2.9.4005-1_amd64.deb"
+  },
+  {
+    "arch": "arm64-dpu",
+    "package": "doca-samples",
+    "version": "2.9.4005-1",
+    "sha256": "5e9e6d11cc31709ade5af255e5eec997f21040e03c7c7fd7a0becf1173ceb768",
+    "url": "https://linux.mellanox.com/public/repo/doca/2.9.4/ubuntu22.04/arm64-dpu/doca-samples_2.9.4005-1_arm64.deb"
+  },
+  {
+    "arch": "arm64-dpu",
+    "package": "doca-sdk-comch",
+    "version": "2.9.4005-1",
+    "sha256": "16c69098def6416ca381a910ec431242726d52c08baa1b23b94f908c0bb8ac34",
+    "url": "https://linux.mellanox.com/public/repo/doca/2.9.4/ubuntu22.04/arm64-dpu/doca-sdk-comch_2.9.4005-1_arm64.deb"
+  },
+  {
+    "arch": "arm64-dpu",
+    "package": "doca-sdk-common",
+    "version": "2.9.4005-1",
+    "sha256": "bd8f837e51e0f9bb7c41e41ba83a53e14c4008db44a51a75b69955c69ac98ba1",
+    "url": "https://linux.mellanox.com/public/repo/doca/2.9.4/ubuntu22.04/arm64-dpu/doca-sdk-common_2.9.4005-1_arm64.deb"
+  },
+  {
+    "arch": "arm64-dpu",
+    "package": "doca-sdk-dma",
+    "version": "2.9.4005-1",
+    "sha256": "0fdeb93ac12ca0fe243b52170b35c55615ca9694f098dde27957075d14c91540",
+    "url": "https://linux.mellanox.com/public/repo/doca/2.9.4/ubuntu22.04/arm64-dpu/doca-sdk-dma_2.9.4005-1_arm64.deb"
+  },
+  {
+    "arch": "arm64-dpu",
+    "package": "libdoca-sdk-comch-dev",
+    "version": "2.9.4005-1",
+    "sha256": "a328dd58f9cef3f628e941eb606905ce56f9d229b81192bae57e67caae2db2ec",
+    "url": "https://linux.mellanox.com/public/repo/doca/2.9.4/ubuntu22.04/arm64-dpu/libdoca-sdk-comch-dev_2.9.4005-1_arm64.deb"
+  },
+  {
+    "arch": "arm64-dpu",
+    "package": "libdoca-sdk-common-dev",
+    "version": "2.9.4005-1",
+    "sha256": "822e06e5594ee53cc49d789e39b7d36426087caccfd1c786046af78fe90b7474",
+    "url": "https://linux.mellanox.com/public/repo/doca/2.9.4/ubuntu22.04/arm64-dpu/libdoca-sdk-common-dev_2.9.4005-1_arm64.deb"
+  },
+  {
+    "arch": "arm64-dpu",
+    "package": "libdoca-sdk-dma-dev",
+    "version": "2.9.4005-1",
+    "sha256": "2cbaef92a74097670d37353071cf6c0844e39ae18705d88f802a22c394bfdbb0",
+    "url": "https://linux.mellanox.com/public/repo/doca/2.9.4/ubuntu22.04/arm64-dpu/libdoca-sdk-dma-dev_2.9.4005-1_arm64.deb"
+  }
+]

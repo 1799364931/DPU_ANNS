@@ -1,0 +1,16 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'json-c'
+--   Found json-c, version 0.17
+-- Configuring incomplete, errors occurred!
+CMake Error at cmake/Doca.cmake:3 (message):
+  ANNS_DOCA requires explicit DOCA_ROOT; no simulated fallback
+Call Stack (most recent call first):
+  CMakeLists.txt:31 (include)
+
+

@@ -1,0 +1,8 @@
+Internal ctest changing into directory: /root/workspace/10-research/project-code/DPU/ANNS/build/software
+Test project /root/workspace/10-research/project-code/DPU/ANNS/build/software
+    Start 1: contracts
+1/1 Test #1: contracts ........................   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.01 sec

@@ -1,0 +1,15 @@
+{
+  "indptr": "../../correct/artifacts/graph_csr/indptr.u64",
+  "neighbors": "../../correct/artifacts/graph_csr/neighbors.u32",
+  "graph_manifest": "../../correct/artifacts/graph_manifest.json",
+  "data_manifest": "../../correct/artifacts/data_manifest.json",
+  "pq_manifest": "../../correct/artifacts/pq_manifest.json",
+  "cluster_manifest": "../../predict/artifacts/clusters/c4096-514e6903382e/manifest.json",
+  "clusters": "../../predict/artifacts/clusters/c4096-514e6903382e/vector_to_cluster.i32",
+  "pq_codes": "../../correct/artifacts/pq/pq32_codes.u8",
+  "pq_centroids": "../../correct/artifacts/pq/pq32_centroids.f32",
+  "base": "../../correct/artifacts/sift_base.f32",
+  "queries": "../../correct/artifacts/sift_query.bin",
+  "groundtruth": "../../correct/artifacts/sift_groundtruth.bin",
+  "output": "../artifacts/sift1m-c4096-v1"
+}

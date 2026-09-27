@@ -1,0 +1,31 @@
+[  8%] Building CXX object CMakeFiles/anns_core.dir/src/common/config.cpp.o
+[  8%] Building CXX object CMakeFiles/anns_core.dir/src/index/index.cpp.o
+[ 13%] Building CXX object CMakeFiles/anns_core.dir/src/search/search_core.cpp.o
+[ 17%] Linking CXX static library libanns_core.a
+[ 17%] Built target anns_core
+[ 26%] Building CXX object CMakeFiles/anns_protocol.dir/src/protocol/messages.cpp.o
+[ 26%] Building CXX object CMakeFiles/anns_protocol.dir/src/protocol/handoff.cpp.o
+[ 30%] Linking CXX static library libanns_protocol.a
+[ 30%] Built target anns_protocol
+[ 43%] Building CXX object CMakeFiles/anns_runtime.dir/src/transport/read_transport.cpp.o
+[ 43%] Building CXX object CMakeFiles/anns_runtime.dir/src/runtime/session.cpp.o
+[ 43%] Building CXX object CMakeFiles/anns_runtime.dir/src/data/prefetch.cpp.o
+[ 47%] Building CXX object CMakeFiles/anns_runtime.dir/src/runtime/soc_worker.cpp.o
+[ 52%] Building CXX object CMakeFiles/anns_runtime.dir/src/runtime/host_coordinator.cpp.o
+[ 56%] Linking CXX static library libanns_runtime.a
+[ 56%] Built target anns_runtime
+[ 60%] Building CXX object CMakeFiles/anns_sim_backend.dir/src/transport/simulated/transport.cpp.o
+[ 65%] Linking CXX static library libanns_sim_backend.a
+[ 65%] Built target anns_sim_backend
+[ 73%] Building CXX object CMakeFiles/anns_report.dir/src/common/report.cpp.o
+[ 73%] Building CXX object CMakeFiles/anns_tests.dir/tests/test_contracts.cpp.o
+[ 78%] Linking CXX static library libanns_report.a
+[ 82%] Linking CXX executable anns_tests
+[ 82%] Built target anns_report
+[ 91%] Building CXX object CMakeFiles/anns_baseline.dir/apps/baseline_main.cpp.o
+[ 91%] Building CXX object CMakeFiles/anns_sim.dir/apps/sim_main.cpp.o
+[ 91%] Built target anns_tests
+[100%] Linking CXX executable anns_sim
+[100%] Linking CXX executable anns_baseline
+[100%] Built target anns_baseline
+[100%] Built target anns_sim

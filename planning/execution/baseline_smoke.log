@@ -1,0 +1,1 @@
+{"backend":"host_local","index_id":"cd1d0446c7befaafbe5adda1eee2895f808468561f3fb8bf8f4905da6e53056c","queries":100,"offloaded":0,"errors":0,"truncated":0,"never_offloaded":100,"warmup":2,"baseline_comparison":0,"load_ns":2541130350,"initialize_ns":41,"metrics":"basic","ef":64,"topk":10,"mean_recall":0.9780000000000002,"p50_ns":975098,"p95_ns":1481782,"p99_ns":1590394}

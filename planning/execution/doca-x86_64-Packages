@@ -1,0 +1,3764 @@
+Package: collectx-clxapi
+Version: 1.19.10
+Architecture: amd64
+Maintainer: info@nvidia.com
+Installed-Size: 38651
+Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.0), libibmad5 (>= 1.3.11), libibumad3 (>= 1.3.9), libibverbs1 (>= 1.1.6), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), zlib1g (>= 1:1.2.0)
+Filename: ./collectx_1.19.10-27266686-ubuntu24.04-x86_64-clxapi.deb
+Size: 13760802
+MD5sum: 1907b47e89a77a09977869f925527c74
+SHA1: b54384bf36a28cfef4aacbb3aee651356f7f8dc4
+SHA256: efb29326ccce2da5e499e498415292ced4e8c63bb9e337486552e5a99d2d8228
+Section: devel
+Priority: optional
+Description: CollectX built using CMake
+
+Package: collectx-clxapidev
+Version: 1.19.10
+Architecture: amd64
+Maintainer: info@nvidia.com
+Installed-Size: 442
+Depends: collectx-clxapi (>= 1.19.10), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4)
+Filename: ./collectx_1.19.10-27266686-ubuntu24.04-x86_64-clxapidev.deb
+Size: 128620
+MD5sum: ed80f052e614bfc47ceafe08ba448d1a
+SHA1: 43e5934235454292d835056b81bb9b7c8c7cbbd6
+SHA256: 6beb01025d64214d941cfc7cab4eab36221ab034fe786d435755e03cd37d9012
+Section: devel
+Priority: optional
+Description: CollectX built using CMake
+
+Package: doca-all
+Version: 2.9.4-0.1.2
+Architecture: amd64
+Maintainer: Mellanox Support <Networking-support@nvidia.com>
+Installed-Size: 9
+Depends: doca-ofed (= 2.9.4-0.1.2), doca-runtime (= 2.9.4-0.1.2), doca-devel (= 2.9.4-0.1.2)
+Filename: ./doca-all_2.9.4-0.1.2_amd64.deb
+Size: 1438
+MD5sum: 2d873b6ab9580d03f17de7229fcf1851
+SHA1: abf9071c710c4f9ac8e3af44d614496776b2a37a
+SHA256: e8425cb44fe386c7b1c3e7a62eb909a13c5275fbd400734cd2588b04322a7fa0
+Section: tasks
+Priority: optional
+Description: doca-all meta-package
+
+Package: doca-all-userspace
+Version: 2.9.4-0.1.2
+Architecture: amd64
+Maintainer: Mellanox Support <Networking-support@nvidia.com>
+Installed-Size: 9
+Depends: doca-ofed-userspace (= 2.9.4-0.1.2), doca-runtime (= 2.9.4-0.1.2), doca-devel (= 2.9.4-0.1.2)
+Filename: ./doca-all-userspace_2.9.4-0.1.2_amd64.deb
+Size: 1460
+MD5sum: c0bd75824ea06b58cdc5417200eb4fa4
+SHA1: 8e67ccbb99ce1eb7d3b022770cdd11995b298562
+SHA256: 7800080a77d8e2b1bc59623664333093581d32dcd89b7f328988a96736199d59
+Section: tasks
+Priority: optional
+Description: doca-all-userspace meta-package
+
+Package: doca-apsh-config
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 37
+Conflicts: doca-prime-runtime-tools (<< 2.8.0), doca-prime-tools (<< 2.7.0)
+Replaces: doca-prime-runtime-tools (<< 2.8.0), doca-prime-tools (<< 2.7.0)
+Filename: ./doca-apsh-config_2.9.4005-1_amd64.deb
+Size: 7638
+MD5sum: bfcc7b7292d3caed911819ed894939ba
+SHA1: 246c444cf2159b783170bedb720c4076bf9d22f7
+SHA256: 0019b128775420cd1c00771087552bd7b5a4fca7ea3930e2b589f11016dba315
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) Tool
+ DOCA SDK Apsh Config tool for using Nvidia's BlueField DPUs.
+
+Package: doca-bench
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 1513
+Depends: doca-sdk-argp (>= 2.9.4005-1), doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
+Conflicts: doca-prime-runtime-tools (<< 2.8.0)
+Replaces: doca-prime-runtime-tools (<< 2.8.0)
+Filename: ./doca-bench_2.9.4005-1_amd64.deb
+Size: 477008
+MD5sum: d8def7ae4d85b238ef8f8e8f1f12960d
+SHA1: 78134f81e6e2e38ebc01082e4c7508bc51dc94cf
+SHA256: 7208a3803a21152f5ca3e14b46f97ba9a330c20f21aea1040c7e1556f29fda6f
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) Tool
+ DOCA SDK Bench tool for using Nvidia's BlueField DPUs.
+
+Package: doca-caps
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 92
+Depends: doca-sdk-argp (>= 2.9.4005-1), doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.34)
+Conflicts: doca-cx-prime-runtime-tools (<< 2.8.0), doca-cx-prime-tools (<< 2.7.0), doca-prime-runtime-tools (<< 2.8.0), doca-prime-tools (<< 2.7.0)
+Replaces: doca-cx-prime-runtime-tools (<< 2.8.0), doca-cx-prime-tools (<< 2.7.0), doca-prime-runtime-tools (<< 2.8.0), doca-prime-tools (<< 2.7.0)
+Filename: ./doca-caps_2.9.4005-1_amd64.deb
+Size: 22360
+MD5sum: 65b25cac205e4da70ce6d2f0b81864fd
+SHA1: a958fddc831d6fc5ce06a1fdd4438530b0420375
+SHA256: b025769d8d945e92e9f7fdd48547710c15acea56fc551c8cc3704b190bd4927f
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) Tool
+ DOCA SDK Caps tool for using Nvidia's BlueField DPUs.
+
+Package: doca-comm-channel-admin
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 32
+Depends: doca-sdk-argp (>= 2.9.4005-1), doca-sdk-comch (>= 2.9.4005-1), doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.38)
+Conflicts: doca-prime-runtime-tools (<< 2.8.0), doca-prime-tools (<< 2.7.0)
+Replaces: doca-prime-runtime-tools (<< 2.8.0), doca-prime-tools (<< 2.7.0)
+Filename: ./doca-comm-channel-admin_2.9.4005-1_amd64.deb
+Size: 7432
+MD5sum: 877738a1a8d873497dec2a9493a3ac3f
+SHA1: 6f1b134c064150118e50d9d1e32a9b1371caea7b
+SHA256: 90ef9c0e69f55be89305faa603deffd41d162705a6a30b67c50d3e9d12bfad20
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) Tool
+ DOCA SDK Comm Channel Admin tool for using Nvidia's BlueField DPUs.
+
+Package: doca-devel
+Version: 2.9.4-0.1.2
+Architecture: amd64
+Maintainer: Mellanox Support <Networking-support@nvidia.com>
+Installed-Size: 9
+Depends: libdoca-sdk-common-dev (= 2.9.4005-1), libdoca-sdk-argp-dev (= 2.9.4005-1), libdoca-sdk-dpdk-bridge-dev (= 2.9.4005-1), libdoca-sdk-flow-dev (= 2.9.4005-1), libdoca-sdk-flow-trace (= 2.9.4005-1), libdoca-sdk-sha-dev (= 2.9.4005-1), libdoca-sdk-pcc-dev (= 2.9.4005-1), libdoca-sdk-aes-gcm-dev (= 2.9.4005-1), libdoca-sdk-dma-dev (= 2.9.4005-1), libdoca-sdk-telemetry-exporter-dev (= 2.9.4005-1), libdoca-sdk-telemetry-dev (= 2.9.4005-1), libdoca-sdk-compress-dev (= 2.9.4005-1), libdoca-sdk-erasure-coding-dev (= 2.9.4005-1), libdoca-sdk-comch-dev (= 2.9.4005-1), libdoca-sdk-eth-dev (= 2.9.4005-1), libdoca-sdk-rdma-dev (= 2.9.4005-1), libdoca-sdk-dpa-dev (= 2.9.4005-1), libdoca-sdk-devemu-dev (= 2.9.4005-1), libdoca-sdk-apsh-dev (= 2.9.4005-1), libdoca-sdk-urom-dev (= 2.9.4005-1), doca-samples (= 2.9.4005-1), mlnx-dpdk-dev (= 22.11.0-2410.5.1.2410414), libopensm-devel (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325), collectx-clxapidev (= 1.19.10), dpacc (= 1.9.0), dpacc-extract (= 1.9.0), flexio-samples (= 24.10.2454), meson (>= 0.61.2-1)
+Breaks: doca-sdk (<< 2.7.0)
+Replaces: doca-sdk (<< 2.7.0)
+Provides: doca-sdk (= 2.9.4-0.1.2)
+Filename: ./doca-devel_2.9.4-0.1.2_amd64.deb
+Size: 1728
+MD5sum: a5a8302548bdad30e935886b306f2d63
+SHA1: 0e531d6ed5def4421cdb8d69b5aa31ca0de88a22
+SHA256: df28e6ccb3f1223b1a0de4a3440c01033e9748956eec272046fef91eb769f78c
+Section: tasks
+Priority: optional
+Description: doca-devel meta-package
+
+Package: doca-dms
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 110396
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0)
+Conflicts: doca-services (<< 2.8.0)
+Replaces: doca-services (<< 2.8.0)
+Filename: ./doca-dms_2.9.4005-1_amd64.deb
+Size: 24645826
+MD5sum: e9130d8d247de6f94d4ce7547fc320c5
+SHA1: 265c6bc4c2696428698b458d548e75cc122f2642
+SHA256: 6b74c965f651c8d39088d3d8ab22bdae7b7d74d99a9506a5c3bceeecce3bbd65
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) Service
+ DOCA Management Service (DMS) for using Nvidia's BlueField DPUs.
+
+Package: doca-extra
+Version: 0.1.7-1
+Architecture: all
+Maintainer: Network Support <network-support@nvidia.com>
+Installed-Size: 45500
+Depends: pciutils
+Filename: ./doca-extra_0.1.7-1_all.deb
+Size: 46433068
+MD5sum: 8b140b7e7c97bd0931666ec51529ed88
+SHA1: 5ed07bd996b66682be39de54f0039e0586578af9
+SHA256: 36dfac81f8d72cf03ad460e7e165309c35a62c2c459bf4153ef55d38abf8101f
+Section: unknown
+Priority: optional
+Homepage: https://developer.nvidia.com/networking/doca
+Description: A list of extra support scripts
+ DOCA Extra is a collection of extra support scripts
+ that helps you with automate various tasks such as
+ supporting custom kernels and viewing informations
+ about dependencies
+
+Package: doca-flow-tune
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 498
+Depends: doca-sdk-argp (>= 2.9.4005-1), doca-sdk-common (>= 2.9.4005-1), doca-sdk-telemetry (>= 2.9.4005-1), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libjsoncpp25 (>= 1.9.5), libncurses6 (>= 6), libstdc++6 (>= 13.1), libtinfo6 (>= 6), doca-sdk-flow (>= 2.9.4005-1)
+Conflicts: doca-prime-runtime-tools (<< 2.8.0), doca-prime-tools (<< 2.7.0)
+Replaces: doca-prime-runtime-tools (<< 2.8.0), doca-prime-tools (<< 2.7.0)
+Filename: ./doca-flow-tune_2.9.4005-1_amd64.deb
+Size: 181888
+MD5sum: bc564423c0209006bc95bdebe4fd007f
+SHA1: 5cfbebdf92cbcaac0c8795c95f5c7473c4ec8244
+SHA256: 999c2a8ef63579d7eb803f5b3f58118bbc384e23a0de72b15fafdcdffd1e1aa5
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) Tool
+ DOCA SDK Flow Tune tool for using Nvidia's BlueField DPUs.
+
+Package: doca-installer
+Version: 1.3.8-1
+Architecture: amd64
+Maintainer: Networking Support <networking-support@nvidia.com>
+Installed-Size: 8487
+Depends: libc6 (>= 2.14), rshim, mft
+Filename: ./doca-installer_1.3.8-1_amd64.deb
+Size: 8565506
+MD5sum: 93e6ecf0a3fc6ed905db7d668c256e8b
+SHA1: ca0ff7dcbc62261f8a4dcb11505d5607fe4e0162
+SHA256: 7e065cc326b090de96699c7615d2d5540d12c4141d681ed82e9894adc8309f50
+Homepage: https://www.nvidia.com/
+Description: DOCA Installer is a tool to manage BFB installation across DPUs in parallel
+ DOCA Installer is a utility for installing and upgrading BlueField Bundle (BFB) and
+ BlueField Firmware Bundle images across multiple DPUs simultaneously.
+ It supports various DPU operation modes and offers extensive
+ customization options through configuration files in both INI and YAML formats.
+ .
+ Key features include parallel installation across multiple devices, per-device or
+ global configuration settings, support for BMC/NIC/OS customization, ability to
+ extract and display target firmware versions.
+
+Package: doca-kernel
+Version: 2.9.4-0.1.2
+Architecture: amd64
+Maintainer: Mellanox Support <Networking-support@nvidia.com>
+Installed-Size: 9
+Depends: ofed-scripts (>= 24.10.OFED.24.10.4.1.4-1), mlnx-tools (>= 24.10.1-1.2410414), mlnx-ofed-kernel-dkms (= 24.10.OFED.24.10.4.1.4.1-1), kernel-mft-dkms (>= 4.30.1.1216-1), srp-dkms (= 24.10.OFED.24.10.4.1.4.1-1), knem (>= 1.1.4.90mlnx3-OFED.23.10.0.2.1.1), knem-dkms (= 1.1.4.90mlnx3-OFED.23.10.0.2.1.1), xpmem (>= 2.7.4-1.2410414), xpmem-dkms (= 2.7.4-1.2410414), iser-dkms (= 24.10.OFED.24.10.4.1.4.1-1), mlnx-ofed-kernel-utils (>= 24.10.OFED.24.10.4.1.4.1-1), isert-dkms (= 24.10.OFED.24.10.4.1.4.1-1)
+Filename: ./doca-kernel_2.9.4-0.1.2_amd64.deb
+Size: 1578
+MD5sum: 53c5638b526566794e5ba0a0a88f7cee
+SHA1: 954a927fffcb9a4921cc6d8c3fa99419205e4b81
+SHA256: d79c86ebd30cb8fe570c9b84f8468aace23d1b0c44b65169f5f02666ec9093a5
+Section: tasks
+Priority: optional
+Description: doca-kernel meta-package
+
+Package: doca-libxlio
+Version: 2.9.4-0.1.2
+Architecture: amd64
+Maintainer: Mellanox Support <Networking-support@nvidia.com>
+Installed-Size: 9
+Depends: rdmacm-utils (= 2410mlnx54-1.2410068), ofed-scripts (>= 24.10.OFED.24.10.4.1.4-1), libxlio-dev (= 3.40.2-1), libibnetdisc5 (= 2410mlnx54-1.2410068), kernel-mft-dkms (>= 4.30.1.1216-1), mlnx-ofed-kernel-dkms (= 24.10.OFED.24.10.4.1.4.1-1), libibmad-dev (= 2410mlnx54-1.2410068), libibverbs-dev (= 2410mlnx54-1.2410068), ibsim-doc (= 0.12-1.2410068), infiniband-diags (= 2410mlnx54-1.2410068), mlnx-ethtool (= 6.9-1.2410068), libibmad5 (= 2410mlnx54-1.2410068), opensm-doc (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325), libopensm-devel (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325), srptools (= 2410mlnx54-1.2410068), libibumad3 (= 2410mlnx54-1.2410068), ibutils2 (= 2.1.1-0.21905.MLNX20250604.g53bdce92c.2410325), mft (>= 4.30.1-1216), mlnx-tools (>= 24.10.1-1.2410414), mlnx-iproute2 (= 6.10.0-1.2410414), librdmacm-dev (= 2410mlnx54-1.2410068), ibverbs-providers (= 2410mlnx54-1.2410068), rdma-core (= 2410mlnx54-1.2410068), srp-dkms (= 24.10.OFED.24.10.4.1.4.1-1), libibumad-dev (= 2410mlnx54-1.2410068), libxlio (= 3.40.2-1), dpcp (= 1.1.50-1.2410068), ibverbs-utils (= 2410mlnx54-1.2410068), perftest (= 24.10.0-0.95.g370212b.2410325), opensm (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325), rshim (>= 2.1.17-0.gc4c2260.2410414), ibsim (= 0.12-1.2410068), ibacm (= 2410mlnx54-1.2410068), librdmacm1 (= 2410mlnx54-1.2410068), libibverbs1 (= 2410mlnx54-1.2410068), libxlio-utils (= 3.40.2-1), iser-dkms (= 24.10.OFED.24.10.4.1.4.1-1), mlnx-ofed-kernel-utils (>= 24.10.OFED.24.10.4.1.4.1-1), libopensm (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325), isert-dkms (= 24.10.OFED.24.10.4.1.4.1-1)
+Filename: ./doca-libxlio_2.9.4-0.1.2_amd64.deb
+Size: 1870
+MD5sum: 10ed73fc451a9c70a57a410edfda90f2
+SHA1: 0209c0d7192998681fc3502beea684941d04d28d
+SHA256: 7c81c1eca8bb8a3d04a3e22920dcd2e3ab0828873f3353ed34c9b21cbfa83c8b
+Section: tasks
+Priority: optional
+Description: doca-libxlio meta-package
+
+Package: doca-networking
+Version: 2.9.4-0.1.2
+Architecture: amd64
+Maintainer: Mellanox Support <Networking-support@nvidia.com>
+Installed-Size: 9
+Depends: doca-ofed (= 2.9.4-0.1.2), doca-networking-runtime (= 2.9.4-0.1.2), doca-networking-devel (= 2.9.4-0.1.2)
+Filename: ./doca-networking_2.9.4-0.1.2_amd64.deb
+Size: 1450
+MD5sum: 1e3371cd9d12d9a486615d9d9f5d4d09
+SHA1: 59ec91af8a75c2fc97462c39acf00104277f02ce
+SHA256: 3195ff2e7ee2256a71d23390d4f032cf19835ff76bb859d6c31e07d668fac906
+Section: tasks
+Priority: optional
+Description: doca-networking meta-package
+
+Package: doca-networking-devel
+Version: 2.9.4-0.1.2
+Architecture: amd64
+Maintainer: Mellanox Support <Networking-support@nvidia.com>
+Installed-Size: 9
+Depends: mlnx-dpdk-dev (= 22.11.0-2410.5.1.2410414), libopensm-devel (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325), libdoca-sdk-common-dev (= 2.9.4005-1), libdoca-sdk-argp-dev (= 2.9.4005-1), libdoca-sdk-dpdk-bridge-dev (= 2.9.4005-1), libdoca-sdk-flow-dev (= 2.9.4005-1), libdoca-sdk-flow-trace (= 2.9.4005-1), libdoca-sdk-telemetry-dev (= 2.9.4005-1), doca-samples (= 2.9.4005-1), meson (>= 0.61.2-1)
+Breaks: doca-sdk-devel (<< 2.7.0)
+Replaces: doca-sdk-devel (<< 2.7.0)
+Provides: doca-sdk-devel (= 2.9.4-0.1.2)
+Filename: ./doca-networking-devel_2.9.4-0.1.2_amd64.deb
+Size: 1606
+MD5sum: 83b549e00f3d5385c0dfca0d7d7b5e3f
+SHA1: 057de34d8b8abb3150b2477008c415208ad0f4f1
+SHA256: 44ccd09c8ef909f528409a1d6982e19236c415b35a3be3b7374daf039eed084b
+Section: tasks
+Priority: optional
+Description: doca-networking-devel meta-package
+
+Package: doca-networking-runtime
+Version: 2.9.4-0.1.2
+Architecture: amd64
+Maintainer: Mellanox Support <Networking-support@nvidia.com>
+Installed-Size: 9
+Depends: mlnx-dpdk (= 22.11.0-2410.5.1.2410414), doca-sdk-common (= 2.9.4005-1), doca-sdk-argp (= 2.9.4005-1), doca-sdk-dpdk-bridge (= 2.9.4005-1), doca-sdk-flow (= 2.9.4005-1), doca-caps (= 2.9.4005-1), doca-openvswitch-switch (= 2.9.4-0007-25.12-based-3.3.3), collectx-clxapi (= 1.19.10), doca-sosreport (= 4.8.0-1), doca-flow-tune (= 2.9.4005-1), doca-sdk-telemetry (= 2.9.4005-1)
+Breaks: doca-cx-runtime (<< 2.7.0), doca-cx-tools (<< 2.7.0)
+Replaces: doca-cx-runtime (<< 2.7.0), doca-cx-tools (<< 2.7.0)
+Provides: doca-cx-runtime (= 2.9.4-0.1.2), doca-cx-tools (= 2.9.4-0.1.2)
+Filename: ./doca-networking-runtime_2.9.4-0.1.2_amd64.deb
+Size: 1634
+MD5sum: 0baa1fe001e2b0f5144c8a73392e8f40
+SHA1: 08066caf725a4e1c80166a11d3a903cb2ba85f0a
+SHA256: faa3ee9a03bb24449faeeb65ec43a1c3b24be486767c6385d2e5b0653efba2e1
+Section: tasks
+Priority: optional
+Description: doca-networking-runtime meta-package
+
+Package: doca-networking-userspace
+Version: 2.9.4-0.1.2
+Architecture: amd64
+Maintainer: Mellanox Support <Networking-support@nvidia.com>
+Installed-Size: 9
+Depends: doca-ofed-userspace (= 2.9.4-0.1.2), doca-networking-runtime (= 2.9.4-0.1.2), doca-networking-devel (= 2.9.4-0.1.2)
+Filename: ./doca-networking-userspace_2.9.4-0.1.2_amd64.deb
+Size: 1464
+MD5sum: a5e707e1b780f4a2b69402f70045dfe4
+SHA1: 08c2265d8779503da476351088842314535abcdd
+SHA256: ad1a293705191d13b46ff204b2e8345ca8df8e346acd354ac3b1b03a12d6dfa9
+Section: tasks
+Priority: optional
+Description: doca-networking-userspace meta-package
+
+Package: doca-ofed
+Version: 2.9.4-0.1.2
+Architecture: amd64
+Maintainer: Mellanox Support <Networking-support@nvidia.com>
+Installed-Size: 9
+Depends: libopensm-devel (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325), xpmem (>= 2.7.4-1.2410414), libibmad5 (= 2410mlnx54-1.2410068), opensm-doc (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325), ibarr (= 0.1.3-1.2410068), knem (>= 1.1.4.90mlnx3-OFED.23.10.0.2.1.1), infiniband-diags (= 2410mlnx54-1.2410068), mlnx-ethtool (= 6.9-1.2410068), libibumad3 (= 2410mlnx54-1.2410068), ibutils2 (= 2.1.1-0.21905.MLNX20250604.g53bdce92c.2410325), openmpi (= 4.1.7rc1-1.2410325), srptools (= 2410mlnx54-1.2410068), libibnetdisc5 (= 2410mlnx54-1.2410068), mlnx-ofed-kernel-dkms (= 24.10.OFED.24.10.4.1.4.1-1), kernel-mft-dkms (>= 4.30.1.1216-1), rdmacm-utils (= 2410mlnx54-1.2410068), ofed-scripts (>= 24.10.OFED.24.10.4.1.4-1), libxpmem-dev (= 2.7-0.2310055), libibmad-dev (= 2410mlnx54-1.2410068), ibsim-doc (= 0.12-1.2410068), libibverbs-dev (= 2410mlnx54-1.2410068), opensm (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325), perftest (= 24.10.0-0.95.g370212b.2410325), ibacm (= 2410mlnx54-1.2410068), rshim (>= 2.1.17-0.gc4c2260.2410414), xpmem-dkms (= 2.7.4-1.2410414), ibsim (= 0.12-1.2410068), knem-dkms (= 1.1.4.90mlnx3-OFED.23.10.0.2.1.1), dpcp (= 1.1.50-1.2410068), ibverbs-utils (= 2410mlnx54-1.2410068), libopensm (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325), isert-dkms (= 24.10.OFED.24.10.4.1.4.1-1), librdmacm1 (= 2410mlnx54-1.2410068), libibverbs1 (= 2410mlnx54-1.2410068), mlnx-ofed-kernel-utils (>= 24.10.OFED.24.10.4.1.4.1-1), iser-dkms (= 24.10.OFED.24.10.4.1.4.1-1), ibdump (= 6.0.0-1.2410068), mpitests (= 3.2.24-2ffc2d6.2410068), mlnx-tools (>= 24.10.1-1.2410414), mft (>= 4.30.1-1216), ucx (= 1.18.0-1.2410068), mlnx-iproute2 (= 6.10.0-1.2410414), hcoll (= 4.8.3230-1.2410068), libxpmem0 (= 2.7-0.2310055), libibumad-dev (= 2410mlnx54-1.2410068), sharp (= 3.9.1.MLNX20250604.25aad3d5-1.2410325), ibverbs-providers (= 2410mlnx54-1.2410068), librdmacm-dev (= 2410mlnx54-1.2410068), srp-dkms (= 24.10.OFED.24.10.4.1.4.1-1), rdma-core (= 2410mlnx54-1.2410068)
+Filename: ./doca-ofed_2.9.4-0.1.2_amd64.deb
+Size: 2000
+MD5sum: 7a602d64b4be214efd52a2fe444b8804
+SHA1: c24102702e77b7e507329547a7e786a2c827c6f0
+SHA256: d62a04a75c325a831916483402d3982b5e85e53316f90722eee6d39554b3dda5
+Section: tasks
+Priority: optional
+Description: doca-ofed meta-package
+
+Package: doca-ofed-userspace
+Version: 2.9.4-0.1.2
+Architecture: amd64
+Maintainer: Mellanox Support <Networking-support@nvidia.com>
+Installed-Size: 9
+Depends: ofed-scripts (>= 24.10.OFED.24.10.4.1.4-1), rdmacm-utils (= 2410mlnx54-1.2410068), kernel-mft-dkms (>= 4.30.1.1216-1), libibnetdisc5 (= 2410mlnx54-1.2410068), libibverbs-dev (= 2410mlnx54-1.2410068), ibsim-doc (= 0.12-1.2410068), libibmad-dev (= 2410mlnx54-1.2410068), libxpmem-dev (= 2.7-0.2310055), mlnx-ethtool (= 6.9-1.2410068), infiniband-diags (= 2410mlnx54-1.2410068), ibarr (= 0.1.3-1.2410068), opensm-doc (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325), libibmad5 (= 2410mlnx54-1.2410068), libopensm-devel (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325), srptools (= 2410mlnx54-1.2410068), openmpi (= 4.1.7rc1-1.2410325), libibumad3 (= 2410mlnx54-1.2410068), ibutils2 (= 2.1.1-0.21905.MLNX20250604.g53bdce92c.2410325), libxpmem0 (= 2.7-0.2310055), hcoll (= 4.8.3230-1.2410068), mlnx-iproute2 (= 6.10.0-1.2410414), ucx (= 1.18.0-1.2410068), mft (>= 4.30.1-1216), mlnx-tools (>= 24.10.1-1.2410414), mpitests (= 3.2.24-2ffc2d6.2410068), rdma-core (= 2410mlnx54-1.2410068), librdmacm-dev (= 2410mlnx54-1.2410068), ibverbs-providers (= 2410mlnx54-1.2410068), sharp (= 3.9.1.MLNX20250604.25aad3d5-1.2410325), libibumad-dev (= 2410mlnx54-1.2410068), dpcp (= 1.1.50-1.2410068), ibverbs-utils (= 2410mlnx54-1.2410068), rshim (>= 2.1.17-0.gc4c2260.2410414), ibsim (= 0.12-1.2410068), ibacm (= 2410mlnx54-1.2410068), perftest (= 24.10.0-0.95.g370212b.2410325), opensm (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325), ibdump (= 6.0.0-1.2410068), mlnx-ofed-kernel-utils (>= 24.10.OFED.24.10.4.1.4.1-1), librdmacm1 (= 2410mlnx54-1.2410068), libibverbs1 (= 2410mlnx54-1.2410068), libopensm (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325)
+Filename: ./doca-ofed-userspace_2.9.4-0.1.2_amd64.deb
+Size: 1942
+MD5sum: ee7e15429c8ae47d6a105d73d25c7e55
+SHA1: cee03bcde684f2d7f029f022635d368536d235d5
+SHA256: e2c2521bb744101cc7dd9c473ee285eec4d01f2b3a22c6d13c62733583c5938d
+Section: tasks
+Priority: optional
+Description: doca-ofed-userspace meta-package
+
+Package: doca-openvswitch-common
+Source: doca-openvswitch
+Version: 2.9.4-0007-25.12-based-3.3.3
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 71594
+Depends: openssl, python3:any, ibverbs-providers (>= 42), libbsd0 (>= 0.0), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9), libelf1t64 (>= 0.131), libgcc-s1 (>= 3.0), libibverbs1 (>= 35), libjansson4 (>= 2.14), libnuma1 (>= 2.0.11), libpcap0.8t64 (>= 0.9.8), libssl3t64 (>= 3.0.0), libstdc++6 (>= 11), libunbound8 (>= 1.8.0)
+Suggests: ethtool
+Conflicts: openvswitch-common
+Breaks: openvswitch-switch (<< 2.13~)
+Replaces: openvswitch-common, openvswitch-switch (<< 2.13~)
+Provides: openvswitch-common (= 3.3)
+Filename: ./doca-openvswitch-common_2.9.4-0007-25.12-based-3.3.3_amd64.deb
+Size: 22941340
+MD5sum: 9a594f42c50ca8f06ac036441290cad8
+SHA1: 735968858746f02c88df52c5b691ed26ee62cfec
+SHA256: 9b4082ad944317aea40ab1352ecc0faae299af72ceba12d1568a815394ac3685
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Open vSwitch common components
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ openvswitch-common provides components required by both openvswitch-switch
+ and openvswitch-testcontroller.
+
+Package: doca-openvswitch-dev
+Source: doca-openvswitch
+Version: 2.9.4-0007-25.12-based-3.3.3
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 12087
+Conflicts: doca-libopenvswitch (<< 2.17~), doca-libopenvswitch-dev (<< 2.17~), libopenvswitch (<< 2.17~), libopenvswitch-dev (<< 2.17~)
+Replaces: doca-libopenvswitch (<< 2.17~), doca-libopenvswitch-dev (<< 2.17~), libopenvswitch (<< 2.17~), libopenvswitch-dev (<< 2.17~)
+Filename: ./doca-openvswitch-dev_2.9.4-0007-25.12-based-3.3.3_amd64.deb
+Size: 2350270
+MD5sum: 042da423666087e5af187f10868fcdc0
+SHA1: 267745d79cb68a372b3fad6204d8c33455dc12a5
+SHA256: 102b779a423bdbcd92823ad83cfaf97be7e2accc2832b606eb3fc4a4eec29c2b
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Open vSwitch OpenFlow development package (library, headers)
+ This provides shared library, libopenswitch.so and the openvswitch header
+ files needed to build an external application.
+
+Package: doca-openvswitch-ipsec
+Source: doca-openvswitch
+Version: 2.9.4-0007-25.12-based-3.3.3
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 86
+Depends: iproute2, doca-openvswitch-common (= 2.9.4-0007-25.12-based-3.3.3), doca-openvswitch-switch (= 2.9.4-0007-25.12-based-3.3.3), python3-doca-openvswitch (= 2.9.4-0007-25.12-based-3.3.3), strongswan
+Suggests: python3:any
+Conflicts: openvswitch-ipsec
+Breaks: openvswitch-common (<< 2.17~)
+Replaces: openvswitch-common (<< 2.17~), openvswitch-ipsec
+Provides: openvswitch-ipsec (= 3.3)
+Filename: ./doca-openvswitch-ipsec_2.9.4-0007-25.12-based-3.3.3_amd64.deb
+Size: 16590
+MD5sum: 68a2bd06294d6f72e674e2636daca4b4
+SHA1: 4e90ed61552316ae8e915cc7ffe86088a426ad5d
+SHA256: 54a06bd0ac91b5a91082edd7863f05aa0eeedfcb539829089609eac90aeeb1c2
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Open vSwitch IPsec tunneling support
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ This package provides IPsec tunneling support for OVS tunnels.
+
+Package: doca-openvswitch-pki
+Source: doca-openvswitch
+Version: 2.9.4-0007-25.12-based-3.3.3
+Architecture: all
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 12
+Depends: doca-openvswitch-common (<< 2.9.4-0007-25.12-based-3.3.3.1~), doca-openvswitch-common (>= 2.9.4-0007-25.12-based-3.3.3)
+Conflicts: openvswitch-pki
+Replaces: openvswitch-pki
+Filename: ./doca-openvswitch-pki_2.9.4-0007-25.12-based-3.3.3_all.deb
+Size: 2686
+MD5sum: 768e19194cd503aa5a7694ec22df9824
+SHA1: 9f8411a600b710f85e7998527271c6c08b08317f
+SHA256: 5c5db50cf59efc65df5db6ca138eba4fe462725e210746a31f239b8923183d0d
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Open vSwitch public key infrastructure dependency package
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ openvswitch-pki provides PKI (public key infrastructure) support for
+ Open vSwitch switches and controllers, reducing the risk of
+ man-in-the-middle attacks on the Open vSwitch network infrastructure.
+
+Package: doca-openvswitch-switch
+Source: doca-openvswitch
+Version: 2.9.4-0007-25.12-based-3.3.3
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 43634
+Depends: kmod | module-init-tools, netbase, doca-openvswitch-common (= 2.9.4-0007-25.12-based-3.3.3), procps, python3-netifaces, python3-doca-openvswitch (>= 2.9.4-0007-25.12-based-3.3.3), uuid-runtime, python3:any, ibverbs-providers (>= 42), libbsd0 (>= 0.0), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9), libelf1t64 (>= 0.131), libgcc-s1 (>= 3.0), libibverbs1 (>= 35), libjansson4 (>= 2.14), libnuma1 (>= 2.0.11), libpcap0.8t64 (>= 0.9.8), libssl3t64 (>= 3.0.0), libstdc++6 (>= 11), libunbound8 (>= 1.8.0)
+Conflicts: openvswitch-switch
+Breaks: openvswitch-common (<< 2.17~)
+Replaces: openvswitch-common (<< 2.17~), openvswitch-switch
+Provides: openvswitch-switch (= 3.3)
+Filename: ./doca-openvswitch-switch_2.9.4-0007-25.12-based-3.3.3_amd64.deb
+Size: 14018244
+MD5sum: d94de727dd63fef41cff3949184bf6df
+SHA1: c031cbbbff1e30bd7302e0c7b4a0a5c4e61e359d
+SHA256: 6fcc410af02a4312d5430bc1373d1d517df18d2b5b29317662e566f09fa10359
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Open vSwitch switch implementations
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ openvswitch-switch provides the userspace components and utilities for
+ the Open vSwitch kernel-based switch.
+
+Package: doca-openvswitch-test
+Source: doca-openvswitch
+Version: 2.9.4-0007-25.12-based-3.3.3
+Architecture: all
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 298
+Depends: python3-twisted, python3:any
+Conflicts: openvswitch-test
+Breaks: openvswitch-common (<< 2.17~), python3-openvswitch (<< 2.17~)
+Replaces: openvswitch-common (<< 2.17~), openvswitch-test, python3-openvswitch (<< 2.17~)
+Filename: ./doca-openvswitch-test_2.9.4-0007-25.12-based-3.3.3_all.deb
+Size: 57152
+MD5sum: b29be35ca552b3bbc29993e962d88cdd
+SHA1: 8f889cff73b687a78ca52c368ccc3012b44014f1
+SHA256: 3997a080d3247ef5144c8662969b82ccd63982dc6f8d281b85288fff0d2565d8
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Open vSwitch test package
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ This package contains utilities that are useful to diagnose
+ performance and connectivity issues in Open vSwitch setup.
+
+Package: doca-openvswitch-testcontroller
+Source: doca-openvswitch
+Version: 2.9.4-0007-25.12-based-3.3.3
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 14112
+Depends: lsb-base, doca-openvswitch-common (= 2.9.4-0007-25.12-based-3.3.3), doca-openvswitch-pki (= 2.9.4-0007-25.12-based-3.3.3), ibverbs-providers (>= 42), libbsd0 (>= 0.0), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9), libelf1t64 (>= 0.131), libgcc-s1 (>= 3.0), libibverbs1 (>= 35), libjansson4 (>= 2.14), libnuma1 (>= 2.0.11), libpcap0.8t64 (>= 0.9.8), libssl3t64 (>= 3.0.0), libstdc++6 (>= 11), libunbound8 (>= 1.8.0)
+Conflicts: openvswitch-testcontroller
+Breaks: openvswitch-common (<< 2.17~)
+Replaces: openvswitch-common (<< 2.17~), openvswitch-testcontroller
+Filename: ./doca-openvswitch-testcontroller_2.9.4-0007-25.12-based-3.3.3_amd64.deb
+Size: 4502750
+MD5sum: 2cf028afa5f10ccd605666beaf4a8add
+SHA1: 0f56ecd74ffa2152ec834e183a540887512e9548
+SHA256: 9dbc084dd35b3f7fcf22cf5d1551b11fc6b998232e4e20117848cf5b0ee04a65
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Simple controller for testing OpenFlow setups
+ This controller enables OpenFlow switches that connect to it to act
+ as MAC-learning Ethernet switches.  It can be used for initial
+ testing of OpenFlow networks.  It is not a necessary or desirable
+ part of a production OpenFlow deployment.
+
+Package: doca-openvswitch-vtep
+Source: doca-openvswitch
+Version: 2.9.4-0007-25.12-based-3.3.3
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 14487
+Depends: lsb-base, lsb-release, doca-openvswitch-common (>= 2.9.4-0007-25.12-based-3.3.3), doca-openvswitch-switch (>= 2.9.4-0007-25.12-based-3.3.3), python3-doca-openvswitch (>= 2.9.4-0007-25.12-based-3.3.3), ibverbs-providers (>= 42), libbsd0 (>= 0.0), libc6 (>= 2.38), libcap-ng0 (>= 0.7.9), libelf1t64 (>= 0.131), libgcc-s1 (>= 3.0), libibverbs1 (>= 35), libjansson4 (>= 2.14), libnuma1 (>= 2.0.11), libpcap0.8t64 (>= 0.9.8), libssl3t64 (>= 3.0.0), libstdc++6 (>= 11), libunbound8 (>= 1.8.0)
+Suggests: python3:any
+Conflicts: openvswitch-vtep
+Breaks: openvswitch-common (<< 2.17~)
+Replaces: openvswitch-common (<< 2.17~), openvswitch-vtep
+Filename: ./doca-openvswitch-vtep_2.9.4-0007-25.12-based-3.3.3_amd64.deb
+Size: 4582766
+MD5sum: d85f34d40e6912c0da7d7db1c8fa520e
+SHA1: a7bc5eb72daa262da022fe04ab3590848f7d1021
+SHA256: a6b4639be244638622bc5b466eb65ca7d61d443cf805df8fbf922a79b26d0581
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Open vSwitch VTEP utilities
+ Open vSwitch is a production quality, multilayer, software-based, Ethernet
+ virtual switch. It is designed to enable massive network automation through
+ programmatic extension, while still supporting standard management interfaces
+ and protocols (e.g. NetFlow, sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In
+ addition, it is designed to support distribution across multiple physical
+ servers similar to VMware's vNetwork distributed vswitch or Cisco's Nexus
+ 1000V.
+ .
+ This package provides utilities that are useful to interact with a
+ VTEP-configured database and a VTEP emulator.
+
+Package: doca-pcc-counters
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 17
+Conflicts: doca-prime-runtime-tools (<< 2.8.0), doca-prime-tools (<< 2.7.0)
+Replaces: doca-prime-runtime-tools (<< 2.8.0), doca-prime-tools (<< 2.7.0)
+Filename: ./doca-pcc-counters_2.9.4005-1_amd64.deb
+Size: 2534
+MD5sum: ce10861ca6e52025d69d8606ff7afc3e
+SHA1: 6a2e3e6f24eb51091924f897f5d08b93b0760ff0
+SHA256: 4f55df9cad6e3c47051a7beada1faeb2245adfa5fe9b33dbb50421afceaf55ab
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) Tool
+ DOCA SDK PCC Counters tool for using Nvidia's BlueField DPUs.
+
+Package: doca-roce
+Version: 2.9.4-0.1.2
+Architecture: amd64
+Maintainer: Mellanox Support <Networking-support@nvidia.com>
+Installed-Size: 9
+Depends: rdma-core (= 2410mlnx54-1.2410068), ofed-scripts (>= 24.10.OFED.24.10.4.1.4-1), mlnx-tools (>= 24.10.1-1.2410414), mlnx-ofed-kernel-utils (>= 24.10.OFED.24.10.4.1.4.1-1), mlnx-ofed-kernel-dkms (= 24.10.OFED.24.10.4.1.4.1-1), libibverbs1 (= 2410mlnx54-1.2410068), libibverbs-dev (= 2410mlnx54-1.2410068), ibverbs-providers (= 2410mlnx54-1.2410068), ibverbs-utils (= 2410mlnx54-1.2410068), libibumad3 (= 2410mlnx54-1.2410068), librdmacm1 (= 2410mlnx54-1.2410068), librdmacm-dev (= 2410mlnx54-1.2410068), rdmacm-utils (= 2410mlnx54-1.2410068), perftest (= 24.10.0-0.95.g370212b.2410325)
+Filename: ./doca-roce_2.9.4-0.1.2_amd64.deb
+Size: 1578
+MD5sum: 12bba09c2216c4f918628e40bcf522d9
+SHA1: 20d2f1b41064e931929cfaef634bdec45bdb4737
+SHA256: 776985bb1b1f831dc7ddf0c2b5f9a7eb848475cffc2a046d9d957503fbacfdd1
+Section: tasks
+Priority: optional
+Description: doca-roce meta-package
+
+Package: doca-roce-userspace
+Version: 2.9.4-0.1.2
+Architecture: amd64
+Maintainer: Mellanox Support <Networking-support@nvidia.com>
+Installed-Size: 9
+Depends: rdma-core (= 2410mlnx54-1.2410068), ofed-scripts (>= 24.10.OFED.24.10.4.1.4-1), mlnx-tools (>= 24.10.1-1.2410414), libibverbs1 (= 2410mlnx54-1.2410068), libibverbs-dev (= 2410mlnx54-1.2410068), ibverbs-providers (= 2410mlnx54-1.2410068), ibverbs-utils (= 2410mlnx54-1.2410068), libibumad3 (= 2410mlnx54-1.2410068), librdmacm1 (= 2410mlnx54-1.2410068), librdmacm-dev (= 2410mlnx54-1.2410068), rdmacm-utils (= 2410mlnx54-1.2410068), perftest (= 24.10.0-0.95.g370212b.2410325)
+Filename: ./doca-roce-userspace_2.9.4-0.1.2_amd64.deb
+Size: 1596
+MD5sum: 167b752b4c3ebfc8f4283f083183898e
+SHA1: ff9c6a88b0c501c3b279fe058ccb9101ac0cfc56
+SHA256: a9d2260e40469a84231010ddd64d9128498a37b3b6965737bf37a9b78f0a12e1
+Section: tasks
+Priority: optional
+Description: doca-roce-userspace meta-package
+
+Package: doca-runtime
+Version: 2.9.4-0.1.2
+Architecture: amd64
+Maintainer: Mellanox Support <Networking-support@nvidia.com>
+Installed-Size: 9
+Depends: doca-sdk-common (= 2.9.4005-1), doca-sdk-argp (= 2.9.4005-1), doca-sdk-dpdk-bridge (= 2.9.4005-1), doca-sdk-flow (= 2.9.4005-1), doca-sdk-sha (= 2.9.4005-1), doca-sdk-pcc (= 2.9.4005-1), doca-sdk-aes-gcm (= 2.9.4005-1), doca-sdk-dma (= 2.9.4005-1), doca-sdk-telemetry-exporter (= 2.9.4005-1), doca-sdk-telemetry (= 2.9.4005-1), doca-sdk-compress (= 2.9.4005-1), doca-sdk-erasure-coding (= 2.9.4005-1), doca-sdk-comch (= 2.9.4005-1), doca-sdk-eth (= 2.9.4005-1), doca-sdk-rdma (= 2.9.4005-1), doca-sdk-dpa (= 2.9.4005-1), doca-sdk-devemu (= 2.9.4005-1), doca-sdk-apsh (= 2.9.4005-1), doca-sdk-urom (= 2.9.4005-1), doca-caps (= 2.9.4005-1), doca-pcc-counters (= 2.9.4005-1), doca-apsh-config (= 2.9.4005-1), doca-socket-relay (= 2.9.4005-1), doca-comm-channel-admin (= 2.9.4005-1), doca-bench (= 2.9.4005-1), doca-flow-tune (= 2.9.4005-1), doca-sha-offload-engine (= 2.9.4005-1), flexio-sdk (= 24.10.2454), mlnx-dpdk (= 22.11.0-2410.5.1.2410414), doca-openvswitch-switch (= 2.9.4-0007-25.12-based-3.3.3), collectx-clxapi (= 1.19.10), dpaeumgmt (= 24.10.2407), dpa-stats (= 24.10.2407), dpa-gdbserver (= 24.10.2454), doca-sosreport (= 4.8.0-1), doca-dms (= 2.9.4005-1)
+Breaks: doca-tools (<< 2.7.0)
+Replaces: doca-tools (<< 2.7.0)
+Provides: doca-tools (= 2.9.4-0.1.2)
+Filename: ./doca-runtime_2.9.4-0.1.2_amd64.deb
+Size: 1792
+MD5sum: aa6f92f87ecf24bc6553ddde5eca6926
+SHA1: 6b23724bc9d411a86bb1b18c7f93c11dc2c7adf2
+SHA256: d71c49fd5c8eceb9ff2ff2b93c2fc0dea3cf4d92140321a7bdeaafa6ca592d27
+Section: tasks
+Priority: optional
+Description: doca-runtime meta-package
+
+Package: doca-samples
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 7131
+Conflicts: doca-apps (<< 2.8.0), doca-apps-dev (<< 2.7.0), doca-cx-apps (<< 2.8.0), doca-cx-apps-dev (<< 2.7.0), doca-cx-samples (<< 2.8.0), doca-samples (<< 2.8.0)
+Replaces: doca-apps (<< 2.8.0), doca-apps-dev (<< 2.7.0), doca-cx-apps (<< 2.8.0), doca-cx-apps-dev (<< 2.7.0), doca-cx-samples (<< 2.8.0), doca-samples (<< 2.8.0)
+Filename: ./doca-samples_2.9.4005-1_amd64.deb
+Size: 538908
+MD5sum: 388e8d1af2754c3ca552a1adc429f5f1
+SHA1: 888a4748c8ef206e4b06813c2892a41a4b146909
+SHA256: 46c86112d427e449efdb8fb8d5c26968d0db02f6be55a8c04602dee58cfbdcdd
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) Samples
+ DOCA SDK Samples and Reference Applications for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-aes-gcm
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 92
+Depends: doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Conflicts: doca-libs (<< 2.8.0)
+Replaces: doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-aes-gcm_2.9.4005-1_amd64.deb
+Size: 24476
+MD5sum: 1e024ce0435da966c6a88b1af14c1cab
+SHA1: 74e0cf954f1d0b6e04cc3bb6e7d61532226171ec
+SHA256: c5f7b425c57c08e4a9dcd9e94985e8a2bab852da92734470f59cd765e49315b6
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK AES-GCM library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-apsh
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 348
+Depends: doca-sdk-common (>= 2.9.4005-1), doca-sdk-dma (>= 2.9.4005-1), libc6 (>= 2.38), libglib2.0-0t64 (>= 2.22.0), libssl3t64 (>= 3.0.0), libzip4t64 (>= 0.10), openssl, libglib2.0-0, libzip4 | libzip5
+Conflicts: doca-libs (<< 2.8.0)
+Replaces: doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-apsh_2.9.4005-1_amd64.deb
+Size: 131214
+MD5sum: e7efb60db35b3b90b1bee8e3cd413d0a
+SHA1: c014aa50c3cf1b32241c1407cad427084c5181da
+SHA256: ada47486b6e7df0a9e696e7d4cf1864bf69d34989a39edc7c5cd1617a3fc0551
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK App Shield library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-argp
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 100
+Depends: doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Conflicts: doca-cx-libs (<< 2.8.0), doca-libs (<< 2.8.0)
+Replaces: doca-cx-libs (<< 2.8.0), doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-argp_2.9.4005-1_amd64.deb
+Size: 36016
+MD5sum: eb454dd5969e4e2903b48aecccf02508
+SHA1: ec208956b9a2980a098cc8c931f577c1563c318d
+SHA256: a9fd543a576dc5e4f611f2d16bc8b1cce4aa73498161cd6789b7086f48a6b26a
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK ARGP library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-comch
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 200
+Depends: doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ibverbs-providers, libibverbs1
+Conflicts: doca-libs (<< 2.8.0), doca-sdk-comm-channel (<< 2.9.0032)
+Replaces: doca-libs (<< 2.8.0), doca-sdk-comm-channel (<< 2.9.0032)
+Filename: ./doca-sdk-comch_2.9.4005-1_amd64.deb
+Size: 68946
+MD5sum: 590e22332ed3471f467f09abbb23adfb
+SHA1: 932e14bdd734172acca93ea8490507d8eaacd129
+SHA256: 04f25262818c23129e792b4386abf3a1d9b8e8cc0cde68cebb7831265b9e20ca
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK Communication Channel library for using Nvidia's
+ BlueField DPUs.
+
+Package: doca-sdk-common
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 852
+Depends: ibverbs-providers (>= 35), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libibverbs1 (>= 34), libstdc++6 (>= 11)
+Conflicts: doca-cx-libs (<< 2.8.0060), doca-cx-prime-runtime (<< 2.8.0060), doca-cx-prime-runtime-tools (<< 2.8.0060), doca-cx-prime-tools (<< 2.7.0), doca-grpc (<< 2.6.0000), doca-libs (<< 2.8.0060), doca-prime-runtime (<< 2.8.0060), doca-prime-runtime-tools (<< 2.8.0060), doca-prime-tools (<< 2.7.0), doca-services (<< 2.8.0060)
+Replaces: doca-cx-libs (<< 2.8.0060), doca-cx-prime-runtime (<< 2.8.0060), doca-cx-prime-runtime-tools (<< 2.8.0060), doca-cx-prime-tools (<< 2.7.0), doca-grpc (<< 2.6.0000), doca-libs (<< 2.8.0060), doca-prime-runtime (<< 2.8.0060), doca-prime-runtime-tools (<< 2.8.0060), doca-prime-tools (<< 2.7.0), doca-services (<< 2.8.0060)
+Filename: ./doca-sdk-common_2.9.4005-1_amd64.deb
+Size: 295384
+MD5sum: d55a6e920263d0dbfd7b56d3d608ce8d
+SHA1: 3ba245972929a234cdb580c80f8572f86db29c10
+SHA256: 8d18e81b729b1d962ebefea50c0cdbf747077647e3ddf36e119991e15c45784a
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK Common library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-compress
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 112
+Depends: doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Conflicts: doca-libs (<< 2.8.0)
+Replaces: doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-compress_2.9.4005-1_amd64.deb
+Size: 31676
+MD5sum: 2d91744f59001cd873665e5a969dac2c
+SHA1: 31f1c10faa41e8b86c983a2fbd4e343305a2bad2
+SHA256: fcd474df0588f0f88b2aba442fd20c338634c0f55cf5b57911f47380f5f8ef56
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK Compress library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-devemu
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 420
+Depends: doca-sdk-common (>= 2.9.4005-1), doca-sdk-dpa (>= 2.9.4005-1), ibverbs-providers (>= 22), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libibverbs1 (>= 1.1.6), libstdc++6 (>= 5.2), doca-sdk-dma (>= 2.9.4005-1), flexio-sdk
+Conflicts: doca-libs (<< 2.8.0)
+Replaces: doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-devemu_2.9.4005-1_amd64.deb
+Size: 122226
+MD5sum: 7a73361bf2a9920622928eeeec65622d
+SHA1: 84757ce243b1bbb494967bde0ce38f763b1a1ee2
+SHA256: 608f8ef81468f8df86bc81392e6e0bd83a540912bd4653c6e074f4db6f5ce37f
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK Device Emulation library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-dma
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 84
+Depends: doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Conflicts: doca-libs (<< 2.8.0)
+Replaces: doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-dma_2.9.4005-1_amd64.deb
+Size: 27508
+MD5sum: 8851e160b9b2ff40e9e1ffa0c2106e38
+SHA1: 754444ef012b487326ad01802a2f7447ed6a4f08
+SHA256: 7baa288c6bf32f07453c50861a155de3d4c46c746f07519568b6fe0abfaf6721
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK DMA library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-dpa
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 232
+Depends: doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libibverbs1 (>= 1.1.6), libstdc++6 (>= 11), doca-sdk-rdma (>= 2.9.4005-1), doca-sdk-comch (>= 2.9.4005-1), flexio-sdk, ibverbs-providers
+Conflicts: doca-libs (<< 2.8.0)
+Replaces: doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-dpa_2.9.4005-1_amd64.deb
+Size: 77176
+MD5sum: 3761f8cf942c840d9171622cba07e9d7
+SHA1: 676c94573728ba56426ca13a283996bbe3bf06ce
+SHA256: 60f5321c9686964c82849cbcbf761324ff9b15e8b5e690da5b6575784dbd663a
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK DPA library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-dpdk-bridge
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 68
+Depends: doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), mlnx-dpdk
+Conflicts: doca-cx-libs (<< 2.8.0), doca-libs (<< 2.8.0)
+Replaces: doca-cx-libs (<< 2.8.0), doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-dpdk-bridge_2.9.4005-1_amd64.deb
+Size: 19898
+MD5sum: d183ce9e2d2e62bf1c5bfb503b613a7b
+SHA1: 1d19aba9715c26cb8c0f15f4629c63cf13013b2e
+SHA256: 534d6698d4b032b15b871bc7a6b7718cb0f18c9852573a91dad9253b31986f86
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK DPDK Bridge utility library for using Nvidia's
+ BlueField DPUs.
+
+Package: doca-sdk-erasure-coding
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 76
+Depends: doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Conflicts: doca-libs (<< 2.8.0)
+Replaces: doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-erasure-coding_2.9.4005-1_amd64.deb
+Size: 23694
+MD5sum: 11954ff248964756c367c42025012752
+SHA1: e6579e81730fd2e021b3bed17fdde6029f1bee4a
+SHA256: cc4a65a3d4b55551719e5779057e1fdac4c690eabad6c9628f05aff0ec8bd6c1
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK Erasure Coding (EC) library for using Nvidia's BlueField
+ DPUs.
+
+Package: doca-sdk-eth
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 171
+Depends: doca-sdk-common (>= 2.9.4005-1), doca-sdk-dpdk-bridge (>= 2.9.4005-1), libc6 (>= 2.14), mlnx-dpdk, ibverbs-providers, libibverbs1
+Conflicts: doca-libs (<< 2.8.0)
+Replaces: doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-eth_2.9.4005-1_amd64.deb
+Size: 51296
+MD5sum: b5c3fa91bc8693b02bef8aab77ca8bc5
+SHA1: 1b25a398a30c36361ae21ed114a75685a20ca2c6
+SHA256: a4ca7fd5cfaeb5419ee0a9f52e0b282b79e71c7d89f89d2e8265cdb153fc4ee4
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK Ethernet library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-flow
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 1163
+Depends: doca-sdk-common (>= 2.9.4005-1), doca-sdk-dpdk-bridge (>= 2.9.4005-1), ibverbs-providers (>= 21), libc6 (>= 2.38), libibverbs1 (>= 28), mlnx-dpdk
+Conflicts: doca-cx-libs (<< 2.8.0), doca-libs (<< 2.8.0)
+Replaces: doca-cx-libs (<< 2.8.0), doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-flow_2.9.4005-1_amd64.deb
+Size: 443726
+MD5sum: ad5f368b64b4f760e36afb83934c9729
+SHA1: a02b845bf91d2d192712a5ca24b1693b44015e7c
+SHA256: e0d60a3a2fca38de53d1284a96f159f86290e29043e933d0e5f0c89695a5596c
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK flow library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-gpunetio
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 56
+Depends: doca-sdk-common (>= 2.9.4005-1), doca-sdk-dpdk-bridge (>= 2.9.4005-1), doca-sdk-eth (>= 2.9.4005-1), doca-sdk-rdma (>= 2.9.4005-1), ibverbs-providers, libibverbs1
+Conflicts: doca-gpu (<< 2.8.0)
+Replaces: doca-gpu (<< 2.8.0)
+Filename: ./doca-sdk-gpunetio_2.9.4005-1_amd64.deb
+Size: 14972
+MD5sum: 6719431eb695c54b1a1d737c2b39158a
+SHA1: aabf6b03f229ab389b85cc6ff1b7a70056abc66f
+SHA256: 0f59adcc1ae951ac69e5aa93325c39f0df78426ae13afd8371def3b30819cbf6
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK GPUNetIO library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-pcc
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 116
+Depends: doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.14), flexio-sdk, ibverbs-providers, libibverbs1
+Conflicts: doca-libs (<< 2.8.0)
+Replaces: doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-pcc_2.9.4005-1_amd64.deb
+Size: 31038
+MD5sum: a66ba5cd89c34910ba21fbf40be84dc0
+SHA1: 12d1e841dd46b710d2640f163661d211692fde0d
+SHA256: fc8373a40acd3e7c2129dd70e426b9caed7e1ee75f4d9898b9c4550783fc974b
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK PCC library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-rdma
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 244
+Depends: doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.38), librdmacm1 (>= 23), libstdc++6 (>= 5)
+Conflicts: doca-libs (<< 2.8.0)
+Replaces: doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-rdma_2.9.4005-1_amd64.deb
+Size: 76496
+MD5sum: 350eedb42266d37b2481221a36f67403
+SHA1: dc89caf786f66fafb06990ed38d9c3b84d0dfe72
+SHA256: a6b6e35e8f626255825a590548168cc297fbb377e53e20670b0279dac6eff60c
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK RDMA library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-sha
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 88
+Depends: doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Conflicts: doca-libs (<< 2.8.0)
+Replaces: doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-sha_2.9.4005-1_amd64.deb
+Size: 27016
+MD5sum: 9b288afe8782bb9ee30df04bbe034488
+SHA1: e73d747bd4b32a459971c4647c5eecf977a3df75
+SHA256: 61340c33955be941f358e675c59dd11f08b9032bd5e49a8969e32642c2142cbb
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK SHA library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-telemetry
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 100
+Depends: doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Conflicts: doca-libs (<< 2.8.0), doca-sdk-telemetry (<< 2.8.0055)
+Replaces: doca-libs (<< 2.8.0), doca-sdk-telemetry (<< 2.8.0055)
+Filename: ./doca-sdk-telemetry_2.9.4005-1_amd64.deb
+Size: 29002
+MD5sum: a9a7ce1c2614e235e05c1e61b7c4fd11
+SHA1: 56438dbe1907b692994ea8bca1026b8582204fb1
+SHA256: cf32f9339d0268cad702b59f73206871feacaf2dbc6d50af058bbd86a69d21e3
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK Telemetry library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-telemetry-exporter
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 52
+Depends: doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.14), collectx-clxapi
+Conflicts: doca-libs (<< 2.8.0), doca-sdk-telemetry-exporter (<< 2.8.0055)
+Replaces: doca-libs (<< 2.8.0), doca-sdk-telemetry-exporter (<< 2.8.0055)
+Filename: ./doca-sdk-telemetry-exporter_2.9.4005-1_amd64.deb
+Size: 10814
+MD5sum: d668d6e6b155f9ec27bcd720aad7c8ca
+SHA1: e4b9e8ba34d326e11cb65aeccec567e269a53b26
+SHA256: 19c3008c18a78cfc2b9e828e46c26a6495e6c2ea0eff6bce9fa3ac085fb7c2a1
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK Telemetry Exporter library for using Nvidia's BlueField DPUs.
+
+Package: doca-sdk-urom
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 156
+Depends: doca-sdk-comch (>= 2.9.4005-1), doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.38), ucx
+Conflicts: doca-libs (<< 2.8.0)
+Replaces: doca-libs (<< 2.8.0)
+Filename: ./doca-sdk-urom_2.9.4005-1_amd64.deb
+Size: 42352
+MD5sum: 678b196a769baa6d111829268fd12207
+SHA1: 7c8cca473755c3d95db4b895e8d1009b2f389269
+SHA256: 5f759be746580a7be8cc63c24b2413325f8b797443c26f4e3db0e484a554b031
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) SDK
+ DOCA SDK UROM library for using Nvidia's BlueField DPUs.
+
+Package: doca-sha-offload-engine
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 9
+Depends: doca-sdk-common (>= 2.9.4005-1), doca-sdk-sha (>= 2.9.4005-1), openssl
+Conflicts: doca-prime-runtime-tools (<< 2.8.0), doca-prime-tools (<< 2.7.0)
+Replaces: doca-prime-runtime-tools (<< 2.8.0), doca-prime-tools (<< 2.7.0)
+Filename: ./doca-sha-offload-engine_2.9.4005-1_amd64.deb
+Size: 1666
+MD5sum: 9d75a926d9210e7ea143553af075730b
+SHA1: 6cb987e005300bebf4f2b0b501356239b5e77989
+SHA256: a43c64754916162435a1da4fe3a1250db7c348f7f35df18816a0f5475d85423e
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: DOCA SHA OpenSSL Offload Engine
+ OpenSSL Offload Engine leveraging DOCA SDK's SHA library on top of
+ Nvidia's BlueField DPUs.
+
+Package: doca-socket-relay
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 73
+Depends: doca-sdk-argp (>= 2.9.4005-1), doca-sdk-comch (>= 2.9.4005-1), doca-sdk-common (>= 2.9.4005-1), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.32.0), libglib2.0-0
+Conflicts: doca-prime-runtime-tools (<< 2.8.0), doca-prime-tools (<< 2.7.0)
+Replaces: doca-prime-runtime-tools (<< 2.8.0), doca-prime-tools (<< 2.7.0)
+Filename: ./doca-socket-relay_2.9.4005-1_amd64.deb
+Size: 20638
+MD5sum: 6a8745eaf0ab834ec44b17d563d89e58
+SHA1: 466d98458f0dce2577beebdd5bfff1eb6445f951
+SHA256: 93152e49b9923daa97b4d570ec5b62d320e3e9a155de33dd30a96b7dee4107ce
+Section: admin
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Data Center on a Chip Architecture (DOCA) Tool
+ DOCA SDK Socket Relay tool for using Nvidia's BlueField DPUs.
+
+Package: doca-sosreport
+Version: 4.8.0-1
+Architecture: amd64
+Maintainer: Michael Filanov <mfilanov@nvidia.com>
+Installed-Size: 2086
+Depends: python3-packaging, python3-pexpect, python3-yaml, python3:any (>= 3.6~), python3-magic, python3-boto3
+Conflicts: sosreport
+Replaces: doca-sosreport (<< 4.8.0-1), sosreport
+Provides: doca-sosreport (= 4.8.0-1), sosreport
+Filename: ./doca-sosreport_4.8.0-1_amd64.deb
+Size: 352152
+MD5sum: 56542b78871db0e65596cf2286f5ed4e
+SHA1: 4867ef9f2acc7c8a056fcc5a25cdba107a8a44c2
+SHA256: 2e0c754009e09ac63a09a1ac023e1980b22c65c23366ebee6f42b68471b205de
+Section: admin
+Priority: optional
+Homepage: https://github.com/nvidia/doca-sosreport
+Description: Set of tools to gather troubleshooting data from a system
+ Sos is a set of tools that gathers information about system
+ hardware and configuration. The information can then be used for
+ diagnostic purposes and debugging. Sos is commonly used to help
+ support technicians and developers.
+
+Package: dpa-gdbserver
+Version: 24.10.2454
+Architecture: amd64
+Maintainer: NVIDIA Corporation <networking-support@nvidia.com>
+Installed-Size: 1007
+Filename: ./dpa-gdbserver_24.10.2454_amd64.deb
+Size: 341468
+MD5sum: fbfac8c1149101fd31b48b818b48638a
+SHA1: 28dcd46343b94fd7e1869db241805ab42f781135
+SHA256: 04fb7dccc2ca3dcc3e42585ff794edb71dc8c931d5d107ceaa5c3d2f64f72e9f
+Section: unknown
+Priority: optional
+Homepage: www.nvidia.com
+Description: Nvidia DPA gdbserver tool.
+
+Package: dpa-stats
+Version: 24.10.2407
+Architecture: amd64
+Maintainer: NVIDIA Corporation <networking-support@nvidia.com>
+Installed-Size: 2302
+Conflicts: dpa-ps, dpa-statistics
+Provides: dpa-stats
+Filename: ./dpa-stats_24.10.2407_amd64.deb
+Size: 619126
+MD5sum: 7f5c02111a77039e1095f3e3f5c8c681
+SHA1: c5c48672227107d08fc370681d8edcc09f611363
+SHA256: 3dab449e1d70fb65237ead51ddf1ad32b77627de339564b29ef2dda47a4b0a92
+Section: unknown
+Priority: optional
+Homepage: www.nvidia.com
+Description: Nvidia DPA performance counters library and tools.
+
+Package: dpacc
+Version: 1.9.0
+Architecture: amd64
+Maintainer: NVIDIA <networking-support@nvidia.com>
+Installed-Size: 220804
+Depends: libc6 (>= 2.34)
+Replaces: dpa-compiler
+Filename: ./dpacc_1.9.0_amd64.deb
+Size: 63631720
+MD5sum: 3733098a5189d5911a960da7817d821b
+SHA1: 4f39153fcd48fd10493e24fdf1fd48078b5761d7
+SHA256: cec019f08c82049e812bed4e8b61b94a0035c8c0f43d5baca290a80cd88034b6
+Section: devel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: DPACC is a high-level compiler for the DPA processor
+ It compiles code targeted for DPA processor into an executable and
+ generates a DPA program
+
+Package: dpacc-extract
+Version: 1.9.0
+Architecture: amd64
+Maintainer: NVIDIA <networking-support@nvidia.com>
+Installed-Size: 92
+Depends: libc6 (>= 2.14)
+Filename: ./dpacc-extract_1.9.0_amd64.deb
+Size: 27464
+MD5sum: 2a133c4ed8c4fc07222c957734172e7b
+SHA1: 1d70c39e5487e7759a67dd26a6173aff48cf9cfe
+SHA256: 7e079e8897c55ce3e73fbd033c0c31f01d7c6ed1251b60821a8164e3229dfcc0
+Section: devel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: dpacc-extract is a tool used for extracting
+ device executables from DPA programs/executables
+
+Package: dpaeumgmt
+Version: 24.10.2407
+Architecture: amd64
+Maintainer: Eyal Akibli <eakibli@nvidia.com>
+Installed-Size: 2659
+Filename: ./dpaeumgmt_24.10.2407_amd64.deb
+Size: 728000
+MD5sum: ad626fc7d7e639249f48bd9348545855
+SHA1: 41f99a8e69947a25cd1c95740dce9aea23837015
+SHA256: bcbac2025f888f49722fd56a29299bbb0d75d2e2d2426cdadcf7faa91e0924ab
+Section: base
+Priority: optional
+Homepage: www.nvidia.com
+Description: DPA EU Manager
+
+Package: dpcp
+Version: 1.1.50-1.2410068
+Architecture: amd64
+Maintainer: NVIDIA CORPORATION <networking-support@nvidia.com>
+Installed-Size: 1372
+Depends: ibverbs-providers (>= 29), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libibverbs1 (>= 28), libstdc++6 (>= 11)
+Filename: ./dpcp_1.1.50-1.2410068_amd64.deb
+Size: 207532
+MD5sum: d7262fe84eda82622875ce6108190453
+SHA1: 4907165c1e0da08ff9162b2713af6ab2475b1a82
+SHA256: e52cfcc775b97f1ab34693ca4dffc3376b72c0dd0bbceca7bdd94e8ec7f3930e
+Section: libs
+Priority: optional
+Homepage: https://github.com/Mellanox/dpcp
+Description: Direct Packet Control Plane (DPCP) is a library to use Devx
+ .
+ Direct Packet Control Plane (DPCP) provides an unified flexible
+ interface for programming IB devices using Devx.
+
+Package: flexio-samples
+Version: 24.10.2454
+Architecture: all
+Maintainer: NVIDIA Corporation <networking-support@nvidia.com>
+Installed-Size: 169
+Filename: ./flexio-samples_24.10.2454_all.deb
+Size: 25990
+MD5sum: 0d1c16a7bc15556b7454747f9a423e42
+SHA1: 6d666ec3fe7dac7f40ee386ae02afd5ba1d5a958
+SHA256: 318033493ab47e590a7c9d7633ae42d5a8893a271c390905a309072bf8ce9744
+Section: unknown
+Priority: optional
+Homepage: www.nvidia.com
+Description: Nvidia host and DPA sdk samples.
+
+Package: flexio-sdk
+Version: 24.10.2454
+Architecture: amd64
+Maintainer: NVIDIA Corporation <networking-support@nvidia.com>
+Installed-Size: 11128
+Conflicts: flexio, flexio-sources
+Provides: flexio-sdk
+Filename: ./flexio-sdk_24.10.2454_amd64.deb
+Size: 1169212
+MD5sum: 1ed511476db7453f216ac82cc6bee06b
+SHA1: bc6c33c2038bd4c2de848e90af2fba99b9b2334d
+SHA256: 2ccaf4b23aa26390f267b58b213f2c1c596f74152302f0a6e3eb6600f0a23ea9
+Section: unknown
+Priority: optional
+Homepage: www.nvidia.com
+Description: Nvidia host and DPA sdk libs.
+
+Package: fwctl-dkms
+Source: fwctl
+Version: 24.10.OFED.24.10.4.1.4.1-1
+Architecture: all
+Maintainer: Mohammad Kabat <mohammadkab@nvidia.com>
+Installed-Size: 60
+Depends: dkms, make, mlnx-ofed-kernel-dkms
+Recommends: linux-headers-arm64 | linux-headers-powerpc | linux-headers-ppc64 | linux-headers-ppc64le | linux-headers-amd64 | linux-headers | linux-headers-generic
+Filename: ./fwctl-dkms_24.10.OFED.24.10.4.1.4.1-1_all.deb
+Size: 14964
+MD5sum: a406c8c222e64967d73ce8c660dd0d56
+SHA1: fe4a3fb63c759efda6df7bf6047f1782a6fc67ed
+SHA256: c310f545ac02b0d45dc635e79bad3c566e9769f94d99451331fe170adc0ba2cd
+Section: kernel
+Priority: optional
+Homepage: http://nvidia.com
+Description: DKMS support fo fwctl kernel modules
+ This package provides integration with the DKMS infrastructure for automatically building out of tree kernel modules.
+ .
+ This package contains the source to be built with dkms.
+
+Package: hcoll
+Version: 4.8.3230-1.2410068
+Architecture: amd64
+Maintainer: Mellanox Technologies Ltd. <support@mellanox.com>
+Installed-Size: 8333
+Depends: libc6 (>= 2.38), libibverbs1 (>= 1.1.6), librdmacm1 (>= 1.0.15), sharp, ucx
+Filename: ./hcoll_4.8.3230-1.2410068_amd64.deb
+Size: 1596010
+MD5sum: e146383bf729438d35e41aa7e6cb73b8
+SHA1: 1a962ec2aad87b1ed6a295f5c422de6aa4630c6b
+SHA256: 01db8f203a6f90fff6601e9ba916efac77acdc03dcbf951a4fb86a7d5b5511ad
+Section: libs
+Priority: extra
+Homepage: http://www.mellanox.com
+Description: Hierarchical collectives (HCOLL)
+ Hierarchical collectives (HCOLL)
+
+Package: ibacm
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 268
+Depends: rdma-core (>= 15), libc6 (>= 2.38), libibumad3 (>= 1.3.9), libibverbs1 (>= 20), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.7), libsystemd0
+Filename: ./ibacm_2410mlnx54-1.2410068_amd64.deb
+Size: 89898
+MD5sum: 82f66d560be469a33cb58ae1703785f8
+SHA1: dbe04798629c97398ee25eb8010b5b49979b2696
+SHA256: 4c6ee500be82dbc28796bf088c5e02ba3c9f2942f29336d97c1f472970a55586
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: InfiniBand Communication Manager Assistant (ACM)
+ The IB ACM implements and provides a framework for name, address, and
+ route (path) resolution services over InfiniBand.
+ It is intended to address connection setup scalability issues running
+ MPI applications on large clusters.  The IB ACM provides information
+ needed to establish a connection, but does not implement the CM protocol.
+ A primary user of the ibacm service is the librdmacm library.
+
+Package: ibarr
+Version: 0.1.3-1.2410068
+Architecture: amd64
+Maintainer: Tzafrir Cohen <nvidia@cohens.org.il>
+Installed-Size: 51
+Depends: libc6 (>= 2.34), libibumad3 (>= 1.3.9), libibverbs1 (>= 1.1.6), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.7)
+Filename: ./ibarr_0.1.3-1.2410068_amd64.deb
+Size: 17200
+MD5sum: 4a06fc45e1efbaf160365c0ae07487be
+SHA1: 90bb1aa900f694ccf34192b4068e888b9fb42cdc
+SHA256: 5966b3e8673e37d398185a34d66837589ca0a3d2a520a430c96c63133e233247
+Section: net
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/Mellanox/ip2gid/
+Description: Nvidia address and route userspace resolution services for Infiniband
+ a userspace application that interacts over NetLink with the Linux RDMA
+ subsystem and provides 2 services: ip2gid (address resolution) and gid2lid
+ (PathRecord resolution).
+
+Package: ibdump
+Version: 6.0.0-1.2410068
+Architecture: amd64
+Maintainer: Tzafrir Cohen <mellanox@cohens.org.il>
+Installed-Size: 1478
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libibverbs1 (>= 1.1.6), libstdc++6 (>= 4.8)
+Filename: ./ibdump_6.0.0-1.2410068_amd64.deb
+Size: 448104
+MD5sum: 3d32f4aec1a3b855f03aea45b9ee346e
+SHA1: 1d11f2a2d51e609d6ad0112813b2672df46024a2
+SHA256: efce848d1f23f68d77ed37ab90ac987c0b0fc08af349b26ba0f130ffec391afa
+Section: net
+Priority: optional
+Homepage: https://github.com/Mellanox/ibdump
+Description: Mellanox packets sniffer tool
+ This package contains sniffer tool for IB packets.
+ ibdump is a sniffer that like tcpdump can produce pcap files.
+
+Package: ibsim
+Version: 0.12-1.2410068
+Architecture: amd64
+Maintainer: Tzafrir Cohen <mellanox@cohens.org.il>
+Installed-Size: 176
+Depends: libc6 (>= 2.34), libibmad5 (>= 1.3.11), libibumad3 (>= 1.3.9)
+Filename: ./ibsim_0.12-1.2410068_amd64.deb
+Size: 58266
+MD5sum: 33237c0e21704591e211802c68cb6002
+SHA1: 84ec4df25b51456365600faaea0eb81316e1103e
+SHA256: b155c03d23fdbe52137ecd5c188e422114ce4d1c542c95b6ce2749ab12d87938
+Section: net
+Priority: extra
+Homepage: https://github.com/linux-rdma/ibsim
+Description: InfiniBand fabric simulator for management
+ ibsim provides simulation of infiniband fabric for using with OFA OpenSM,
+ diagnostic and management tools.
+
+Package: ibsim-doc
+Source: ibsim
+Version: 0.12-1.2410068
+Architecture: all
+Maintainer: Tzafrir Cohen <mellanox@cohens.org.il>
+Installed-Size: 10
+Filename: ./ibsim-doc_0.12-1.2410068_all.deb
+Size: 2270
+MD5sum: c66d14f629948694bdcc479932cc64b9
+SHA1: 97ca330f12c563138e20d2b804adf36dc73bebd2
+SHA256: 0bbd789d3192bd8c95770db6fedb0ff1be6cdc8cbd56ffb05d1985941d3b50fa
+Section: net
+Priority: extra
+Homepage: https://github.com/linux-rdma/ibsim
+Description: documentation for ibsim
+ Documentation for ibsim
+
+Package: ibutils2
+Version: 2.1.1-0.21905.MLNX20250604.g53bdce92c.2410325
+Architecture: amd64
+Maintainer: Tamir Ronen <tamirr@mellanox.com>
+Installed-Size: 25247
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.4), libibumad3 (>= 1.3.9), libstdc++6 (>= 13.1)
+Filename: ./ibutils2_2.1.1-0.21905.MLNX20250604.g53bdce92c.2410325_amd64.deb
+Size: 3599934
+MD5sum: ee33572dc534e854d7401cb3a57a50a6
+SHA1: 9c3ff638d0da9f40d95f4919b9fcb46da81cbee2
+SHA256: 875bb88ea34c9988085ac8722162355c51fd1480a7145de57a8a690e7f55b87b
+Section: net
+Priority: extra
+Description: OpenIB Mellanox InfiniBand Diagnostic Tools
+ ibutils provides IB network and path diagnostics.
+
+Package: ibverbs-providers
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 720
+Depends: libc6 (>= 2.38), libibverbs1 (>= 34)
+Breaks: libipathverbs1, libmlx5-1, libmthca1
+Replaces: libipathverbs1, libmlx5-1, libmthca1
+Provides: libefa1, libipathverbs1, libmana1, libmlx5-1, libmthca1
+Filename: ./ibverbs-providers_2410mlnx54-1.2410068_amd64.deb
+Size: 245238
+MD5sum: 2d39d6a28e68936636feadf1bb012511
+SHA1: 4eab8ea7a0c16ef0083a4c09693c52af523dca24
+SHA256: 05d2cfba7f454bc9554bbc9d8d4edae5da022679d22adcd57d43f40a01e40a23
+Section: net
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: User space provider drivers for libibverbs
+ libibverbs is a library that allows userspace processes to use RDMA
+ "verbs" as described in the InfiniBand Architecture Specification and
+ the RDMA Protocol Verbs Specification.  iWARP ethernet NICs support
+ RDMA over hardware-offloaded TCP/IP, while InfiniBand is a
+ high-throughput, low-latency networking technology.  InfiniBand host
+ channel adapters (HCAs) and iWARP NICs commonly support direct
+ hardware access from userspace (kernel bypass), and libibverbs
+ supports this when available.
+ .
+ An RDMA driver consists of a kernel portion and a user space portion.
+ This package contains the user space verbs drivers:
+ .
+  - erdma: Alibaba Elastic RDMA (iWarp) Adapter
+  - irdma: Intel Ethernet Connection RDMA
+  - mana: Microsoft Azure Network Adapter
+  - mlx5: Mellanox Connect-IB/X-4+ InfiniBand HCAs
+
+Package: ibverbs-utils
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 271
+Depends: libc6 (>= 2.38), libibverbs1 (>= 34)
+Filename: ./ibverbs-utils_2410mlnx54-1.2410068_amd64.deb
+Size: 60284
+MD5sum: c809fa500097d2b78d26a26d676406b1
+SHA1: ad56de42b2b52dd192b48f3dfc5e0bc5c32aa040
+SHA256: f6238e88d48961c55f6dc486f7d696977e84a561cbcce170bae3177bbab0905e
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Examples for the libibverbs library
+ libibverbs is a library that allows userspace processes to use RDMA
+ "verbs" as described in the InfiniBand Architecture Specification and
+ the RDMA Protocol Verbs Specification.  iWARP ethernet NICs support
+ RDMA over hardware-offloaded TCP/IP, while InfiniBand is a
+ high-throughput, low-latency networking technology.  InfiniBand host
+ channel adapters (HCAs) and iWARP NICs commonly support direct
+ hardware access from userspace (kernel bypass), and libibverbs
+ supports this when available.
+ .
+ This package contains useful libibverbs1 example programs such as
+ ibv_devinfo, which displays information about InfiniBand devices.
+
+Package: infiniband-diags
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 894
+Depends: libibnetdisc5 (= 2410mlnx54-1.2410068), perl:any, libc6 (>= 2.38), libibmad5 (>= 1.3.12), libibumad3 (>= 3.2.30)
+Filename: ./infiniband-diags_2410mlnx54-1.2410068_amd64.deb
+Size: 241210
+MD5sum: 80eaf7b5587be7120b45f5da1c197ebb
+SHA1: d9d20e26da2a82ac16b9b822df7c294e8f6aa8f7
+SHA256: 2dd38908a79035bc119045a846efcd21cd0c94e85b4e52be3fac343be9458362
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: InfiniBand diagnostic programs
+ InfiniBand is a switched fabric communications link used in
+ high-performance computing and enterprise data centers. Its features
+ include high throughput, low latency, quality of service and
+ failover, and it is designed to be scalable.
+ .
+ This package provides diagnostic programs and scripts needed to
+ diagnose an InfiniBand subnet.
+
+Package: iser-dkms
+Source: iser
+Version: 24.10.OFED.24.10.4.1.4.1-1
+Architecture: all
+Maintainer: Mellanox Technologies <support@mellanox.com>
+Installed-Size: 146
+Depends: dkms, make, mlnx-ofed-kernel-dkms
+Recommends: linux-headers-arm64 | linux-headers-powerpc | linux-headers-ppc64 | linux-headers-ppc64le | linux-headers-amd64 | linux-headers | linux-headers-generic
+Filename: ./iser-dkms_24.10.OFED.24.10.4.1.4.1-1_all.deb
+Size: 32646
+MD5sum: a3d0fc270f8a7858232b1c4b3ac144d6
+SHA1: 67d972ea39a1d4e9d392c2bf6b4b6d6e8212c4ef
+SHA256: 2d327b9eda8e0f4ce14f05abe2013cb54a869969b056a3ff0dbd552e4d6a9c9a
+Section: kernel
+Priority: optional
+Homepage: http://www.mellanox.com
+Description: DKMS support fo iser kernel modules
+ This package provides integration with the DKMS infrastructure for automatically building out of tree kernel modules.
+ .
+ This package contains the source to be built with dkms.
+
+Package: isert-dkms
+Source: isert
+Version: 24.10.OFED.24.10.4.1.4.1-1
+Architecture: all
+Maintainer: Mellanox Technologies <support@mellanox.com>
+Installed-Size: 119
+Depends: dkms, make, mlnx-ofed-kernel-dkms
+Recommends: linux-headers-arm64 | linux-headers-powerpc | linux-headers-ppc64 | linux-headers-ppc64le | linux-headers-amd64 | linux-headers | linux-headers-generic
+Filename: ./isert-dkms_24.10.OFED.24.10.4.1.4.1-1_all.deb
+Size: 25812
+MD5sum: 6da50f24cd3d156aba906d184e94db4c
+SHA1: 313edf84b0f24fc0c86be27f51b3a23b89dfee3a
+SHA256: 4bc53d2f044319beb12bd53c2cf5795f8ea99bf75c48e99790b7ea7e93b35495
+Section: kernel
+Priority: optional
+Homepage: http://www.mellanox.com
+Description: DKMS support fo isert kernel modules
+ This package provides integration with the DKMS infrastructure for automatically building out of tree kernel modules.
+ .
+ This package contains the source to be built with dkms.
+
+Package: kernel-mft-dkms
+Source: kernel-mft
+Version: 4.30.1.1216-1
+Architecture: all
+Maintainer: Itay Avraham <itayavr@nvidia.com>
+Installed-Size: 218
+Depends: dkms, make
+Recommends: linux-headers-arm64 | linux-headers-powerpc | linux-headers-ppc64 | linux-headers-ppc64le | linux-headers-amd64 | linux-headers-generic | linux-headers
+Filename: ./kernel-mft-dkms_4.30.1.1216-1_all.deb
+Size: 35830
+MD5sum: 2b1eed54e50ed1e7ca8a1c54a090fa9a
+SHA1: 8332e068d481070ce926117d0ffd6df937994097
+SHA256: 2e63bc976a8c99f41e1e797304df337447775ec9683f3aed5df9dc84fb683ae8
+Section: kernel
+Priority: optional
+Homepage: http://www.mellanox.com
+Description: DKMS support for kernel-mft kernel modules
+ This package provides integration with the DKMS infrastructure for
+ automatically building out of tree kernel modules.
+
+Package: knem
+Version: 1.1.4.90mlnx3-OFED.23.10.0.2.1.1
+Architecture: amd64
+Maintainer: Brice Goglin <Brice.Goglin@inria.fr>
+Installed-Size: 260
+Depends: pkg-config
+Filename: ./knem_1.1.4.90mlnx3-OFED.23.10.0.2.1.1_amd64.deb
+Size: 40492
+MD5sum: 6decebb0cfda45b05871f7e914d461e8
+SHA1: 24d50afc1027c07a68ee373faaf8dad3c69a9846
+SHA256: 8241def8fd0158665835794cfcc9d0ea9ac7c1e39c64139bd8b994eaf1bc5fde
+Section: kernel
+Priority: optional
+Homepage: http://runtime.bordeaux.inria.fr/knem/
+Description: userspace tools for the KNEM kernel module
+ KNEM is a Linux kernel module enabling high-performance intra-node MPI
+ communication for large messages. KNEM offers support for asynchronous
+ and vectorial data transfers as well as offloading memory copies on to
+ Intel I/OAT hardware. See http://runtime.bordeaux.inria.fr/knem/ for
+ details.
+ .
+ This package provides the userspace tools required to use the knem kernel
+ modules.
+
+Package: knem-dkms
+Source: knem
+Version: 1.1.4.90mlnx3-OFED.23.10.0.2.1.1
+Architecture: all
+Maintainer: Brice Goglin <Brice.Goglin@inria.fr>
+Installed-Size: 2006
+Depends: dkms, make, pkg-config, libc6-dev, gcc
+Recommends: linux-headers-arm64 | linux-headers-powerpc | linux-headers-ppc64 | linux-headers-ppc64le | linux-headers-amd64 | linux-headers-generic | linux-headers, knem
+Filename: ./knem-dkms_1.1.4.90mlnx3-OFED.23.10.0.2.1.1_all.deb
+Size: 178808
+MD5sum: ef0c9233cf39e2b2aafbc0fccf05b153
+SHA1: d6270d78caeac4dc9114c94c39a023a74bbd34bd
+SHA256: 8c852120ba6323b6f0cfbfa8040cc72784a8a25a66d847e265eee89fd16dfd2e
+Section: kernel
+Priority: optional
+Homepage: http://runtime.bordeaux.inria.fr/knem/
+Description: DKMS support for mlnx-ofed kernel modules
+ This package provides integration with the DKMS infrastructure for
+ automatically building out of tree kernel modules.
+ .
+ This package provides the source code for the mlnx-ofed kernel modules.
+ .
+ This package contains the source to be built with dkms.
+
+Package: libdoca-sdk-aes-gcm-dev
+Source: doca-sdk-aes-gcm
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 167
+Depends: doca-sdk-aes-gcm (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1)
+Conflicts: libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-aes-gcm-dev_2.9.4005-1_amd64.deb
+Size: 29912
+MD5sum: 34f83344266adad8fece74da306e4e4c
+SHA1: 8742a534cc7476f81d1da08af4f9c1bfa4f0f96f
+SHA256: f71b6d26bc4a66c8cec09d03479583eda8c30bcafc719aab5392ed140676cc32
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ AES-GCM library. It contains the header files and static libraries
+ (optionally) needed for compiling.
+
+Package: libdoca-sdk-apsh-dev
+Source: doca-sdk-apsh
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 925
+Depends: doca-sdk-apsh (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1), libdoca-sdk-dma-dev (>= 2.9.4005-1), libssl-dev, libglib2.0-dev, libzip-dev, libbz2-dev
+Conflicts: libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-apsh-dev_2.9.4005-1_amd64.deb
+Size: 192290
+MD5sum: 8434570e71bc1a2446fc7201ec4ee813
+SHA1: b13fa1a21187fc097fdacee3ae865573978be7c9
+SHA256: 951e2d8a63481e89edeaf485cef02ba0f3bc3be399ef87b8653f8f74bab2bf86
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ App Shield library. It contains the header files and static libraries
+ (optionally) needed for compiling.
+
+Package: libdoca-sdk-argp-dev
+Source: doca-sdk-argp
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 268
+Depends: doca-sdk-argp (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1)
+Conflicts: libdoca-cx-libs-dev (<< 2.8.0), libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-cx-libs-dev (<< 2.8.0), libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-argp-dev_2.9.4005-1_amd64.deb
+Size: 59190
+MD5sum: e789aec02f48238beb62e3b93357d1b2
+SHA1: ffa3070e2f4c23571fc832edcd977b7f48fdea54
+SHA256: 98a64ae2fa81e9639c5c7eefb07bad9692a9d43c1fde21fcf1d6dc359a809189
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ ARGP library. It contains the header files and static libraries
+ (optionally) needed for compiling.
+
+Package: libdoca-sdk-comch-dev
+Source: doca-sdk-comch
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 508
+Depends: doca-sdk-comch (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1), libibverbs-dev (>= 2.9.4005-1)
+Conflicts: libdoca-libs-dev (<< 2.8.0), libdoca-sdk-comm-channel-dev (<< 2.9.0032)
+Replaces: libdoca-libs-dev (<< 2.8.0), libdoca-sdk-comm-channel-dev (<< 2.9.0032)
+Filename: ./libdoca-sdk-comch-dev_2.9.4005-1_amd64.deb
+Size: 93926
+MD5sum: a9a2f781e244180056394201671da2f4
+SHA1: 6940350f2c7c9371d12ed809577d58e346f06061
+SHA256: 2400ece62494ae36c0f4f3f4bedfabdcbddcce0c67fffda7cdcf28f14838be02
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ Communication Channel library. It contains the header files and
+ static libraries (optionally) needed for compiling.
+
+Package: libdoca-sdk-common-dev
+Source: doca-sdk-common
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 2946
+Depends: doca-sdk-common (= 2.9.4005-1), libibverbs-dev
+Conflicts: doca-cx-prime-dev-tools (<< 2.8.0060), doca-cx-prime-devel (<< 2.8.0060), doca-cx-prime-sdk (<< 2.7.0), doca-prime-dev-tools (<< 2.8.0060), doca-prime-devel (<< 2.8.0060), libdoca-cx-libs-dev (<< 2.8.0060), libdoca-libs-dev (<< 2.8.0060)
+Replaces: doca-cx-prime-dev-tools (<< 2.8.0060), doca-cx-prime-devel (<< 2.8.0060), doca-cx-prime-sdk (<< 2.7.0), doca-prime-dev-tools (<< 2.8.0060), doca-prime-devel (<< 2.8.0060), libdoca-cx-libs-dev (<< 2.8.0060), libdoca-libs-dev (<< 2.8.0060)
+Filename: ./libdoca-sdk-common-dev_2.9.4005-1_amd64.deb
+Size: 471498
+MD5sum: cb036b266dfa8c88a299ff5aeb4b28d6
+SHA1: 8b1df16ed557c58b56ef898e8f0b952771c5f4b3
+SHA256: f7bb2bc21266863f70855a9c840e4517680291a35ed613ecd1b39c70df0af551
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ Common library. It contains the header files and static libraries
+ (optionally) needed for compiling.
+
+Package: libdoca-sdk-compress-dev
+Source: doca-sdk-compress
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 234
+Depends: doca-sdk-compress (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1)
+Conflicts: libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-compress-dev_2.9.4005-1_amd64.deb
+Size: 40606
+MD5sum: 2eba6799ff84166aa181291f7ffe71bc
+SHA1: d64e47ba2989d8478380a482ac71a9e1a35e1664
+SHA256: 6732ca0e894e9ff19d08e5b7d7afdc7eb184859fc39aa8dcd675a3514834c9bb
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ Compress library. It contains the header files and static libraries
+ (optionally) needed for compiling.
+
+Package: libdoca-sdk-devemu-dev
+Source: doca-sdk-devemu
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 869
+Depends: doca-sdk-devemu (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1), libdoca-sdk-dpa-dev (>= 2.9.4005-1), libdoca-sdk-dma-dev (>= 2.9.4005-1), libibverbs-dev
+Conflicts: libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-devemu-dev_2.9.4005-1_amd64.deb
+Size: 154970
+MD5sum: ef2a7904e6234c60ce828ca98856e6cb
+SHA1: 0ad40b79d3ef37cf18672b29274a5e36139ea1b5
+SHA256: e1f461334bed4d2ad718f2d77dcc310d2ab3c4e01fe14cc96a178a18eb385d2b
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ Device Emulation library. It contains the header files and static
+ libraries (optionally) needed for compiling.
+
+Package: libdoca-sdk-dma-dev
+Source: doca-sdk-dma
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 214
+Depends: doca-sdk-dma (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1)
+Conflicts: libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-dma-dev_2.9.4005-1_amd64.deb
+Size: 38086
+MD5sum: 8bba9e3bc5f11af8c42bd80160148f47
+SHA1: 7ef21d3a666eed9e5ba9b0ad3a1ccd009638b1a0
+SHA256: a408068a2d7b9a3bc0da16e580f323d5a1812befaf21331d2767eece9b1c73fd
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ DMA library. It contains the header files and static libraries
+ (optionally) needed for compiling.
+
+Package: libdoca-sdk-dpa-dev
+Source: doca-sdk-dpa
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 986
+Depends: doca-sdk-dpa (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1), libdoca-sdk-rdma-dev (>= 2.9.4005-1), libdoca-sdk-comch-dev (>= 2.9.4005-1), libibverbs-dev
+Conflicts: libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-dpa-dev_2.9.4005-1_amd64.deb
+Size: 183100
+MD5sum: 045e712eb82e8dc9b9ea46e5a2469a8d
+SHA1: d70eb4b398d71597e4a42934733c9897ca3f1b79
+SHA256: 1c73423b73b2afea4e54cc23cff050793ac05f842bbb852946824bbf7738eff3
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ DPA library. It contains the header files and static libraries
+ (optionally) needed for compiling.
+
+Package: libdoca-sdk-dpdk-bridge-dev
+Source: doca-sdk-dpdk-bridge
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 107
+Depends: doca-sdk-dpdk-bridge (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1), mlnx-dpdk-dev
+Conflicts: libdoca-cx-libs-dev (<< 2.8.0), libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-cx-libs-dev (<< 2.8.0), libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-dpdk-bridge-dev_2.9.4005-1_amd64.deb
+Size: 23298
+MD5sum: d82ad3fbd2b46b2453f1e05ca1e4750d
+SHA1: a32676a462a8c4bb99fb7fd08927a79b85a494ec
+SHA256: cd1023719f5058e6d114570a777c37e4177de866de4448b32d072e807af6c35d
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ DPDK Bridge utility library. It contains the header files and
+ static libraries (optionally) needed for compiling.
+
+Package: libdoca-sdk-erasure-coding-dev
+Source: doca-sdk-erasure-coding
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 159
+Depends: doca-sdk-erasure-coding (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1)
+Conflicts: libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-erasure-coding-dev_2.9.4005-1_amd64.deb
+Size: 30858
+MD5sum: 0fe7714d41ac74ae65500a2586810796
+SHA1: f41252ea2d3a9ae290329e956c507b6cdce58d37
+SHA256: 972c1d2b8c699c9e946acbe4aa3d271524f5619a881ec24deb878371c3ad4a44
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ Erasure Coding (EC) library. It contains the header files and
+ static libraries (optionally) needed for compiling.
+
+Package: libdoca-sdk-eth-dev
+Source: doca-sdk-eth
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 363
+Depends: doca-sdk-eth (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1), libdoca-sdk-dpdk-bridge-dev (>= 2.9.4005-1), mlnx-dpdk-dev, libibverbs-dev
+Conflicts: libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-eth-dev_2.9.4005-1_amd64.deb
+Size: 66210
+MD5sum: 490aaad33c180a387e19e3086a0874ef
+SHA1: ca01d436df029935f3499516f14d40f636eae5f9
+SHA256: 6c1faec1dbe49213286c4c94fb567f3b5b70d482a15032e6c6ac991832e6cf5e
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ Ethernet library. It contains the header files and static
+ libraries (optionally) needed for compiling.
+
+Package: libdoca-sdk-flow-dev
+Source: doca-sdk-flow
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 3355
+Depends: doca-sdk-flow (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1), libdoca-sdk-dpdk-bridge-dev (>= 2.9.4005-1), mlnx-dpdk-dev, libibverbs-dev
+Conflicts: libdoca-cx-libs-dev (<< 2.8.0), libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-cx-libs-dev (<< 2.8.0), libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-flow-dev_2.9.4005-1_amd64.deb
+Size: 660090
+MD5sum: 21e0c47deb38c00efb7f25d401c93e2c
+SHA1: e367a4363a400bb608564bf58974db790b30fff3
+SHA256: bbd7495e6023c73a7ac25a09ea35f1fc2d6f6cc8ed27dc1a48a6ecda2f613f6d
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ Flow library. It contains the header files and static libraries
+ (optionally) needed for compiling.
+
+Package: libdoca-sdk-flow-trace
+Source: doca-sdk-flow
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 4595
+Depends: doca-sdk-flow
+Conflicts: libdoca-cx-libs-trace (<< 2.8.0), libdoca-libs-trace (<< 2.8.0)
+Replaces: libdoca-cx-libs-trace (<< 2.8.0), libdoca-libs-trace (<< 2.8.0)
+Filename: ./libdoca-sdk-flow-trace_2.9.4005-1_amd64.deb
+Size: 1007546
+MD5sum: fe67b4e9d37d72a63e884892355377eb
+SHA1: f633a518324d76ec32d40df086574c2e86b4f58e
+SHA256: 6c29ab73a81a37f0308ab73fa3cc802e42cd24968fc9a65537dcf56e6bd0bb3c
+Section: debug
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Trace-related features for DOCA SDK Library.
+ This package contains additional trace features for the DOCA
+ Flow SDK library.
+
+Package: libdoca-sdk-gpunetio-dev
+Source: doca-sdk-gpunetio
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 328
+Depends: doca-sdk-gpunetio (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1), libdoca-sdk-dpdk-bridge-dev (>= 2.9.4005-1), libdoca-sdk-eth-dev (>= 2.9.4005-1), libdoca-sdk-rdma-dev (>= 2.9.4005-1), mlnx-dpdk-dev, libibverbs-dev
+Conflicts: doca-gpu-dev (<< 2.8.0)
+Replaces: doca-gpu-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-gpunetio-dev_2.9.4005-1_amd64.deb
+Size: 109170
+MD5sum: 07251349b371782327662bc9f9e4e775
+SHA1: 9114ace9576d6136a05ac795f9557b34726f19a3
+SHA256: 0a7bafed606dedd02bef42dd7240981a24c7d56e74640924dcaed4f0af765f97
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ GPUNetIO library. It contains the header files and static
+ libraries (optionally) needed for compiling.
+
+Package: libdoca-sdk-pcc-dev
+Source: doca-sdk-pcc
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 907
+Depends: doca-sdk-pcc (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1), libibverbs-dev
+Conflicts: libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-pcc-dev_2.9.4005-1_amd64.deb
+Size: 126292
+MD5sum: 86cbfea53c2421686a7345287a0da83d
+SHA1: 1d21ae5bce9308fbfff80b3c0eb468d3113decea
+SHA256: 93ae1da6a4dd26d8bc929df48a5eb1e5ea1050ffdaf864adb9ba16e95cb33f58
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ PCC library. It contains the header files and static libraries
+ (optionally) needed for compiling.
+
+Package: libdoca-sdk-rdma-dev
+Source: doca-sdk-rdma
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 638
+Depends: doca-sdk-rdma (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1), librdmacm-dev
+Conflicts: libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-rdma-dev_2.9.4005-1_amd64.deb
+Size: 110476
+MD5sum: 9a6f16aa94e0dbcfb007c043bd10f883
+SHA1: 35ca608de8c4325ba02487df6731c2291a64f6ad
+SHA256: 11ab9387f6ef53156357476a7c27f845ae68fc9ce4fe13527dd3e843c8921e6d
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ RDMA library. It contains the header files and static libraries
+ (optionally) needed for compiling.
+
+Package: libdoca-sdk-sha-dev
+Source: doca-sdk-sha
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 183
+Depends: doca-sdk-sha (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1)
+Conflicts: libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-sha-dev_2.9.4005-1_amd64.deb
+Size: 35684
+MD5sum: 0cf963fd8defe1cf5883577f49da9b23
+SHA1: fab23e637b4bdf94bf814d0be69f737da38f9591
+SHA256: e8846d6ceabef36c78636f1ba61b034cd42834ea636b73c08983c11841adae1e
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ SHA library. It contains the header files and static libraries
+ (optionally) needed for compiling.
+
+Package: libdoca-sdk-telemetry-dev
+Source: doca-sdk-telemetry
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 195
+Depends: doca-sdk-telemetry (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1)
+Conflicts: libdoca-libs-dev (<< 2.8.0), libdoca-sdk-telemetry-dev (<< 2.8.0055)
+Replaces: libdoca-libs-dev (<< 2.8.0), libdoca-sdk-telemetry-dev (<< 2.8.0055)
+Filename: ./libdoca-sdk-telemetry-dev_2.9.4005-1_amd64.deb
+Size: 36958
+MD5sum: 4bb7188091df273e457d1edc233e27f6
+SHA1: e8c7e73a75e701a6fe7d89da000d3c51eb7267a6
+SHA256: f983339ee7d43c79c05b8a52f661c8b27ca2aa868cdf72fad4e6ca77a52dd97c
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ Telemetry library. It contains the header files and static libraries
+ (optionally) needed for compiling.
+
+Package: libdoca-sdk-telemetry-exporter-dev
+Source: doca-sdk-telemetry-exporter
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 251
+Depends: doca-sdk-telemetry-exporter (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1), collectx-clxapidev
+Conflicts: libdoca-libs-dev (<< 2.8.0), libdoca-sdk-telemetry-exporter-dev (<< 2.8.0055)
+Replaces: libdoca-libs-dev (<< 2.8.0), libdoca-sdk-telemetry-exporter-dev (<< 2.8.0055)
+Filename: ./libdoca-sdk-telemetry-exporter-dev_2.9.4005-1_amd64.deb
+Size: 37874
+MD5sum: 6ee75f4b388cad88b605a1b3dfbee83e
+SHA1: 752672321e0fdff748510a33354b1d66b7509cfa
+SHA256: b63aa2a2a276ba00642a1cd55003bf6efca4b516138dfc3f3e91a11e78340430
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ Telemetry Exporter library. It contains the header files and static libraries
+ (optionally) needed for compiling.
+
+Package: libdoca-sdk-urom-dev
+Source: doca-sdk-urom
+Version: 2.9.4005-1
+Architecture: amd64
+Maintainer: <networking-support@nvidia.com>
+Installed-Size: 290
+Depends: doca-sdk-urom (= 2.9.4005-1), libdoca-sdk-common-dev (>= 2.9.4005-1), libdoca-sdk-comch-dev (>= 2.9.4005-1)
+Conflicts: libdoca-libs-dev (<< 2.8.0)
+Replaces: libdoca-libs-dev (<< 2.8.0)
+Filename: ./libdoca-sdk-urom-dev_2.9.4005-1_amd64.deb
+Size: 56872
+MD5sum: fa60e6d154ebc669246e0cbd97598ed8
+SHA1: 9e399623ba07180ca28a54f90333fa00368d48fb
+SHA256: dd0e72f7843faa1e0d55251790b622339f7976b71042ee0ec466c24a25b2e484
+Section: libdevel
+Priority: optional
+Homepage: https://www.nvidia.com
+Description: Development files for DOCA SDK Library.
+ This package is needed to compile programs against DOCA's SDK
+ UROM library. It contains the header files and static libraries
+ (optionally) needed for compiling.
+
+Package: libibmad-dev
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 285
+Depends: libibmad5 (= 2410mlnx54-1.2410068)
+Provides: libibmad-devel
+Filename: ./libibmad-dev_2410mlnx54-1.2410068_amd64.deb
+Size: 57428
+MD5sum: af859e9028bb2beda3bb1f1cb69518b8
+SHA1: 0ba37fd2681bfd584ea5d0a1dadbb30a20444c8d
+SHA256: 7603e42c9d360e91ef78c9f5029cf0a310642cb03b6c540da98c28742087c28f
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Development files for libibmad
+ libibmad provides low layer Infiniband functions for use by the
+ InfiniBand diagnostic and management programs. These include
+ Management Datagrams (MAD), Subnet Administration (SA), Subnet
+ Management Packets (SMP) and other basic functions.
+ .
+ This package is needed to compile programs against libibmad5.
+ It contains the header files and static libraries (optionally)
+ needed for compiling.
+
+Package: libibmad5
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 174
+Depends: libc6 (>= 2.14), libibumad3 (>= 1.3.9)
+Filename: ./libibmad5_2410mlnx54-1.2410068_amd64.deb
+Size: 45410
+MD5sum: 0104e839729021aec787f022e9da7f9c
+SHA1: 9897c6410d3e8bec686b36d4d1b20c7d7c5fff06
+SHA256: dfafd7c6185413f35802b5febc59207f616ad91444a92dbdc7c5c03890f1e980
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Infiniband Management Datagram (MAD) library
+ libibmad provides low layer InfiniBand functions for use by the
+ Infiniband diagnostic and management programs. These include
+ Management Datagrams (MAD), Subnet Administration (SA), Subnet
+ Management Packets (SMP) and other basic functions.
+ .
+ This package contains the shared library.
+
+Package: libibmad5-dbg
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 176
+Depends: libibmad5 (= 2410mlnx54-1.2410068)
+Filename: ./libibmad5-dbg_2410mlnx54-1.2410068_amd64.deb
+Size: 125630
+MD5sum: 3c01be5922abe825ec35a9b50fe13fc9
+SHA1: dfe1528a813a52e1a5138b8e28f2330155b02cda
+SHA256: 6b6187d6b0e20db4a4c66123c5d416def0dc5b92f0637c9b642a1c3c78eafa4e
+Section: debug
+Priority: optional
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Debug symbols for Infiniband Management Datagram (MAD) library
+ libibmad provides low layer InfiniBand functions for use by the
+ Infiniband diagnostic and management programs. These include
+ Management Datagrams (MAD), Subnet Administration (SA), Subnet
+ Management Packets (SMP) and other basic functions.
+ .
+ This package contains the debug symbols associated with
+ libibmad5. They will automatically be used by gdb for debugging
+ libibmad-related issues.
+Build-Ids: bad623b7c305f0cf894928ae019ea89b6fc007b3
+
+Package: libibnetdisc-dev
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 177
+Depends: libibnetdisc5 (= 2410mlnx54-1.2410068)
+Breaks: infiniband-diags (<< 2.0.0)
+Replaces: infiniband-diags (<< 2.0.0)
+Filename: ./libibnetdisc-dev_2410mlnx54-1.2410068_amd64.deb
+Size: 48640
+MD5sum: bd9d8dfacc2e424f356a73a9015fec92
+SHA1: 9c77a3fb7d1cd574c0c7f1239ff9ef7f5ada47db
+SHA256: c0e3c6e3459f0de3877994564746bfeca60b115c37512008d938edab5849280a
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: InfiniBand diagnostics library headers
+ InfiniBand is a switched fabric communications link used in
+ high-performance computing and enterprise data centers. Its features
+ include high throughput, low latency, quality of service and
+ failover, and it is designed to be scalable.
+ .
+ This package provides development files required to build
+ applications against the libibnetdisc InfiniBand diagnostic
+ libraries.
+
+Package: libibnetdisc5
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 104
+Depends: libc6 (>= 2.33), libibmad5 (>= 1.3.11), libibumad3 (>= 1.3.9)
+Filename: ./libibnetdisc5_2410mlnx54-1.2410068_amd64.deb
+Size: 35636
+MD5sum: 3b4e5b48c3a0cb358dd1d292a7470c85
+SHA1: 9211b4ed97c14d4464a02790c3403082391bde31
+SHA256: 49c6f8d9371b1596be815dff377a02d241c98c122244b7fc0652dd69e31ee033
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: InfiniBand diagnostics library
+ InfiniBand is a switched fabric communications link used in
+ high-performance computing and enterprise data centers. Its features
+ include high throughput, low latency, quality of service and
+ failover, and it is designed to be scalable.
+ .
+ This package provides libraries required by the InfiniBand
+ diagnostic programs.
+
+Package: libibnetdisc5-dbg
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 138
+Depends: libibnetdisc5 (= 2410mlnx54-1.2410068)
+Filename: ./libibnetdisc5-dbg_2410mlnx54-1.2410068_amd64.deb
+Size: 97764
+MD5sum: 08c9362a711533efe8b921ab0d390606
+SHA1: 3eae3f1e75d369dc697d09d30b4ff08d241da555
+SHA256: c7aa9a23d8dc5b406bde8641e9ee339349cefb21a71581aa177f2b3534a785e0
+Section: debug
+Priority: extra
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Debug symbols for the libibnetdisc library
+ InfiniBand is a switched fabric communications link used in
+ high-performance computing and enterprise data centers. Its features
+ include high throughput, low latency, quality of service and
+ failover, and it is designed to be scalable.
+ .
+ This package contains the debug symbols associated with
+ libibnetdisc5. They will automatically be used by gdb for debugging
+ libibnetdisc-related issues.
+Build-Ids: c4c743bcdbbea5a92e766427f49e5ed483a691bc
+
+Package: libibumad-dev
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 188
+Depends: libibumad3 (= 2410mlnx54-1.2410068)
+Provides: libibumad-devel
+Filename: ./libibumad-dev_2410mlnx54-1.2410068_amd64.deb
+Size: 57782
+MD5sum: 405b45fe0e26b225a2677ca01268386e
+SHA1: 785e45b9c164500adc33279d194b930b503a0258
+SHA256: 81b35361434a5113391003c6f037587c29c28616a2aa944e2443caa75e6801e5
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Development files for libibumad
+ libibumad provides userspace Infiniband Management Datagram (uMAD)
+ functions which sit on top of the uMAD modules in the kernel.
+ These are used by InfiniBand diagnostic and management tools.
+ .
+ This package is needed to compile programs against libibumad.
+ It contains the header files and static libraries (optionally)
+ needed for compiling.
+
+Package: libibumad3
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 92
+Depends: libc6 (>= 2.4)
+Provides: libibumad
+Filename: ./libibumad3_2410mlnx54-1.2410068_amd64.deb
+Size: 28914
+MD5sum: 1392d215aa480e8832d443ba145403dd
+SHA1: cfeefe636cae7f549c8332819e337b809aa544f9
+SHA256: acd4161134399fa8a2c4190267a027a41e33ce8093a3987569d00be2a19fbb7d
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: InfiniBand Userspace Management Datagram (uMAD) library
+ libibumad provides userspace Infiniband Management Datagram (uMAD)
+ functions which sit on top of the uMAD modules in the kernel.
+ These are used by InfiniBand diagnostic and management tools.
+ .
+ This package contains the shared library.
+
+Package: libibumad3-dbg
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 96
+Depends: libibumad3 (= 2410mlnx54-1.2410068)
+Filename: ./libibumad3-dbg_2410mlnx54-1.2410068_amd64.deb
+Size: 54080
+MD5sum: b77eb2d03f7f3ac1ac187891cee40152
+SHA1: 4e43ef600d3e3170d327034efea71a0c12e7b468
+SHA256: 139debccb58f0b3ab7410e807afee88ae793665e9a2264ad1b0c6b2edb33ef58
+Section: debug
+Priority: extra
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Debug symbols for the libibumad3 library
+ libibumad provides userspace Infiniband Management Datagram (uMAD)
+ functions which sit on top of the uMAD modules in the kernel.
+ These are used by InfiniBand diagnostic and management tools.
+ .
+ This package contains the debug symbols associated with
+ libibumad3. They will automatically be used by gdb for debugging
+ libibumad-related issues.
+Build-Ids: 439e26d16ca4f570b152253a5db5b65b0343b7e2
+
+Package: libibverbs-dev
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 1786
+Depends: ibverbs-providers (= 2410mlnx54-1.2410068), libibverbs1 (= 2410mlnx54-1.2410068), libnl-3-dev, libnl-route-3-dev
+Filename: ./libibverbs-dev_2410mlnx54-1.2410068_amd64.deb
+Size: 534132
+MD5sum: fdf7d7591aaf6f269eb3172382a38d8d
+SHA1: 5bb0ea2c0e0adce7d82268c0cb8331fc22fe3dce
+SHA256: 5269ebb5714833a7baa7d16a222d2c95cbd71beaed721bf922310c5a4898ec5a
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Development files for the libibverbs library
+ libibverbs is a library that allows userspace processes to use RDMA
+ "verbs" as described in the InfiniBand Architecture Specification and
+ the RDMA Protocol Verbs Specification.  iWARP ethernet NICs support
+ RDMA over hardware-offloaded TCP/IP, while InfiniBand is a
+ high-throughput, low-latency networking technology.  InfiniBand host
+ channel adapters (HCAs) and iWARP NICs commonly support direct
+ hardware access from userspace (kernel bypass), and libibverbs
+ supports this when available.
+ .
+ This package is needed to compile programs against libibverbs1.
+ It contains the header files and static libraries (optionally)
+ needed for compiling.
+
+Package: libibverbs1
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 195
+Depends: adduser, libc6 (>= 2.38), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.7)
+Recommends: ibverbs-providers
+Breaks: ibverbs-providers (<< 34~)
+Filename: ./libibverbs1_2410mlnx54-1.2410068_amd64.deb
+Size: 67702
+MD5sum: 145f11e1a9631b9c7df4ac289eb7d8aa
+SHA1: 25fc48ebf58c40449309d03f713f0fbdf7542787
+SHA256: 6c621760e710473198c51e67222aacf1d9fbbd339e3327a478b8092624c45c55
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Library for direct userspace use of RDMA (InfiniBand/iWARP)
+ libibverbs is a library that allows userspace processes to use RDMA
+ "verbs" as described in the InfiniBand Architecture Specification and
+ the RDMA Protocol Verbs Specification.  iWARP ethernet NICs support
+ RDMA over hardware-offloaded TCP/IP, while InfiniBand is a
+ high-throughput, low-latency networking technology.  InfiniBand host
+ channel adapters (HCAs) and iWARP NICs commonly support direct
+ hardware access from userspace (kernel bypass), and libibverbs
+ supports this when available.
+ .
+ For this library to be useful, a device-specific plug-in module
+ should also be installed.
+ .
+ This package contains the shared library.
+
+Package: libibverbs1-dbg
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 452
+Depends: libibverbs1 (= 2410mlnx54-1.2410068)
+Filename: ./libibverbs1-dbg_2410mlnx54-1.2410068_amd64.deb
+Size: 388822
+MD5sum: 3fb8ca41c1b8be4637683babfb08f5fb
+SHA1: aee71f3566d608cb5d318bf4642ce0937717b7ae
+SHA256: 0042682f890a21bbb11a61329d0ee76452808287b763715321f16e7619e84e04
+Section: debug
+Priority: extra
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Debug symbols for the libibverbs library
+ libibverbs is a library that allows userspace processes to use RDMA
+ "verbs" as described in the InfiniBand Architecture Specification and
+ the RDMA Protocol Verbs Specification.  iWARP ethernet NICs support
+ RDMA over hardware-offloaded TCP/IP, while InfiniBand is a
+ high-throughput, low-latency networking technology.  InfiniBand host
+ channel adapters (HCAs) and iWARP NICs commonly support direct
+ hardware access from userspace (kernel bypass), and libibverbs
+ supports this when available.
+ .
+ This package contains the debug symbols associated with
+ libibverbs1. They will automatically be used by gdb for debugging
+ libibverbs-related issues.
+Build-Ids: 1d964b4689642afbed5ac97fafe0a7ec3f056f99
+
+Package: libopensm
+Source: opensm
+Version: 5.21.12.MLNX20250617.f74e01b8-0.1.2410325
+Architecture: amd64
+Maintainer: Hal Rosenstock <hal@mellanox.com>
+Installed-Size: 1431
+Depends: libc6 (>= 2.38), libibumad3 (>= 1.3.9)
+Filename: ./libopensm_5.21.12.MLNX20250617.f74e01b8-0.1.2410325_amd64.deb
+Size: 777690
+MD5sum: 259dd5bed0f6c6065721f7e6f1256248
+SHA1: a7856d5851ae5e235da587b7afe5b05df454150a
+SHA256: 904898d3ce3c933ad76a59267efe411255f98a5b372794b49cbdca62038912b2
+Section: libs
+Priority: extra
+Homepage: http://www.openfabrics.org/downloads/management
+Description: Infiniband subnet manager libraries
+ OpenSM provides an implementation of an Infiniband Subnet Manager (SM) and
+ Administrator (SA). One Subnet Manager is required to run on each Infiniband
+ subnet in order to initialize the Infiniband hardware.
+ .
+ This package contains shared libraries that are part of the opensm package
+ but are also used by other applications.
+
+Package: libopensm-devel
+Source: opensm
+Version: 5.21.12.MLNX20250617.f74e01b8-0.1.2410325
+Architecture: amd64
+Maintainer: Hal Rosenstock <hal@mellanox.com>
+Installed-Size: 3028
+Depends: libopensm (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325)
+Filename: ./libopensm-devel_5.21.12.MLNX20250617.f74e01b8-0.1.2410325_amd64.deb
+Size: 970384
+MD5sum: 2bcb7675c48f178688918c513aab9b12
+SHA1: 7d58c2da1a7bc6430ed2e0e6bb4fc8fe4010e10e
+SHA256: 38d2d2b525fca8148b5f0713dff96a5c6009602dac83f9a8505f7d7e50c05f77
+Section: libdevel
+Priority: extra
+Homepage: http://www.openfabrics.org/downloads/management
+Description: Development files for OpenSM
+ Header files for OpenSM
+
+Package: libopenvswitch
+Source: openvswitch
+Version: 2.17.8-1.2410068
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 9
+Depends: openssl
+Filename: ./libopenvswitch_2.17.8-1.2410068_amd64.deb
+Size: 2296
+MD5sum: e21aeb5a3d183f6468e6502632507d2a
+SHA1: bd164fb4f4ccafd4e79e5e8f876c434b89e96d5c
+SHA256: 986a11e8a5fc671164dce1c116f5c3112199752072c291b3cda1fd00d34b8e71
+Section: net
+Priority: optional
+Multi-Arch: same
+Homepage: http://openvswitch.org/
+Description: Open vSwitch common components
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ libopenvswitch provides runtime libraries for use by openvswitch binaries
+
+Package: libopenvswitch-dev
+Source: openvswitch
+Version: 2.17.8-1.2410068
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 11627
+Depends: libopenvswitch (>= 2.17.8-1.2410068), libssl-dev, libunbound-dev
+Conflicts: openvswitch-dev
+Replaces: openvswitch-dev
+Filename: ./libopenvswitch-dev_2.17.8-1.2410068_amd64.deb
+Size: 2222598
+MD5sum: 4e1d2a87a99138f0c748b3c2c57e052e
+SHA1: bb3f1a369e8c7972a5d4bab8825ee2dc3d1712a2
+SHA256: fdc519893a14db0bce6ffc6f2d079a6f8a261001c2f16acbaaaa2e625d9e5d4a
+Section: net
+Priority: optional
+Multi-Arch: same
+Homepage: http://openvswitch.org/
+Description: Open vSwitch development package
+ Open vSwitch is a production quality, multilayer, software-based, Ethernet
+ virtual switch. It is designed to enable massive network automation through
+ programmatic extension, while still supporting standard management interfaces
+ and protocols (e.g. NetFlow, sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In
+ addition, it is designed to support distribution across multiple physical
+ servers similar to VMware's vNetwork distributed vswitch or Cisco's Nexus
+ 1000V.
+ .
+ This package provides openvswitch headers and libopenvswitch for developers.
+
+Package: librdmacm-dev
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 325
+Depends: libibverbs-dev, librdmacm1 (= 2410mlnx54-1.2410068)
+Filename: ./librdmacm-dev_2410mlnx54-1.2410068_amd64.deb
+Size: 130234
+MD5sum: 817321a65545773651f17b5eadbf533e
+SHA1: 5152bbc6ace606f00d96b9b598ffa972ba6bc972
+SHA256: eb1997bf6b69bd9b27fd3be34a57cafbf84f51d6a10f6634b659df09bf0082bf
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Development files for the librdmacm library
+ librdmacm is a library that allows applications to set up reliable
+ connected and unreliable datagram transfers when using RDMA adapters.
+ It provides a transport-neutral interface in the sense that the same
+ code can be used for both InfiniBand and iWARP adapters.  The
+ interface is based on sockets, but adapted for queue pair (QP) based
+ semantics: communication must use a specific RDMA device, and data
+ transfers are message-based.
+ .
+ librdmacm only provides communication management (connection setup
+ and tear-down) and works in conjunction with the verbs interface
+ provided by libibverbs, which provides the interface used to actually
+ transfer data.
+ .
+ This package is needed to compile programs against librdmacm.
+ It contains the header files and static libraries (optionally)
+ needed for compiling.
+
+Package: librdmacm1
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 202
+Depends: libc6 (>= 2.38), libibverbs1 (>= 31), libnl-3-200 (>= 3.2.7)
+Filename: ./librdmacm1_2410mlnx54-1.2410068_amd64.deb
+Size: 72986
+MD5sum: 3fe717765f4ec4a66e645264e29f8ab6
+SHA1: 3b393ae0129579afa295a946fc8cbd8d26a24f3f
+SHA256: a104e93ab39ff3417880f0cdcd18c5c743b5cff342710241271c5055e37d18c9
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Library for managing RDMA connections
+ librdmacm is a library that allows applications to set up reliable
+ connected and unreliable datagram transfers when using RDMA adapters.
+ It provides a transport-neutral interface in the sense that the same
+ code can be used for both InfiniBand and iWARP adapters.  The
+ interface is based on sockets, but adapted for queue pair (QP) based
+ semantics: communication must use a specific RDMA device, and data
+ transfers are message-based.
+ .
+ librdmacm only provides communication management (connection setup
+ and tear-down) and works in conjunction with the verbs interface
+ provided by libibverbs, which provides the interface used to actually
+ transfer data.
+ .
+ This package contains the shared library.
+
+Package: librdmacm1-dbg
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 311
+Depends: librdmacm1 (= 2410mlnx54-1.2410068)
+Filename: ./librdmacm1-dbg_2410mlnx54-1.2410068_amd64.deb
+Size: 256856
+MD5sum: 79bec2cc4793373583555a07de428b00
+SHA1: c475d902d9af62381a9aee4ab37ed00bf4cb3920
+SHA256: 2571c462289fb83b983b0e648bc9df5b372fcf584c0010ed71cc585d42b64773
+Section: debug
+Priority: extra
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Debug symbols for the librdmacm library
+ librdmacm is a library that allows applications to set up reliable
+ connected and unreliable datagram transfers when using RDMA adapters.
+ It provides a transport-neutral interface in the sense that the same
+ code can be used for both InfiniBand and iWARP adapters.  The
+ interface is based on sockets, but adapted for queue pair (QP) based
+ semantics: communication must use a specific RDMA device, and data
+ transfers are message-based.
+ .
+ librdmacm only provides communication management (connection setup
+ and tear-down) and works in conjunction with the verbs interface
+ provided by libibverbs, which provides the interface used to actually
+ transfer data.
+ .
+ This package contains the debug symbols associated with
+ librdmacm1. They will automatically be used by gdb for debugging
+ librdmacm-related issues.
+Build-Ids: 8b6bc30d73a5785e2b5326f5a46d68dc542475fa f99bb79a785662bf9af62c4ce9d3d892746d58c7
+
+Package: libxlio
+Version: 3.40.2-1
+Architecture: amd64
+Maintainer: NVIDIA CORPORATION <networking-support@nvidia.com>
+Installed-Size: 1417
+Depends: dpcp, ibverbs-providers (>= 30), libc6 (>= 2.38), libgcc-s1 (>= 3.4), libibverbs1 (>= 1.1.6), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.7), librdmacm1 (>= 1.0.15), libstdc++6 (>= 13.1)
+Filename: ./libxlio_3.40.2-1_amd64.deb
+Size: 583774
+MD5sum: d3cec08080f84cdc04c5bc35cf892c00
+SHA1: b6e09743f2000f2ff84af3383605ceaf863b8277
+SHA256: 5c1cffdc01242b2db963d4db158b9521b2d04ac651f2b4d84d2c4a83f2583cfb
+Section: net
+Priority: optional
+Homepage: https://github.com/Mellanox-lab/libxlio
+Description: LD_PRELOAD-able library that boosts performance
+ libxlio is a LD_PRELOAD-able library that boosts performance of TCP and
+ UDP traffic. It allows application written over standard socket API to
+ handle fast path data traffic from user space over Ethernet and/or
+ Infiniband with full network stack bypass and get better throughput,
+ latency and packets/sec rate.
+ .
+ No application binary change is required for that.
+ library is supported by RDMA capable devices that support "verbs"
+ IBV_QPT_RAW_PACKET QP for Ethernet and/or IBV_QPT_UD QP for IPoIB.
+ .
+ This package includes the dynamic library itself.
+
+Package: libxlio-dbg
+Source: libxlio
+Version: 3.40.2-1
+Architecture: amd64
+Maintainer: NVIDIA CORPORATION <networking-support@nvidia.com>
+Installed-Size: 15
+Depends: libxlio (= 3.40.2-1)
+Filename: ./libxlio-dbg_3.40.2-1_amd64.deb
+Size: 4054
+MD5sum: 21037a9bffa7d17ab25d9e1b1b3b9779
+SHA1: 1d7ccc66d7e030e5d76efaef920b87308bd219c7
+SHA256: 5d86e39a68c303908572e4b3ae82df856a1dcea0482a39ffb8b9b158b5e886c9
+Section: debug
+Priority: optional
+Homepage: https://github.com/Mellanox-lab/libxlio
+Description: Debugging symbols for the libxlio library
+ libxlio is a LD_PRELOAD-able library that boosts performance of TCP and
+ UDP traffic. It allows application written over standard socket API to
+ handle fast path data traffic from user space over Ethernet and/or
+ Infiniband with full network stack bypass and get better throughput,
+ latency and packets/sec rate.
+ .
+ No application binary change is required for that.
+ library is supported by RDMA capable devices that support "verbs"
+ IBV_QPT_RAW_PACKET QP for Ethernet and/or IBV_QPT_UD QP for IPoIB.
+ .
+ This package contains the debugging symbols associated with libxlio.
+
+Package: libxlio-dev
+Source: libxlio
+Version: 3.40.2-1
+Architecture: amd64
+Maintainer: NVIDIA CORPORATION <networking-support@nvidia.com>
+Installed-Size: 2539
+Depends: libxlio (= 3.40.2-1)
+Filename: ./libxlio-dev_3.40.2-1_amd64.deb
+Size: 635820
+MD5sum: b7a3c22ee006cbc4704acf40df2e15a5
+SHA1: 5d2a8a1b079b05c74ed75992aa928bf1d9c1d245
+SHA256: 80aa498343c795abfa4ea96c9355d5c049aad81f9a4fb31a19768a49638743ac
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/Mellanox-lab/libxlio
+Description: Development files for the libxlio library
+ libxlio is a LD_PRELOAD-able library that boosts performance of TCP and
+ UDP traffic. It allows application written over standard socket API to
+ handle fast path data traffic from user space over Ethernet and/or
+ Infiniband with full network stack bypass and get better throughput,
+ latency and packets/sec rate.
+ .
+ No application binary change is required for that.
+ library is supported by RDMA capable devices that support "verbs"
+ IBV_QPT_RAW_PACKET QP for Ethernet and/or IBV_QPT_UD QP for IPoIB.
+ .
+ This package includes headers for building programs with libxlio's interface
+ directly, as opposed to loading it dynamically with LD_PRELOAD.
+
+Package: libxlio-utils
+Source: libxlio
+Version: 3.40.2-1
+Architecture: amd64
+Maintainer: NVIDIA CORPORATION <networking-support@nvidia.com>
+Installed-Size: 115
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), libxlio (= 3.40.2-1)
+Filename: ./libxlio-utils_3.40.2-1_amd64.deb
+Size: 42298
+MD5sum: 079794112b22b619ccf399f71083b247
+SHA1: 1fd8d6c84c51b68884e61fe427dff66231d4eec8
+SHA256: e4edc0a3b6a8c22828a4b0a2419fe59dbcfd2cc9169fe87dc7cb4b423019e7ee
+Section: utils
+Priority: optional
+Homepage: https://github.com/Mellanox-lab/libxlio
+Description: Examples and tools for the libxlio library
+ libxlio is a LD_PRELOAD-able library that boosts performance of TCP and
+ UDP traffic. It allows application written over standard socket API to
+ handle fast path data traffic from user space over Ethernet and/or
+ Infiniband with full network stack bypass and get better throughput,
+ latency and packets/sec rate.
+ .
+ No application binary change is required for that.
+ library is supported by RDMA capable devices that support "verbs"
+ IBV_QPT_RAW_PACKET QP for Ethernet and/or IBV_QPT_UD QP for IPoIB.
+ .
+ This package contains the tool xlio_stats for collecting and
+ analyzing Libxlio statistic.
+
+Package: libxpmem-dev
+Source: xpmem-lib
+Version: 2.7-0.2310055
+Architecture: amd64
+Maintainer: Tzafrir Cohen <nvidia@cohens.org.il>
+Installed-Size: 21
+Depends: libxpmem0 (= 2.7-0.2310055)
+Filename: ./libxpmem-dev_2.7-0.2310055_amd64.deb
+Size: 3890
+MD5sum: f8cb232cb78b276b38ba2ca0ef077932
+SHA1: b9bf29ef9b877556bbd8d1a04b0cbef7defaa6a8
+SHA256: 2453df86bd9b3b20c12e7b8aa1e7609ea18a13037e86b697a5fec53071f7f4c2
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/openucx/xpmem/
+Description: libxpmem - development headers
+ XPMEM is a Linux kernel module that enables a process to map the
+ memory of another process into its virtual address space.
+ .
+ This package includes development headers for the userspace library.
+
+Package: libxpmem0
+Source: xpmem-lib
+Version: 2.7-0.2310055
+Architecture: amd64
+Maintainer: Tzafrir Cohen <nvidia@cohens.org.il>
+Installed-Size: 30
+Depends: libc6 (>= 2.33)
+Filename: ./libxpmem0_2.7-0.2310055_amd64.deb
+Size: 4240
+MD5sum: ebcf5cca6be7f022b63955f28397c61a
+SHA1: e23e0806229a3793bab24aa8f2d81f9dc622858e
+SHA256: eea2832039a072a564a3825df38464283624ac325233a6e478814674b3af1a81
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/openucx/xpmem/
+Description: libxpmem - userspace library of XPMEM
+ XPMEM is a Linux kernel module that enables a process to map the
+ memory of another process into its virtual address space.
+ .
+ This package includes the userspace library.
+
+Package: meson
+Version: 0.61.2-1
+Architecture: all
+Maintainer: Jussi Pakkanen <jpakkane@gmail.com>
+Installed-Size: 3253
+Depends: python3:any (>= 3.7~), ninja-build (>= 1.6), python3-pkg-resources
+Recommends: dpkg-dev
+Filename: ./meson_0.61.2-1_all.deb
+Size: 520196
+MD5sum: 5db4ae3915974aba11ddd4b7aa0296dd
+SHA1: 8f9e4d8eab11496996abc4652cc598ef86d927fa
+SHA256: c504c45ac28112fd044da2dad70523f364c90e27cd5b3d070645b35607f13568
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://mesonbuild.com
+Description: high-productivity build system
+ Meson is a build system designed to increase programmer
+ productivity. It does this by providing a fast, simple and easy to
+ use interface for modern software development tools and practices.
+
+Package: mft
+Version: 4.30.1-1216
+Architecture: amd64
+Maintainer: root <mft_team@nvidia.com>
+Installed-Size: 189791
+Filename: ./mft_4.30.1-1216_amd64.deb
+Size: 49395188
+MD5sum: ef6ad95e0ac5c69665935244e5e4dd71
+SHA1: 867da0641c9a6c6411d56691b274b78cdc5b4690
+SHA256: a097a9dd4c0e50f79569e5f3c07259e322b79e4acb90e9bffa55670dce679042
+Section: alien
+Priority: extra
+Description: Mellanox firmware tools
+ Mellanox firmware tools
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: mlnx-dpdk
+Version: 22.11.0-2410.5.1.2410414
+Architecture: amd64
+Maintainer: deb_dpdk Packagers <deb-dpdk@lists.fd.io>
+Installed-Size: 20366
+Depends: hwdata, lsb-base (>= 3.2-14), pciutils, libpcap | libpcap0.8, libpcap-devel | libpcap0.8-dev, ibverbs-providers (>= 42), libbsd0 (>= 0.0), libc6 (>= 2.38), libelf1t64 (>= 0.131), libibverbs1 (>= 35), libjansson4 (>= 2.14), libnuma1 (>= 2.0.11), libpcap0.8t64 (>= 1.5.1), zlib1g (>= 1:1.1.4)
+Recommends: python3-pyelftools
+Suggests: mlnx-dpdk-doc, linux-image-generic
+Filename: ./mlnx-dpdk_22.11.0-2410.5.1.2410414_amd64.deb
+Size: 4343082
+MD5sum: 298e28df9d2c245363bb22aafe31b3e4
+SHA1: d5d952bfb35fcb2e6ee06de1af9a8a272b08f0a5
+SHA256: c4d37727c865777ee5ada49687a2063394cd4058bb9115b49207617b8df569e2
+Section: admin
+Priority: optional
+Homepage: https://www.dpdk.org
+Description: Data Plane Development Kit (runtime)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the runtime environment to run DPDK applications.
+
+Package: mlnx-dpdk-dev
+Source: mlnx-dpdk
+Version: 22.11.0-2410.5.1.2410414
+Architecture: amd64
+Maintainer: deb_dpdk Packagers <deb-dpdk@lists.fd.io>
+Installed-Size: 15969
+Depends: mlnx-dpdk, libbsd-dev, libibverbs-dev, libmnl-dev, libnuma-dev, libpcap-dev, libssl-dev, zlib1g-dev, libelf-dev, libjansson-dev
+Filename: ./mlnx-dpdk-dev_22.11.0-2410.5.1.2410414_amd64.deb
+Size: 3271218
+MD5sum: 67d8405da746bed4e6efdafcdf6024cb
+SHA1: 7e10284df08e4dfa1e0ccc75bdebc010e79463c8
+SHA256: 7c8931ba721bd5e91869dca82e485975f73c1144d710d63fab6aeaa6dfb9ea7e
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.dpdk.org
+Description: Data Plane Development Kit (basic development files)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the basic headers and library files required to
+ build external applications which will also require at least SSE3 support
+ when running.
+
+Package: mlnx-dpdk-doc
+Source: mlnx-dpdk
+Version: 22.11.0-2410.5.1.2410414
+Architecture: all
+Maintainer: deb_dpdk Packagers <deb-dpdk@lists.fd.io>
+Installed-Size: 7
+Depends: libjs-jquery, libjs-underscore, python3:any
+Filename: ./mlnx-dpdk-doc_22.11.0-2410.5.1.2410414_all.deb
+Size: 1130
+MD5sum: 11ddfdae9cead3008952c524bd4a0cf7
+SHA1: 5602f92f6ea84e57df2409da109d8c046ea48d42
+SHA256: 343b0f087e518ce366010243946ae8639a3e7baaea8884a9d57047d35aeaaef3
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://dpdk.org/doc/guides/index.html
+Description: Data Plane Development Kit (documentation)
+ DPDK is a set of libraries for fast packet processing. Applications run
+ in user-space and communicate directly with dedicated network interfaces.
+ .
+ This package contains the complete set of documentation and guides.
+
+Package: mlnx-ethtool
+Version: 6.9-1.2410068
+Architecture: amd64
+Maintainer: Ben Hutchings <bwh@kernel.org>
+Installed-Size: 746
+Depends: libc6 (>= 2.34), libmnl0 (>= 1.0.3-4~)
+Filename: ./mlnx-ethtool_6.9-1.2410068_amd64.deb
+Size: 216944
+MD5sum: e06d4af4fc72aff1344c187ad82b5a30
+SHA1: 1be80127a289cdbabebe94771dddc9dc5bb54b77
+SHA256: a371145975f3bb911a547231b6a93680d1de19e250a24917b14ac934c9c8f1e9
+Section: net
+Priority: optional
+Homepage: https://ftp.kernel.org/pub/software/network/ethtool/
+Description: This utility allows querying and changing settings such as speed,
+ port, auto-negotiation, PCI locations and checksum offload on many
+ network devices, especially Ethernet devices.
+
+Package: mlnx-fw-updater
+Version: 24.10-4.1.4.0
+Architecture: amd64
+Maintainer: Alaa Hleihel <alaa@mellanox.com>
+Installed-Size: 83632
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.1.1), perl
+Filename: ./mlnx-fw-updater_24.10-4.1.4.0_amd64.deb
+Size: 61484416
+MD5sum: 96d1ce33d4efc568a643265d884856fa
+SHA1: 47853754ffc29820ebd09aea23fd87dab3b7c372
+SHA256: 3ef7e1239bc596341431accff423e85d3e4a383cf69840a75878b77a98e27f84
+Section: utils
+Priority: extra
+Homepage: http://www.mellanox.com
+Description: Mellanox Technologies Firmware update package
+
+Package: mlnx-iproute2
+Version: 6.10.0-1.2410414
+Architecture: amd64
+Maintainer: Ben Hutchings <bwh@kernel.org>
+Installed-Size: 3691
+Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libdb5.3t64, libelf1t64 (>= 0.131), libmnl0 (>= 1.0.3-4~), libselinux1 (>= 3.1~)
+Filename: ./mlnx-iproute2_6.10.0-1.2410414_amd64.deb
+Size: 1046076
+MD5sum: 1bef03b8521eefceee02be6422efcd34
+SHA1: f08f5e7b7e9e1faf7b802fa64fea7c618aa913cc
+SHA256: 3751a3779ed776927ca3cbea2ebbeb5088479d79571b351624d3ecfb119d7f11
+Section: net
+Priority: optional
+Homepage: https://ftp.kernel.org/pub/software/network/iproute2
+Description: This utility allows querying and changing settings such as speed,
+ port, auto-negotiation, PCI locations and checksum offload on many
+ network devices, especially Ethernet devices.
+
+Package: mlnx-nfsrdma-dkms
+Source: mlnx-nfsrdma
+Version: 24.10.OFED.24.10.4.1.4.1-1
+Architecture: all
+Maintainer: Mellanox Technologies <support@mellanox.com>
+Installed-Size: 386
+Depends: dkms, make, mlnx-ofed-kernel-dkms
+Recommends: linux-headers-arm64 | linux-headers-powerpc | linux-headers-ppc64 | linux-headers-ppc64le | linux-headers-amd64 | linux-headers | linux-headers-generic
+Filename: ./mlnx-nfsrdma-dkms_24.10.OFED.24.10.4.1.4.1-1_all.deb
+Size: 72508
+MD5sum: e459645289521a19ba6ec61cbc417840
+SHA1: 01c999a28c39c55751aff03e115f9485f18e1345
+SHA256: 2b573da157880759b68c73e9a2fd26769b331e9eeb936bc00c33616cf61717a5
+Section: kernel
+Priority: optional
+Homepage: http://www.mellanox.com
+Description: DKMS support for NFS RDMA kernel module
+ This package provides integration with the DKMS infrastructure for automatically building out of tree kernel modules.
+ .
+ This package contains the source to be built with dkms.
+
+Package: mlnx-nvme-dkms
+Source: mlnx-nvme
+Version: 24.10.OFED.24.10.4.1.4.1-1
+Architecture: all
+Maintainer: Mellanox Technologies <support@mellanox.com>
+Installed-Size: 1571
+Depends: dkms, make, mlnx-ofed-kernel-dkms
+Recommends: linux-headers-arm64 | linux-headers-powerpc | linux-headers-ppc64 | linux-headers-ppc64le | linux-headers-amd64 | linux-headers | linux-headers-generic
+Filename: ./mlnx-nvme-dkms_24.10.OFED.24.10.4.1.4.1-1_all.deb
+Size: 268048
+MD5sum: e073bdf6fdb7319a524511bdd84008a9
+SHA1: fef049a6672c65cfb2d693d63df5979cf60c8c8d
+SHA256: ced522ec2a737f1b465177b8bf53d4fbf8e506ff18fea3eb4eb07d8b602ef760
+Section: kernel
+Priority: optional
+Homepage: http://www.mellanox.com
+Description: DKMS support for nvme kernel module
+ This package provides integration with the DKMS infrastructure for automatically building out of tree kernel modules.
+ .
+ This package contains the source to be built with dkms.
+
+Package: mlnx-ofed-kernel-dkms
+Source: mlnx-ofed-kernel
+Version: 24.10.OFED.24.10.4.1.4.1-1
+Architecture: all
+Maintainer: Vladimir Sokolovsky <vlad@mellanox.com>
+Installed-Size: 21298
+Depends: dkms, mlnx-ofed-kernel-utils, libc6-dev, gcc
+Recommends: linux-headers-arm64 | linux-headers-powerpc | linux-headers-ppc64 | linux-headers-ppc64le | linux-headers-amd64 | linux-headers-generic | linux-headers
+Conflicts: mlnx-rdma-rxe-dkms
+Replaces: mlnx-rdma-rxe-dkms
+Provides: mlnx-rdma-rxe-dkms
+Filename: ./mlnx-ofed-kernel-dkms_24.10.OFED.24.10.4.1.4.1-1_all.deb
+Size: 2534542
+MD5sum: 4d16c5148bc4c8fa423b6e1c5e8dc310
+SHA1: c466faf249d18ab64ba46a59ed79e4943a540d66
+SHA256: c37e1d49dcf312b64ae4619bfe5ca7fdb65c10dddef5e871f45495dc53259ad0
+Section: kernel
+Priority: optional
+Homepage: http://www.mellanox.com/page/products_dyn?product_family=26&mtag=linux_sw_drivers
+Description: DKMS support for mlnx-ofed kernel modules
+ This package provides integration with the DKMS infrastructure for
+ automatically building out of tree kernel modules.
+ .
+ This package provides the source code for the mlnx-ofed kernel modules.
+ .
+ This package contains the source to be built with dkms.
+
+Package: mlnx-ofed-kernel-utils
+Source: mlnx-ofed-kernel
+Version: 24.10.OFED.24.10.4.1.4.1-1
+Architecture: amd64
+Maintainer: Vladimir Sokolovsky <vlad@mellanox.com>
+Installed-Size: 149
+Depends: coreutils, pciutils, grep, procps, module-init-tools | kmod, lsof, mlnx-tools (>= 5.2.0)
+Conflicts: mlnx-en-utils
+Filename: ./mlnx-ofed-kernel-utils_24.10.OFED.24.10.4.1.4.1-1_amd64.deb
+Size: 28292
+MD5sum: 4f58f9bf4c943f2d6ede29ac01bfef1e
+SHA1: a340925cb61a689edaa6cc791eca40214d0d10ed
+SHA256: d6cc869dbb628ecd22bb9c2f5a1c984c3c8ea2f1eff3e99d95ce3ce28fe83307
+Section: net
+Priority: optional
+Homepage: http://www.mellanox.com/page/products_dyn?product_family=26&mtag=linux_sw_drivers
+Description: Userspace tools to restart and tune mlnx-ofed kernel modules
+
+Package: mlnx-tools
+Version: 24.10.1-1.2410414
+Architecture: amd64
+Maintainer: Tzafrir Cohen <nvidia@cohens.org.il>
+Installed-Size: 335
+Depends: python3:any, pciutils, procps
+Breaks: mlnx-en-utils (<< 5.4), mlnx-ofed-kernel-utils (<< 5.4)
+Replaces: mlnx-en-utils (<< 5.4), mlnx-ofed-kernel-utils (<< 5.4)
+Filename: ./mlnx-tools_24.10.1-1.2410414_amd64.deb
+Size: 72056
+MD5sum: 9a39ebff581fe4bab7802bb6aa4fef81
+SHA1: fb31941714a8a7d9b49c0e3c229f35e113a68794
+SHA256: c69933e45ea633100736687abc26b9e4838c4de78f503655029a4d5772bd8a95
+Section: net
+Priority: optional
+Homepage: http://www.mellanox.com/Mellanox/mlnx-tools
+Description: Userspace tools to restart and tune MLNX_OFED kernel modules
+ Userspace tools and scripts to help manage MLNX_OFED.
+ Those include scripts, udev hooks and initialization scripts.
+
+Package: mlx-steering-dump
+Version: 1.0.0-0.2410068
+Architecture: all
+Maintainer: Hamdan Igbaria <hamdani@nvidia.com>
+Installed-Size: 354
+Depends: python3 | python:any | python-minimal:any
+Filename: ./mlx-steering-dump_1.0.0-0.2410068_all.deb
+Size: 48572
+MD5sum: fc4653b035367ce148e43912e6bcea39
+SHA1: 7f0df2478e21e52ed2b1f3432b2d830d076b19a4
+SHA256: 3f4e360c6d603ab1865f383abd855836e59d1af8b2043e9c3d50ce5b29f951f3
+Section: net
+Priority: optional
+Homepage: http://www.mellanox.com/Mellanox/mlx_steering_dump
+Description: Mellanox SW steering parser and triggering for CSV dump files
+ A parser for CSV dump files generated by software steering in Mellanox
+ ConnectX5 and ConnectX6DX cards.
+
+Package: mpitests
+Version: 3.2.24-2ffc2d6.2410068
+Architecture: amd64
+Maintainer: Mellanox Ltd. <support@mellanox.com>
+Installed-Size: 12594
+Depends: libc6 (>= 2.34)
+Filename: ./mpitests_3.2.24-2ffc2d6.2410068_amd64.deb
+Size: 1015966
+MD5sum: 115441a58ef149161a08ea330608ebf6
+SHA1: dc33433b780a7741aa68c86d7f71d103520d6966
+SHA256: 6dec47e4ab3d4c999ca761d3dc87ed6ca08b239c1b7d736984de642c34c72e07
+Section: libs
+Priority: extra
+Homepage: http://www.mellanox.com
+Description: Set of popular MPI benchmarks and tools IMB 2018 OSU benchmarks ver 4.0.1 mpiP-3.3
+
+Package: ninja-build
+Version: 1.10.2-1
+Architecture: amd64
+Maintainer: Felix Geyer <fgeyer@debian.org>
+Installed-Size: 234
+Depends: libc6 (>= 2.38), libstdc++6 (>= 11)
+Suggests: python3
+Filename: ./ninja-build_1.10.2-1_amd64.deb
+Size: 93302
+MD5sum: e060c417262edc857c33d913e998351e
+SHA1: 99a226ab3cef0b0a26344dc0f3154378321ec77d
+SHA256: 160ba8f19bf56eb2142c81ef8d6df8881c936351531b04384027b4886fbd4014
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://ninja-build.org/
+Description: small build system closest in spirit to Make
+ Ninja is yet another build system. It takes as input the interdependencies of
+ files (typically source code and output executables) and orchestrates
+ building them, quickly.
+ .
+ Ninja joins a sea of other build systems. Its distinguishing goal is to be
+ fast. It is born from the Chromium browser project, which has over 30,000
+ source files and whose other build systems can take ten seconds to start
+ building after changing one file. Ninja is under a second.
+
+Package: ofed-scripts
+Version: 24.10.OFED.24.10.4.1.4-1
+Architecture: amd64
+Maintainer: Vladimir Sokolovsky <vlad@mellanox.com>
+Installed-Size: 353
+Filename: ./ofed-scripts_24.10.OFED.24.10.4.1.4-1_amd64.deb
+Size: 58640
+MD5sum: 076b7781b732ad74eb472eb72cc5dcd4
+SHA1: 0c7ae5128b76d2fa55ae40771374c3c2389600c4
+SHA256: ea513d20dddd3251b5ec7280d26b5d759d5bf95ddab368f80245f55a5d5b4ac0
+Section: utils
+Priority: extra
+Homepage: http://www.mellanox.com
+Description: MLNX_OFED utilities
+
+Package: openmpi
+Version: 4.1.7rc1-1.2410325
+Architecture: all
+Maintainer: http://www.open-mpi.org
+Installed-Size: 72330
+Filename: ./openmpi_4.1.7rc1-1.2410325_all.deb
+Size: 17497668
+MD5sum: c082c55f68a3cc1bc51d1bd8bd407eab
+SHA1: 6d23a66e0a2186c0741d4ba4db31c45c095341f6
+SHA256: 09949cf0fce45a6554d26ff7ba55b4eb1adbdedb75584242371758f31aab1b4d
+Section: net
+Priority: extra
+Homepage: http://www.open-mpi.org/
+Description: Open MPI
+ Open MPI is a project combining technologies and resources from
+ several other projects (FT-MPI, LA-MPI, LAM/MPI, and PACX-MPI) in
+ order to build the best MPI library available.
+ This package contains all the tools necessary to compile, link, and run
+ Open MPI jobs.
+
+Package: opensm
+Version: 5.21.12.MLNX20250617.f74e01b8-0.1.2410325
+Architecture: amd64
+Maintainer: Hal Rosenstock <hal@mellanox.com>
+Installed-Size: 4842
+Depends: libopensm (= 5.21.12.MLNX20250617.f74e01b8-0.1.2410325), libc6 (>= 2.38), libgcc-s1 (>= 3.4), libstdc++6 (>= 13.1)
+Filename: ./opensm_5.21.12.MLNX20250617.f74e01b8-0.1.2410325_amd64.deb
+Size: 1809632
+MD5sum: b9493b2eb5f34bee6c46610fd9e06341
+SHA1: 664aacd5c7fddac2cee40de90bf0700777a9544d
+SHA256: 1d9a6761a511eed0c81908fd77588c54d6fb27a0a5469844a1738bbb5af6cded
+Section: net
+Priority: extra
+Homepage: http://www.openfabrics.org/downloads/management
+Description: An Infiniband subnet manager
+ OpenSM provides an implementation of an InfiniBand Subnet Manager and
+ Administration. Such a software entity is required to run for in order
+ to initialize the InfiniBand hardware (at least one per each
+ InfiniBand subnet).
+
+Package: opensm-doc
+Source: opensm
+Version: 5.21.12.MLNX20250617.f74e01b8-0.1.2410325
+Architecture: amd64
+Maintainer: Hal Rosenstock <hal@mellanox.com>
+Installed-Size: 756
+Filename: ./opensm-doc_5.21.12.MLNX20250617.f74e01b8-0.1.2410325_amd64.deb
+Size: 749562
+MD5sum: 0e001b05e3e9d2d946763ffb47565341
+SHA1: ac23d9d3673277c46facf6e546f6f2a82fdada4d
+SHA256: 87503e8998ab7d1cc00c9de40799ea482735f0bf01f5e766cb046e37ad3b652d
+Section: doc
+Priority: extra
+Homepage: http://www.openfabrics.org/downloads/management
+Description: Documentation for opensm
+ Documentation for the opensm Infiniband subnet manager.
+
+Package: openvswitch-common
+Source: openvswitch
+Version: 2.17.8-1.2410068
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 16310
+Depends: python3, libopenvswitch (= 2.17.8-1.2410068), libc6 (>= 2.38), libnuma1 (>= 2.0.11), libssl3t64 (>= 3.0.0), libunbound8 (>= 1.8.0), libunwind8
+Suggests: ethtool
+Breaks: openvswitch-common (<< 2.17.8-1.2410068)
+Replaces: openvswitch-common (<< 2.17.8-1.2410068)
+Filename: ./openvswitch-common_2.17.8-1.2410068_amd64.deb
+Size: 3364992
+MD5sum: 6051eada6708aac9e02b2bb7d7efc372
+SHA1: 25d3bfd425df3bb13b119eaa2bcfb86c1308c6e7
+SHA256: f7a270848c29ee593f7cb004b628be2389759be3184147e25ec035458ebd8eaf
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://openvswitch.org/
+Description: Open vSwitch common components
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ openvswitch-common provides components required by both openvswitch-switch
+ and openvswitch-testcontroller.
+
+Package: openvswitch-datapath-dkms
+Source: openvswitch
+Version: 2.17.8-1.2410068
+Architecture: all
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 70612
+Depends: dkms (>= 1.95), libc6-dev, libelf-dev, make
+Filename: ./openvswitch-datapath-dkms_2.17.8-1.2410068_all.deb
+Size: 5298182
+MD5sum: 6906064470a403102896ec74bf1aea21
+SHA1: 50fda8b8bd51e2af94a1edac6ac7cdcd5b714d42
+SHA256: 5c37da73042248eee88c1917b3cb4e0c949878bed46a900d9362057e5f68dc10
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Open vSwitch datapath module source - DKMS version
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ This package provides the Open vSwitch datapath module source code
+ that is needed by openvswitch-switch.  DKMS can built the kernel
+ module from it.
+
+Package: openvswitch-datapath-source
+Source: openvswitch
+Version: 2.17.8-1.2410068
+Architecture: all
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 8388
+Depends: bzip2, debhelper (>= 5.0.37), module-assistant
+Suggests: openvswitch-switch
+Filename: ./openvswitch-datapath-source_2.17.8-1.2410068_all.deb
+Size: 8580484
+MD5sum: e828759471d87033aff3cf1c62fd2116
+SHA1: 4c783cfdf294d31ac308e783262687d20e52d5ed
+SHA256: d0b5794abf12387269a69f74cc8d130190885341d230215635fe27c204d502bc
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Open vSwitch datapath module source - module-assistant version
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ This package provides the Open vSwitch datapath module source code
+ that is needed by openvswitch-switch.  The kernel module can be built
+ from it using module-assistant or make-kpkg.  README.Debian in this
+ package provides further instructions.
+
+Package: openvswitch-dbg
+Source: openvswitch
+Version: 2.17.8-1.2410068
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 97048
+Depends: openvswitch-common (= 2.17.8-1.2410068), openvswitch-switch (= 2.17.8-1.2410068)
+Conflicts: openvswitch-testcontroller (>> 2.17.8-1.2410068), openvswitch-testcontroller (<< 2.17.8-1.2410068)
+Filename: ./openvswitch-dbg_2.17.8-1.2410068_amd64.deb
+Size: 89435840
+MD5sum: 282dd8c06d6ff3c45b380adbf9bb7a95
+SHA1: 8f494ab91a38fb6a6a3d71460a5a787070de818a
+SHA256: 7d974859101dce1467228f1180ddac6f6ca308137ae1b0fb47e768d3a30eab73
+Section: debug
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Debug symbols for Open vSwitch packages
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ This package contains the debug symbols for all the other openvswitch-*
+ packages.  Install it to debug one of them or to examine a core dump
+ produced by one of them.
+Build-Ids: 0b1f20b5def429f5ab8baecffc5c87ee1567546f 1c28bf3848de1398124500753da51021719ca18f 1c9411300f957fb5ce71ea2cd8a88917de315a01 25e139262e41a406627ff2965d6dc4ea6b46a9e2 2921d8e1b8d10c20009c7a38a3a0063bcbcd35d1 4f42aa466fd5c4b062a22d5dfffd2ed4fa26b596 838e4158518dc005eb9493676e08006463a661cd 8415d0ac76e733f6a0fa3b6ef28ddcbcf4c02cb8 86783a4578083cf455234368f387030843040cf3 dc71b18ce11bcca91865cd01cda4bc0f348e6f9f
+
+Package: openvswitch-ipsec
+Source: openvswitch
+Version: 2.17.8-1.2410068
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 80
+Depends: iproute2, openvswitch-common (= 2.17.8-1.2410068), openvswitch-switch (= 2.17.8-1.2410068), python3, python3-openvswitch (= 2.17.8-1.2410068), strongswan, strongswan-swanctl
+Filename: ./openvswitch-ipsec_2.17.8-1.2410068_amd64.deb
+Size: 15726
+MD5sum: 9a24fe16e915afa13d2e23df1ffcfd4c
+SHA1: 753d9b2e9e44d0a25c93e166c4f6980c80e26f5c
+SHA256: e46e6c4ff26858f32a9f7a3e6959a721c6b9d1b5298a07519a400321cfc03ad4
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Open vSwitch IPsec tunneling support
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ This package provides IPsec tunneling support for OVS tunnels.
+
+Package: openvswitch-pki
+Source: openvswitch
+Version: 2.17.8-1.2410068
+Architecture: all
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 14
+Depends: openvswitch-common (<< 2.17.8-1.2410068.1~), openvswitch-common (>= 2.17.8-1.2410068)
+Filename: ./openvswitch-pki_2.17.8-1.2410068_all.deb
+Size: 3076
+MD5sum: 2cfc3d403a2727fbda50daac7cf9a781
+SHA1: ea0a4f936fabbfc27e8d6e7e2731991ffabe39a5
+SHA256: 1da168edb269fa125d6590d4d8d256d5bc0ff551765fc16d52400905c523ccbc
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Open vSwitch public key infrastructure dependency package
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ openvswitch-pki provides PKI (public key infrastructure) support for
+ Open vSwitch switches and controllers, reducing the risk of
+ man-in-the-middle attacks on the Open vSwitch network infrastructure.
+
+Package: openvswitch-switch
+Source: openvswitch
+Version: 2.17.8-1.2410068
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 34934
+Depends: kmod | module-init-tools, ifupdown, netbase, openvswitch-common (= 2.17.8-1.2410068), procps, uuid-runtime, python3:any, ibverbs-providers (>= 42), libc6 (>= 2.38), libelf1t64 (>= 0.131), libibverbs1 (>= 35), libjansson4 (>= 2.14), libnuma1 (>= 2.0.11), libpcap0.8t64 (>= 0.9.8), libssl3t64 (>= 3.0.0), libunbound8 (>= 1.8.0), libunwind8
+Suggests: openvswitch-datapath-module
+Filename: ./openvswitch-switch_2.17.8-1.2410068_amd64.deb
+Size: 8784650
+MD5sum: 7c2719080c0ce3d73ae649ecd12c35a8
+SHA1: 817f3423daccc55b64e5487aa4b677e422a2aa32
+SHA256: 743272f1f6ba9a682c639e69c07f06ea4b226585d861fdc855809282b8d1dee6
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Open vSwitch switch implementations
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ openvswitch-switch provides the userspace components and utilities for
+ the Open vSwitch kernel-based switch.
+
+Package: openvswitch-test
+Source: openvswitch
+Version: 2.17.8-1.2410068
+Architecture: all
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 82
+Depends: python3, python3-twisted, python3:any
+Filename: ./openvswitch-test_2.17.8-1.2410068_all.deb
+Size: 16910
+MD5sum: fceea191d165773d30476be31de60930
+SHA1: 4e375f12552601313a2679f447eff269ac817017
+SHA256: 0981d4a872849d75f32904d8ce7ff67c6fe746c43f2e6648065b3066e78b2963
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Open vSwitch test package
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ This package contains utilities that are useful to diagnose
+ performance and connectivity issues in Open vSwitch setup.
+
+Package: openvswitch-testcontroller
+Source: openvswitch
+Version: 2.17.8-1.2410068
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 5313
+Depends: openvswitch-common (= 2.17.8-1.2410068), openvswitch-pki (= 2.17.8-1.2410068), libc6 (>= 2.38), libnuma1 (>= 2.0.11), libssl3t64 (>= 3.0.0), libunbound8 (>= 1.8.0), libunwind8
+Filename: ./openvswitch-testcontroller_2.17.8-1.2410068_amd64.deb
+Size: 1777368
+MD5sum: 880a644d44bbab0b8cf91093e052317c
+SHA1: f9c529873349ff92f746fc9d06d19bf695a45301
+SHA256: 4983c87bddce3c5159f5603352c9affd41a2eb101711c1a685ed354efd3419db
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Simple controller for testing OpenFlow setups
+ This controller enables OpenFlow switches that connect to it to act
+ as MAC-learning Ethernet switches.  It can be used for initial
+ testing of OpenFlow networks.  It is not a necessary or desirable
+ part of a production OpenFlow deployment.
+
+Package: openvswitch-vtep
+Source: openvswitch
+Version: 2.17.8-1.2410068
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 5661
+Depends: openvswitch-common (>= 2.17.8-1.2410068), openvswitch-switch (>= 2.17.8-1.2410068), python3, python3-openvswitch (>= 2.17.8-1.2410068), libc6 (>= 2.38), libnuma1 (>= 2.0.11), libssl3t64 (>= 3.0.0), libunbound8 (>= 1.8.0), libunwind8
+Filename: ./openvswitch-vtep_2.17.8-1.2410068_amd64.deb
+Size: 1839378
+MD5sum: 3e1c13799d16c5731016dc11e7475c96
+SHA1: 25bc633c3a08dd968e45a267f5ae45107ba13ed8
+SHA256: 460b2fe3c4fbf2ce57be17a99d7d3de4c11ddf82da01d693b6b4c029024962c4
+Section: net
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Open vSwitch VTEP utilities
+ Open vSwitch is a production quality, multilayer, software-based, Ethernet
+ virtual switch. It is designed to enable massive network automation through
+ programmatic extension, while still supporting standard management interfaces
+ and protocols (e.g. NetFlow, sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In
+ addition, it is designed to support distribution across multiple physical
+ servers similar to VMware's vNetwork distributed vswitch or Cisco's Nexus
+ 1000V.
+ .
+ This package provides utilities that are useful to interact with a
+ VTEP-configured database and a VTEP emulator.
+
+Package: perftest
+Version: 24.10.0-0.95.g370212b.2410325
+Architecture: amd64
+Maintainer: Gil Rockah <gilr@dev.mellanox.co.il>
+Installed-Size: 3161
+Depends: ibverbs-providers (>= 2410mlnx54-1.2410068), libc6 (>= 2.38), libibumad3 (>= 1.3.9), libibverbs1 (>= 34), libpci3 (>= 1:3.8.0), librdmacm1 (>= 1.0.19)
+Filename: ./perftest_24.10.0-0.95.g370212b.2410325_amd64.deb
+Size: 305000
+MD5sum: 6c0d75aa680d4f873760e08cc91f982b
+SHA1: 7909d9130764ec333ff9f4ef73990b6eaacf2a76
+SHA256: df9a225ed229c4040b9949362fbf7f4151975fb6733411ef1892a97d46bfb83c
+Section: net
+Priority: extra
+Homepage: https://openfabrics.org/downloads/perftest/
+Description: Infiniband verbs performance tests
+ This is a collection of tests written using Infiniband verbs intended for
+ use as a performance micro-benchmark. The tests can measure the latency
+ bandwidth and message rate of Infiniband or Ethernet (RoCE) fabrics.
+
+Package: python3-doca-openvswitch
+Source: doca-openvswitch
+Version: 2.9.4-0007-25.12-based-3.3.3
+Architecture: amd64
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 641
+Depends: python3-prometheus-client, python3-sortedcontainers, python3:any
+Suggests: python3-netaddr, python3-pyparsing, python3-unbound
+Conflicts: python3-openvswitch
+Breaks: python3-openvswitch (<< 2.17~)
+Replaces: python3-openvswitch
+Provides: python3-openvswitch (= 3.3)
+Filename: ./python3-doca-openvswitch_2.9.4-0007-25.12-based-3.3.3_amd64.deb
+Size: 111110
+MD5sum: 80bf943c47bd7707139fbbffa5b5f573
+SHA1: ca4116c02074081433cc6671e4710b5867cbd4e5
+SHA256: 1052f5a7e602466b8025906b0d90a51ec467db9f61127580561cf65eb17b774a
+Section: python
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Python 3 bindings for Open vSwitch
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ This package contains the full Python 3 bindings for Open vSwitch
+ database.
+
+Package: python3-openvswitch
+Source: openvswitch
+Version: 2.17.8-1.2410068
+Architecture: all
+Maintainer: Open vSwitch developers <dev@openvswitch.org>
+Installed-Size: 515
+Depends: python3:any
+Filename: ./python3-openvswitch_2.17.8-1.2410068_all.deb
+Size: 89964
+MD5sum: 3753fabff2855d7c7429b52abdb61510
+SHA1: f651012a7f19bd12415df768c6c11d4627e7f6ab
+SHA256: 6f2c1c70d1adfe0cccfb0cb4d19eb67c9f66edd886967b2953f044bd432a5d48
+Section: python
+Priority: optional
+Homepage: http://openvswitch.org/
+Description: Python bindings for Open vSwitch
+ Open vSwitch is a production quality, multilayer, software-based,
+ Ethernet virtual switch. It is designed to enable massive network
+ automation through programmatic extension, while still supporting
+ standard management interfaces and protocols (e.g. NetFlow, IPFIX,
+ sFlow, SPAN, RSPAN, CLI, LACP, 802.1ag). In addition, it is designed
+ to support distribution across multiple physical servers similar to
+ VMware's vNetwork distributed vswitch or Cisco's Nexus 1000V.
+ .
+ This package contains the full Python bindings for Open vSwitch database.
+
+Package: python3-pyverbs
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 8270
+Depends: rdma-core (>= 21), python3 (<< 3.13), python3 (>= 3.12~), python3:any, ibverbs-providers (>= 42), libc6 (>= 2.14), libibverbs1 (>= 36), libpython3.12t64 (>= 3.12.1), librdmacm1 (>= 31)
+Filename: ./python3-pyverbs_2410mlnx54-1.2410068_amd64.deb
+Size: 1547376
+MD5sum: 0d12baab84f16778374331f33f086e41
+SHA1: fd1fa4886be322bf9b4c0422c7ce3d3b74748540
+SHA256: fcd0025454272370f97093f869e7acc92346c48df89d9362e4115aa89586d7a3
+Section: python
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Python bindings for rdma-core
+ Pyverbs provides a Python API over rdma-core, the Linux userspace C API for
+ the remote direct memory access (RDMA) stack.
+ .
+ One goal is to provide easier access to RDMA: RDMA has a steep learning curve
+ as is and the C interface requires the user to initialize multiple structs
+ before having usable objects. Pyverbs attempts to remove much of this overhead
+ and provide a smoother user experience.
+
+Package: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 122
+Depends: udev, libc6 (>= 2.38), libnl-3-200 (>= 3.2.7), libsystemd0, libudev1 (>= 183)
+Recommends: dmidecode, ethtool, iproute2
+Breaks: infiniband-diags (<< 2.0.0)
+Replaces: infiniband-diags (<< 2.0.0)
+Filename: ./rdma-core_2410mlnx54-1.2410068_amd64.deb
+Size: 38638
+MD5sum: 39286b9b9a205dbda7af8cffa1b5cb47
+SHA1: df937253410949d47388202d160c0ba43464528e
+SHA256: e87352a01902a4f5293ca4320732b740811af590d80bfc05d5e49ac017799062
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: RDMA core userspace infrastructure and documentation
+ This package provides the basic boot time support for systems that use the
+ Linux kernel's remote direct memory access (RDMA) subystem which includes
+ InfiniBand, iWARP, and RDMA over Converged Ethernet (RoCE).
+ .
+ Several kernel RDMA support daemons are included:
+  - The rdma-ndd daemon which watches for RDMA device changes and/or hostname
+    changes and updates the Node Description of the RDMA devices based on
+    those changes.
+
+Package: rdmacm-utils
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 355
+Depends: libc6 (>= 2.38), libibverbs1 (>= 1.1.6), librdmacm1 (>= 23)
+Filename: ./rdmacm-utils_2410mlnx54-1.2410068_amd64.deb
+Size: 81696
+MD5sum: bd3d1749d5e52384781a9f727bebea3a
+SHA1: 863abf84b3ce8d50338101a55db307e9841d1d4d
+SHA256: d1f8941af7ed2545648947eccf92d3ac68b518608c4ab83da248f1b9a7062e4f
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Examples for the librdmacm library
+ librdmacm is a library that allows applications to set up reliable
+ connected and unreliable datagram transfers when using RDMA adapters.
+ It provides a transport-neutral interface in the sense that the same
+ code can be used for both InfiniBand and iWARP adapters.  The
+ interface is based on sockets, but adapted for queue pair (QP) based
+ semantics: communication must use a specific RDMA device, and data
+ transfers are message-based.
+ .
+ librdmacm only provides communication management (connection setup
+ and tear-down) and works in conjunction with the verbs interface
+ provided by libibverbs, which provides the interface used to actually
+ transfer data.
+ .
+ This package contains useful librdmacm example programs such as
+ rping and udaddy.
+
+Package: rshim
+Version: 2.1.17-0.gc4c2260.2410414
+Architecture: amd64
+Maintainer: Mellanox Technologies <support@mellanox.com>
+Installed-Size: 309
+Depends: libfuse2
+Filename: ./rshim_2.1.17-0.gc4c2260.2410414_amd64.deb
+Size: 98904
+MD5sum: 48fbfa6721eec59c0c6186ac5318ca37
+SHA1: d115f16b4410585a9a7052ebd7e9b41957521c21
+SHA256: 7d88c91febcbcd6911bfa2c12b3cf6fdb97212bac310dd9403a25b6d8ecb2841
+Section: admin
+Priority: optional
+Homepage: https://github.com/Mellanox/rshim-user-space
+Description: driver for Mellanox BlueField SoC
+ This is the user-space driver to access the BlueField SoC via the rshim
+ interface. It provides ways to push boot stream, debug the target or
+ login via the virtual console or network interface.
+
+Package: sharp
+Version: 3.9.1.MLNX20250604.25aad3d5-1.2410325
+Architecture: amd64
+Maintainer: support@mellanox.com
+Installed-Size: 12283
+Depends: ibverbs-providers (>= 22), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libibumad3 (>= 1.3.9), libibverbs1 (>= 34), librdmacm1 (>= 1.0.15), libstdc++6 (>= 13.1), ucx
+Filename: ./sharp_3.9.1.MLNX20250604.25aad3d5-1.2410325_amd64.deb
+Size: 2265586
+MD5sum: 483b6335cc236ed42173088e59a56fec
+SHA1: 871feb7eecdf49d87953c08d603165289eb5567a
+SHA256: 4babdf7e791814f14f90e4c681669ac25705fc0652b30b915417ffffb470afc2
+Section: libs
+Priority: extra
+Homepage: http://www.mellanox.com
+Description: SHArP switch collectives
+ SHArP is a switch collectives package
+
+Package: sockperf
+Version: 3.10-0.git5ebd327da983.2410068
+Architecture: amd64
+Maintainer: Mellanox Technologies Ltd. <support@mellanox.com>
+Installed-Size: 5916
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./sockperf_3.10-0.git5ebd327da983.2410068_amd64.deb
+Size: 850596
+MD5sum: 0b4f2745ee98221d5a0c708435f58036
+SHA1: 8826e96bcf52179e312fbda2f2d0f504dd6c1064
+SHA256: 2c2d050e106b321c891052fdc33a718a80721756e1214e71ca01084bf2156377
+Section: unknown
+Priority: extra
+Multi-Arch: foreign
+Homepage: http://www.mellanox.com
+Description: auto-generated package by debmake
+ This Debian binary package was auto-generated by the
+ debmake(1) command provided by the debmake package.
+ .
+ ===== This comes from the unmodified template file =====
+ .
+ Please edit this template file (debian/control) and other package files
+ (debian/*) to make them meet all the requirements of the Debian Policy
+ before uploading this package to the Debian archive.
+ .
+ See
+  * http://www.debian.org/doc/manuals/maint-guide/dreq.en.html#control
+  * http://www.debian.org/doc/manuals/developers-reference/best-pkging-practices.html#bpp-debian-control
+ .
+ The synopsis description at the top should be about 60 characters and
+ written as a phrase.  No extra capital letters or a final period.  No
+ articles — "a", "an", or "the".
+ .
+ The package description for general-purpose applications should be
+ written for a less technical user.  This means that we should avoid
+ jargon.  GNOME or KDE is fine but GTK+ is probably not.
+ .
+ Use the canonical forms of words:
+  * Use X Window System, X11, or X; not X Windows, X-Windows, or X Window.
+  * Use GTK+, not GTK or gtk.
+  * Use GNOME, not Gnome.
+  * Use PostScript, not Postscript or postscript.
+
+Package: srp-dkms
+Source: srp
+Version: 24.10.OFED.24.10.4.1.4.1-1
+Architecture: all
+Maintainer: Mellanox Technologies <support@mellanox.com>
+Installed-Size: 215
+Depends: dkms, make, mlnx-ofed-kernel-dkms
+Recommends: linux-headers-arm64 | linux-headers-powerpc | linux-headers-ppc64 | linux-headers-ppc64le | linux-headers-amd64 | linux-headers | linux-headers-generic
+Filename: ./srp-dkms_24.10.OFED.24.10.4.1.4.1-1_all.deb
+Size: 45902
+MD5sum: eed76660bbccb160147bb92888edb0ca
+SHA1: a86c598df6e4bcaff1681bb24ecc11f9964a4991
+SHA256: 42fd76805b32c96e99210f447a6061654ad4c5f6bc6199630d9ecca48d5a6e4b
+Section: kernel
+Priority: optional
+Homepage: http://www.mellanox.com
+Description: DKMS support fo srp kernel modules
+ This package provides integration with the DKMS infrastructure for automatically building out of tree kernel modules.
+ .
+ This package contains the source to be built with dkms.
+
+Package: srptools
+Source: rdma-core
+Version: 2410mlnx54-1.2410068
+Architecture: amd64
+Maintainer: Linux RDMA Mailing List <linux-rdma@vger.kernel.org>
+Installed-Size: 147
+Depends: rdma-core (>= 15), udev, libc6 (>= 2.38), libibumad3 (>= 1.3.9), libibverbs1 (>= 20)
+Filename: ./srptools_2410mlnx54-1.2410068_amd64.deb
+Size: 45428
+MD5sum: 69f2217a1ece78a66e6bd65461a4a2a6
+SHA1: ba9d431cad22e1cb0e7774ade1d7abb4314f29db
+SHA256: 1871f60f57f9f30d98ac15ca74d6249a924f730fb256ce819dd887d066475fbb
+Section: net
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/linux-rdma/rdma-core
+Description: Tools for Infiniband attached storage (SRP)
+ In conjunction with the kernel ib_srp driver, srptools allows you to
+ discover and use Infiniband attached storage devices which use the
+ SCSI RDMA Protocol (SRP).
+
+Package: ucx
+Version: 1.18.0-1.2410068
+Architecture: amd64
+Maintainer: ucx-group@elist.ornl.gov
+Installed-Size: 7741
+Depends: libc6, libgomp1
+Conflicts: libucx-dev (<< 1.18.0-1.2410068), libucx0 (<< 1.18.0-1.2410068), ucx-utils (<< 1.18.0-1.2410068)
+Replaces: libucx-dev (<< 1.18.0-1.2410068), libucx0 (<< 1.18.0-1.2410068), ucx-utils (<< 1.18.0-1.2410068)
+Filename: ./ucx_1.18.0-1.2410068_amd64.deb
+Size: 1692132
+MD5sum: 273547910c980f4dac786c2d4ca2fee0
+SHA1: 222e0f17634b1bcd1dcbdbe51eb1db50c5391f82
+SHA256: b734bf055db7eb0c3f4df57470d3de8101ef3a5ffefc31cebe4d2231d69b5eeb
+Section: libs
+Priority: extra
+Homepage: http://www.openucx.org
+Description: Unified Communication X
+ UCX is a communication library implementing high-performance messaging.
+ .
+ This is the main package that includes the library as well as build headers.
+
+Package: xpmem
+Version: 2.7.4-1.2410414
+Architecture: all
+Maintainer: Tzafrir Cohen <nvidia@cohens.org.il>
+Installed-Size: 13
+Filename: ./xpmem_2.7.4-1.2410414_all.deb
+Size: 1812
+MD5sum: e3ab8f71a300a51d751f30b5f373d449
+SHA1: 44ee880a8c8e82561490f9a435922b55ffb3a937
+SHA256: 79724251601009b6a38066390e4094f8bfd6739c550edb3f18a31021228ff963
+Section: kernel
+Priority: optional
+Homepage: https://github.com/openucx/xpmem/
+Description: kernel module for user-space process remapping - scripts
+ XPMEM is a Linux kernel module that enables a process to map the
+ memory of another process into its virtual address space.
+ .
+ This package includes required user-space files for using the module.
+
+Package: xpmem-dkms
+Source: xpmem
+Version: 2.7.4-1.2410414
+Architecture: all
+Maintainer: Tzafrir Cohen <nvidia@cohens.org.il>
+Installed-Size: 2913
+Depends: dkms (>= 2.1.0.0)
+Filename: ./xpmem-dkms_2.7.4-1.2410414_all.deb
+Size: 475610
+MD5sum: 4e773fb31e15b24ee20ab5a63d599606
+SHA1: d442870fc24b6433acee99f58519ff7f40c8550d
+SHA256: 7e1f99a81efe35e633b9d1741e7cad56c9c3cb0b035f759004a117de31649789
+Section: kernel
+Priority: optional
+Homepage: https://github.com/openucx/xpmem/
+Description: kernel module for user-space process remapping - DKMS
+ XPMEM is a Linux kernel module that enables a process to map the
+ memory of another process into its virtual address space.
+ .
+ This package includes a DKMS package for installing the module.
+

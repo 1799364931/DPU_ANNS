@@ -1,0 +1,10 @@
+{
+  "machine": "x86_64",
+  "kernel": "6.6.87.2-microsoft-standard-WSL2",
+  "gcc": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "python": "/root/miniconda3/envs/sift-locality/bin/python",
+  "sdk_reference": "DOCA 2.9.4005-1 / 2.9.4",
+  "host_reference": "Ubuntu 24.04 x86_64",
+  "soc_reference": "Ubuntu 22.04 AArch64 (future BFB not verified)",
+  "hardware_validation": false
+}

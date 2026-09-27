@@ -1,0 +1,80 @@
+[
+  {
+    "package": "ibverbs-providers",
+    "version": "39.0-1",
+    "sha256": "f3f1b039f3a0ee3b7597a21173ce7542d7e7ac1ca0e54158368927b021919343",
+    "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/r/rdma-core/ibverbs-providers_39.0-1_arm64.deb"
+  },
+  {
+    "package": "libc6",
+    "version": "2.35-0ubuntu3",
+    "sha256": "b1206b51690a810efc701e1d311e0ac5fd9a9f0f8e216585362512d805d261af",
+    "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/g/glibc/libc6_2.35-0ubuntu3_arm64.deb"
+  },
+  {
+    "package": "libc6-dev",
+    "version": "2.35-0ubuntu3",
+    "sha256": "2f254d6e843e413d549f407362885171c285f08383bb7e9392da855810ff78fd",
+    "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/g/glibc/libc6-dev_2.35-0ubuntu3_arm64.deb"
+  },
+  {
+    "package": "libgcc-11-dev",
+    "version": "11.2.0-19ubuntu1",
+    "sha256": "ce742ecc7426fb2dd0bfc86365a7419a5c7e2aaed9c3faad9e400a1f1f7e89b1",
+    "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/g/gcc-11/libgcc-11-dev_11.2.0-19ubuntu1_arm64.deb"
+  },
+  {
+    "package": "libgcc-s1",
+    "version": "12-20220319-1ubuntu1",
+    "sha256": "b6e9a39b0ef3302053734e3a5e52ef12151566bb42d625feab7a502b3071c13b",
+    "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/g/gcc-12/libgcc-s1_12-20220319-1ubuntu1_arm64.deb"
+  },
+  {
+    "package": "libibverbs1",
+    "version": "39.0-1",
+    "sha256": "2449df97d97aecbe735718f75b0610375984e35e3b4a6527af8bd16d63589207",
+    "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/r/rdma-core/libibverbs1_39.0-1_arm64.deb"
+  },
+  {
+    "package": "libjson-c-dev",
+    "version": "0.15-2build4",
+    "sha256": "cff8ff7ff927628017ec5a135fa2c2ef7d75ec0af59f2ede6f80aeff9b719df8",
+    "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/j/json-c/libjson-c-dev_0.15-2build4_arm64.deb"
+  },
+  {
+    "package": "libjson-c5",
+    "version": "0.15-2build4",
+    "sha256": "28d087881053490634385098f4cfac8643637586aa1f61ed75ecddc5716a07f9",
+    "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/j/json-c/libjson-c5_0.15-2build4_arm64.deb"
+  },
+  {
+    "package": "libnl-3-200",
+    "version": "3.5.0-0.1",
+    "sha256": "49dd99f14ff5b318346621704a0bf678ad2b6b776561bc450717c264fb4d9cc2",
+    "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/libn/libnl3/libnl-3-200_3.5.0-0.1_arm64.deb"
+  },
+  {
+    "package": "libnl-route-3-200",
+    "version": "3.5.0-0.1",
+    "sha256": "ade640c9bec7c8dc338bc8ea1a95bea362ca57ecf2d566deecd6bc271dc3894f",
+    "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/libn/libnl3/libnl-route-3-200_3.5.0-0.1_arm64.deb"
+  },
+  {
+    "package": "libstdc++-11-dev",
+    "version": "11.2.0-19ubuntu1",
+    "sha256": "4ee878910f92c6ecf70ad61cb4377502713dbb2315bba855d18c5ea751f9ec77",
+    "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/g/gcc-11/libstdc++-11-dev_11.2.0-19ubuntu1_arm64.deb"
+  },
+  {
+    "package": "libstdc++6",
+    "version": "12-20220319-1ubuntu1",
+    "sha256": "d9903f1cf4e3c0a74e0bd2f7c65e673c104833cfaaab370d3f2114ffd06728f3",
+    "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/g/gcc-12/libstdc++6_12-20220319-1ubuntu1_arm64.deb"
+  },
+  {
+    "package": "linux-libc-dev",
+    "version": "5.15.0-25.25",
+    "sha256": "ffbdfcd181d87b92c108cb49ca20e152c0688825b5a1aac9ecbc63391b348aeb",
+    "url": "https://ports.ubuntu.com/ubuntu-ports/pool/main/l/linux/linux-libc-dev_5.15.0-25.25_arm64.deb"
+  }
+]

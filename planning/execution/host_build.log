@@ -1,0 +1,18 @@
+[  6%] Built target anns_sdk_check
+[ 19%] Built target anns_core
+[ 29%] Built target anns_protocol
+[ 48%] Built target anns_runtime
+[ 58%] Building CXX object CMakeFiles/anns_doca_backend.dir/src/transport/doca/backend.cpp.o
+[ 58%] Built target anns_sim_backend
+[ 64%] Built target anns_tests
+[ 70%] Built target anns_report
+[ 83%] Built target anns_baseline
+[ 83%] Built target anns_sim
+[ 87%] Linking CXX static library libanns_doca_backend.a
+[ 87%] Built target anns_doca_backend
+[ 90%] Building CXX object CMakeFiles/anns_host.dir/apps/host_main.cpp.o
+[ 93%] Building CXX object CMakeFiles/anns_soc.dir/apps/soc_main.cpp.o
+[ 96%] Linking CXX executable anns_soc
+[100%] Linking CXX executable anns_host
+[100%] Built target anns_soc
+[100%] Built target anns_host

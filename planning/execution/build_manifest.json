@@ -1,0 +1,220 @@
+{
+  "source_files": {
+    ".clang-format": "51977317b1771c3789febc994d1072092996de145e0f588a9ed6fe8deac2cbea",
+    "CMakeLists.txt": "421424330da7d9119c3eec4f5613c9d87e846bf9c2569c1edea53d1897c1681c",
+    "apps/baseline_main.cpp": "96d38a8132368081ff0ebb8267aa58947c0cf7cd80108a040e2783251d872b39",
+    "apps/host_main.cpp": "ab32407b5183bdac7c349dbf11ce17b70cc103462fba4706a8e43e7bebdf4f43",
+    "apps/sim_main.cpp": "dbf544842c6307e0cca777100328924348e483110b6ce3c646fff7fb78d4d9a7",
+    "apps/soc_main.cpp": "45d2e7ef3dc8971921e392d35ac238d1efa5786a71fda712fce2e3f0afd58d50",
+    "cmake/Doca.cmake": "c006ff2c07ffacb8b4184408ee4b6999affbbee2715244ad2e09c67d1b81b7d6",
+    "cmake/aarch64-ld.sh": "83390e00f26d96e7453b30d1d4f8a8bbbdd4d2db2098a099d3e3b4dd8d887536",
+    "cmake/arm22-clang.cmake": "f052346a5dc22497e21d9772c892894f254b6bfe9da92073478cce0ba4e61114",
+    "configs/doca.json": "89c2329b423c372aa6872454d25b188f6a4e88c0019c10b699ee137695e82180",
+    "configs/prepare_sift1m.json": "93633d38706079b1e5b91b0ffe3bcf8f106a3ff69552d13e202e2e52e031c688",
+    "configs/sift1m.json": "7a2a299570c36e57b32ed450803520ea2b5e0bd9f7e466c51c493415f85d16d6",
+    "include/anns/common/config.hpp": "d060c3f119afb313a793fdb584d85c7e3c2ff3a36478d17e90133d697b0d6503",
+    "include/anns/common/report.hpp": "8bf8b646caae844e3d4b178dfb189e9650776e8546ad446d698d7c01b376189c",
+    "include/anns/common/types.hpp": "1e82a5417e7b66b341e4e96a531a891d995cd7f07795c13612d37ebb946a7833",
+    "include/anns/data/prefetch.hpp": "9c2712bf59902cee01aef783ba524fbadaea29e40ee3f64bd4244bfc7662e668",
+    "include/anns/index/index.hpp": "813746e8b584f26af9d786bc8d794bf309cf2efb9e53db15c8750308dc8e0115",
+    "include/anns/protocol/handoff.hpp": "2b7d9a032314ece75053c1194614af177d45d1145c983be4962c0cf43442f8b3",
+    "include/anns/protocol/messages.hpp": "b4c47a4ed7ba49a7c5974299673135124395fa8043c173509c9e5632421c8260",
+    "include/anns/runtime/host_coordinator.hpp": "b39bde85532c6375cfa6cee2ab3759a9cf2519b576b2297fcdad6fc9886e7d64",
+    "include/anns/runtime/session.hpp": "3a35e57fd35a34b44629c859373fc0340cc1635df532200129b18bd14c1bbca6",
+    "include/anns/runtime/soc_worker.hpp": "56e9a163fbee6c8f44ce026f8872c96010e093ddca8ed2fd079bd878e0766bce",
+    "include/anns/search/query_state.hpp": "7bc9a17101a47670f68a0ce943f2a41b99d4288760140c90a94699528a7b6728",
+    "include/anns/search/search_core.hpp": "469596619cd27c52099df08b4203e03354c2de16ab76036bc2ae9c6da2264e41",
+    "include/anns/transport/control_channel.hpp": "603a4c1f2127dde90669d483d27a5489fa3a64aef8da44b0f4f562713ac24a4e",
+    "include/anns/transport/doca.hpp": "aeca80614b7aba9347ed61f07d2067460904eb3d2fa9420ab63aabed95a537c3",
+    "include/anns/transport/read_transport.hpp": "70e7cce07c36a35a58f25e869bbe2fb75e211723b8d0bd5d29fab17249385e46",
+    "src/common/config.cpp": "903c9ad78fb51c8a29acd1283718e21ca45cfd3f3d274cc6cdbb93a52c7d5653",
+    "src/common/report.cpp": "72a439f9a76b2bf014f08968daa152d97c9b025360627513361d299187dfe9a8",
+    "src/data/prefetch.cpp": "fb4344aa92d7e3151d25c0ab87e0e379814e571284aabd8248f0c76a33e8342a",
+    "src/index/index.cpp": "3810eaac58fc98eeed641c15444b2a0acd8925d1bd51204e8d4743a60624e034",
+    "src/protocol/handoff.cpp": "0143a64bfa12f55152d4a6396d250eae8f91ec7cc7ff92377ae83d8f03fd96ec",
+    "src/protocol/messages.cpp": "935e71865de87555ce2fe596b3e631212559f66560b55500f8b696625d50cb76",
+    "src/runtime/host_coordinator.cpp": "17db388f312c0dc045e617f6f91fd9955bf93ce4c2d0088f44b9fd2cb184e2f1",
+    "src/runtime/session.cpp": "55bd964b6be677ea15aa3c4363df26d53b501eba541aab483fc9da98f0c6166e",
+    "src/runtime/soc_worker.cpp": "4e13c23c7181041dd4d62a54d7e0e1986400b5087e50698162a94949d381a372",
+    "src/search/search_core.cpp": "62187966260acf7e153791eca9252138fec6fe07b0ca37fdaade8c0d8abc3129",
+    "src/transport/doca/backend.cpp": "76b0c0e2af5292bb2224e941014ff28e785f264a252533d20b1f13418d95f71a",
+    "src/transport/read_transport.cpp": "4b143972dba8d21b8b7430cab38549a49fb19da87c085f902881182d661f11b8",
+    "src/transport/simulated/transport.cpp": "feac7441ba28413b90b3d1e7b455b656feaa6f6de7eee56e9a5423b477a192cf",
+    "tests/sdk_check.cpp": "80219eec9e00388737663da5dc8314aa8a74b6ead11fb177c4f3fbdfccd8b6ba",
+    "tests/test_contracts.cpp": "6b947299244b2a40660a3bd176aeaa224b23ea9f93036e8e1985866b5c79273e",
+    "tools/fetch_arm_sysroot.py": "5d402704a0fea273a256cd453ca31424bae3c34e7acc633a5f3d7b1c0edcec6a",
+    "tools/fetch_doca.py": "fac2513d19effe2502b6d19b9d816e4be3100e29b2989624cfe2b4148765954a",
+    "tools/index_format.py": "c0f923cdfd5540024372243500ce6d9e4247e9380d10780be4bd07e7b59e5218",
+    "tools/prepare_index.py": "49cdfee1ce99f02c770a4a51be82abb2027601c76a3f7aa5f6b5e9cb6912fcd8",
+    "tools/run_regression.py": "f8c8b7bb41c077a5b13bec30c678683875fb568600b914ea7ce10706a0a36864",
+    "tools/summarize_results.py": "cf881fb1e0009df6ff4c232ba6c53673f74be4337da3c6cfc9196364ff3a943d",
+    "tools/validate_index.py": "0ac5885e4725d8c96953700c1617ed136f54222e7f3e2e2f89a476cadbc7b62b"
+  },
+  "binaries": {
+    "software/anns_baseline": {
+      "machine": "Advanced Micro Devices X86-64",
+      "sha256": "076a60f840da71febb507a61fa4c983738fd2d69a6560e90d4ca4e30dc588463",
+      "needed": [
+        "libjson-c.so.5",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "glibc_versions": [
+        "GLIBC_2.14",
+        "GLIBC_2.2.5",
+        "GLIBC_2.34",
+        "GLIBC_2.4"
+      ]
+    },
+    "software/anns_sim": {
+      "machine": "Advanced Micro Devices X86-64",
+      "sha256": "02ad880f85212b94146b1fdb290106b0ed5f2c6559ee40ffc7b1fce12ba4fc67",
+      "needed": [
+        "libjson-c.so.5",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "glibc_versions": [
+        "GLIBC_2.14",
+        "GLIBC_2.2.5",
+        "GLIBC_2.34",
+        "GLIBC_2.4"
+      ]
+    },
+    "host-sdk/anns_host": {
+      "machine": "Advanced Micro Devices X86-64",
+      "sha256": "fa2016604596010e871903300b49db20004d21e0584de5b9b00b84e7322b2cb1",
+      "needed": [
+        "libdoca_common.so.2",
+        "libdoca_dma.so.2",
+        "libdoca_comch.so.2",
+        "libjson-c.so.5",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "glibc_versions": [
+        "GLIBC_2.14",
+        "GLIBC_2.2.5",
+        "GLIBC_2.34",
+        "GLIBC_2.4"
+      ]
+    },
+    "host-sdk/anns_soc": {
+      "machine": "Advanced Micro Devices X86-64",
+      "sha256": "6010ae284ac0c56175da214b7a8c79355ba67ace8e9b3688817589eb85506d07",
+      "needed": [
+        "libdoca_common.so.2",
+        "libdoca_dma.so.2",
+        "libdoca_comch.so.2",
+        "libjson-c.so.5",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "glibc_versions": [
+        "GLIBC_2.14",
+        "GLIBC_2.2.5",
+        "GLIBC_2.34",
+        "GLIBC_2.4"
+      ]
+    },
+    "host-sdk/anns_sdk_check": {
+      "machine": "Advanced Micro Devices X86-64",
+      "sha256": "c5baa27ecaf24150a4d2f7d915f6bb8a1d2931ec2366c073ffef9435376cf665",
+      "needed": [
+        "libdoca_common.so.2",
+        "libdoca_dma.so.2",
+        "libdoca_comch.so.2",
+        "libstdc++.so.6",
+        "libc.so.6"
+      ],
+      "glibc_versions": [
+        "GLIBC_2.2.5",
+        "GLIBC_2.34",
+        "GLIBC_2.4"
+      ]
+    },
+    "arm-sdk/anns_soc": {
+      "machine": "AArch64",
+      "sha256": "882ddb0f5fa03053a5d2e94c5b645471c95c8753698d2e6a0327dedaf471fc36",
+      "needed": [
+        "libdoca_common.so.2",
+        "libdoca_dma.so.2",
+        "libdoca_comch.so.2",
+        "libjson-c.so.5",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "glibc_versions": [
+        "GLIBC_2.17",
+        "GLIBC_2.34"
+      ]
+    },
+    "arm-sdk/anns_host": {
+      "machine": "AArch64",
+      "sha256": "0e5ae82ef26c02283f7b482efef185267a27bb84f192fcffb389794e610950ad",
+      "needed": [
+        "libdoca_common.so.2",
+        "libdoca_dma.so.2",
+        "libdoca_comch.so.2",
+        "libjson-c.so.5",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "glibc_versions": [
+        "GLIBC_2.17",
+        "GLIBC_2.34"
+      ]
+    },
+    "arm-sdk/anns_sdk_check": {
+      "machine": "AArch64",
+      "sha256": "39746c28540d43242a0810cb33da8222d8889b7884ef076f9603affd9daa0b1a",
+      "needed": [
+        "libdoca_common.so.2",
+        "libdoca_dma.so.2",
+        "libdoca_comch.so.2",
+        "libstdc++.so.6",
+        "libgcc_s.so.1",
+        "libc.so.6"
+      ],
+      "glibc_versions": [
+        "GLIBC_2.17",
+        "GLIBC_2.34"
+      ]
+    }
+  },
+  "real_sdk_version": "2.9.4005-1",
+  "arm_userland": "Ubuntu 22.04 / GCC11 libraries",
+  "hardware_queries_run": false,
+  "devices_enumerated": 0,
+  "sdk_sources": "sdk_packages.json",
+  "source_id": "f2b9104a466d230682cf40cc2e32bfcca0191391d016adeac4dc0625b0dc8ad5",
+  "reference_note": "Arm reference userland only; actual DPU BFB, CloudLab kernel and hardware DMA are unverified.",
+  "final_verification": {
+    "contracts_software": true,
+    "contracts_host_sdk": true,
+    "asan_ubsan": true,
+    "full_regression_queries": 30000,
+    "final_metrics_revision_regression_queries": 300,
+    "standalone_baseline_off_queries": 100,
+    "sdk_devices": 0
+  },
+  "style_revision": {
+    "previous_source_id": "45f8ef624115cc68e8754cc888a2b678c96b504cdf4ca3a3f3e2ee83e5df1853",
+    "style": "Google",
+    "cpp_files": 34,
+    "headers_with_file_comments": 15,
+    "function_definitions_commented": 109,
+    "cpp_tokens_preserved_except_include_order": true,
+    "four_builds_passed": true,
+    "software_host_sdk_sanitized_contracts_passed": true,
+    "format_check_passed": true,
+    "build_logs": "style_*_build.log",
+    "test_logs": "style_*_tests.log"
+  }
+}
